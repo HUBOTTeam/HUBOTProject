@@ -10,7 +10,7 @@ import java.util.Optional;
 @Service
 public class StudentServices {
 
-//    @Autowired
+    //    @Autowired
 //    Student std;
     @Autowired
     StudentRepositry studentRepositry;

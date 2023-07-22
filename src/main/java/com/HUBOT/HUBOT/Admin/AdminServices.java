@@ -9,54 +9,55 @@ import java.util.List;
 public class AdminServices {
     @Autowired
     AdminRepository adminRepository;
-    public String addAdmin(Admin admin) {
-
-           if(adminRepository.findByAdminUserName(admin.getAdminUserName()) == null){
-        try {
-            adminRepository.insert(admin);
-            return "Admin "+ admin.getAdminUserName() +" was added successfully";
-        }
-        catch(Exception e) {
-            System.out.print("There is something wrong!");
-            return null;
-        }
-           }
-           else {
-               System.out.print("User name exist choose another one!");
-               return null;
-           }
-    }
+    public String addAdmin(Admin admin) {//here admin with access degree of 3 can add new admin to the system
+         //   if(admin.getAccessDegree() == 5) {
+                if (adminRepository.findByAdminUserName(admin.getAdminUserName()) == null) //checking if user already exist
+                {
+                    try
+                    {
+                        adminRepository.insert(admin);
+                        return "Admin " + admin.getAdminUserName() + " was added successfully";
+                    }
+                    catch (Exception e) {
+                        throw new RuntimeException("There is something wrong in adding admin!");
+                    }
+                }
+                else
+                    throw new RuntimeException("User name exist choose another one!");
+            }
+          //  else
+               // throw new RuntimeException("you are not allowed to add admin!\n your access degree is " + admin.getAccessDegree());
+    //}
 
     public Admin getAdmin(String adminUserName){
         try {
             return adminRepository.findByAdminUserName(adminUserName);
         }
         catch(NullPointerException e) {
-            System.out.print("user doesn't exist check your input!");
-            return null;
+            throw new RuntimeException("user doesn't exist check your input!");
         }
     }
 
 
     public List<Admin> getAllAdmins(){
+        try {
             return adminRepository.findAll();
+        }
+           catch (Exception e){
+            throw new RuntimeException("there is something wrong in retrieving admins!");
+           }
     }
 
-    public Admin editAdminFirstName(Admin admin) {
-        if(adminRepository.findByAdminUserName(admin.getAdminUserName()) != null)
-            return adminRepository.save(admin);
-        else
-            return null;
-    }
-    public Admin editAdminFirstName(String adminUserName,String adminFirstName) {
+
+    public Admin editName(String adminUserName,String adminFirstName,String adminLastName) {
         try {
             Admin admin = adminRepository.findByAdminUserName(adminUserName);
-            admin.setAdminFirstName(adminFirstName);
-            adminRepository.save(admin);
-            return admin;
+                admin.setAdminFirstName(adminFirstName);
+                admin.setAdminLastName(adminLastName);
+                adminRepository.save(admin);
+                return admin;
         } catch (NullPointerException e) {
-            System.out.print("user doesn't exist check your input!");
-            return null;
+            throw new RuntimeException("there is something wrong in retrieving admin\n check the input!");
         }
     }
 
@@ -67,8 +68,7 @@ public class AdminServices {
             adminRepository.save(admin);
             return admin;
         } catch (NullPointerException e) {
-            System.out.print("user doesn't exist check your input!");
-            return null;
+            throw new RuntimeException("there is something wrong in retrieving admin\n check the input!");
         }
     }
 
@@ -79,28 +79,28 @@ public class AdminServices {
             adminRepository.save(admin);
             return admin;
         } catch (NullPointerException e) {
-            System.out.print("user doesn't exist check your input!");
-            return null;
+            throw new RuntimeException("there is something wrong in retrieving admin\n check the input!");
         }
     }
     public String deleteAdmin(String adminUserName){
-        try {
-            Admin admin = adminRepository.findByAdminUserName(adminUserName);
+        Admin admin = adminRepository.findByAdminUserName(adminUserName);
+        if (admin != null) {
             adminRepository.delete(admin);
             return "Admin was deleted successfully";
-        } catch (NullPointerException e) {
-            System.out.print("user doesn't exist check your input!");
-            return null;
+        } else {
+            throw new RuntimeException("Admin with username " + adminUserName + " not found.");
         }
     }
 
 
+
     public Admin editAdminPassword(String adminUserName, String password) {
-        Admin admin = adminRepository.findByAdminUserName(adminUserName);
-        if(admin != null){
+        try {
+            Admin admin = adminRepository.findByAdminUserName(adminUserName);
             admin.setPassword(admin.getPassword());
             return admin;
+        }catch (NullPointerException e) {
+            throw new RuntimeException("there is something wrong in retrieving admin\n check the input!");
         }
-        return null;
     }
 }

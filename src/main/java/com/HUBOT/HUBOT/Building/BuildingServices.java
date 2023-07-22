@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service
 public class BuildingServices {
 
-    private BuildingRepositry buildingRepositry;
+    private BuildingsRepository buildingRepositry;
 
     public String addBuilding(Building building) {
         buildingRepositry.insert(building);
@@ -21,16 +21,23 @@ public class BuildingServices {
     public List<Building> getAllBuildings() {
         return buildingRepositry.findAll();
     }
-
+    public Building getBuilding(String buildingName){
+        Building building = buildingRepositry.findByBuildingName(buildingName);
+        if(building != null){
+            return buildingRepositry.findByBuildingName(buildingName);
+        }
+        else
+            return null;
+    }
     public String updateBuildingKeyword(String buildingName, String keyword) {
-        Building building = buildingRepositry.findBybuildingName(buildingName);
+        Building building = buildingRepositry.findByBuildingName(buildingName);
         building.setKeyword(keyword);
         buildingRepositry.save(building);
         return buildingName+" was updated successfully!!";
     }
 
     public String deleteBuilding(String buildingName) {
-        buildingRepositry.deleteBybuildingName(buildingName);
+        buildingRepositry.deleteByBuildingName(buildingName);
         return buildingName+" deleted successfully!!";
     }
 }

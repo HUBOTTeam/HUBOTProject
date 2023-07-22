@@ -20,7 +20,7 @@ public class AdminController {
 
 
     @PostMapping(value = "createAdmin")//add admin account
-    public String addAdmin(@Validated @RequestBody Admin admin){
+    public String addAdmin(@RequestBody Admin admin){
         return adminServices.addAdmin(admin);
     }
 
@@ -38,14 +38,10 @@ public class AdminController {
     public Admin editAdminPassword(@RequestParam String adminUserName,@RequestParam String password){
         return adminServices.editAdminPassword(adminUserName,password);
     }
-    @PutMapping(value = "editAdminFirstName")
-    public Admin editAdminFirstName(@RequestParam String adminUserName,@RequestParam String adminFirstName){
-        return adminServices.editAdminFirstName(adminUserName,adminFirstName);
-    }
 
-    @PutMapping(value = "editAdminLastName")
-    public Admin editAdminLastName(@RequestParam String adminUserName, @RequestParam String adminLastName) {
-        return adminServices.editAdminLastName(adminUserName, adminLastName);
+    @PutMapping(value = "editName")
+    public Admin editName(@RequestParam String adminUserName,@RequestParam String adminFirstName, @RequestParam String adminLastName) {
+        return adminServices.editName(adminUserName,adminFirstName, adminLastName);
     }
 
     @PutMapping(value = "editAdminAccessDegree")

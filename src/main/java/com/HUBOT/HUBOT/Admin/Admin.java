@@ -2,6 +2,9 @@ package com.HUBOT.HUBOT.Admin;
 
 
 import com.HUBOT.HUBOT.Gender;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;

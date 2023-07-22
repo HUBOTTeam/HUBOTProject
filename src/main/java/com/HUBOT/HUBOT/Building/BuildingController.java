@@ -2,6 +2,8 @@ package com.HUBOT.HUBOT.Building;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,6 +22,15 @@ public class BuildingController {
     }@GetMapping(value = "getAllBuildings")
     public List<Building> getAllBuildings() {
         return buildingServices.getAllBuildings();
+    }
+    @GetMapping("getBuilding")
+    public ResponseEntity<Building> getBuilding(@RequestParam String buildingName){
+        Building building = buildingServices.getBuilding(buildingName);
+        if(building == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        else
+            return new ResponseEntity<>(building, HttpStatus.OK);
     }
 
     @PutMapping(value = "updateBuildingKeyword")
