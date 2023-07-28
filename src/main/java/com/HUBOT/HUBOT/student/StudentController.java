@@ -1,24 +1,42 @@
 package com.HUBOT.HUBOT.student;
 
-import com.HUBOT.HUBOT.student.Student;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
+@RequestMapping("/student/")
 public class StudentController {
-    @GetMapping("/student")
-    public List<Student> getStudent(){
-        return List.of(new Student(
-                1L,
-                "mariam",
-                LocalDate.of(2000, Month.APRIL,29),
-                21,
-                "mo@gmail.com"
-        ));
+
+    @Autowired
+    StudentServices studentServices;
+    @GetMapping("/getAllStudents")
+    public List<Student> getAllStudents(){
+        return studentServices.getAllStudents();
     }
+
+    @GetMapping("/getStudent")
+    public Optional<Student> getStudent(@RequestParam String Id){
+        return studentServices.getStudent(Id);
+    }
+
+    @PostMapping("/createStudent")
+    public String addStudent(@RequestParam Student student){
+        return studentServices.addStudent(student);
+    }
+
+    @PutMapping("updateStudentName")
+    public String updateStudentName(@RequestParam Student student){
+        return studentServices.updateStudentName(student);
+    }
+
+    @DeleteMapping("/deleteStudent")
+    public String deleteStudent(@RequestParam String id){
+        return studentServices.deleteStudent(id);
+    }
+
+
 }

@@ -1,81 +1,49 @@
 package com.HUBOT.HUBOT.student;
 
+import com.HUBOT.HUBOT.Department.Department;
+import com.HUBOT.HUBOT.User.User;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.time.LocalDate;
 
-
+@Data
+@Document("students")
 public class Student {
-    private Long id;
+    @Id
+    private String id;
     private String name;
+    @CreatedDate
     private LocalDate dob;
     private Integer age;
+    @Indexed(unique = true)
     private String email;
+    private User user;
+    private Department department;
 
-    public Student() {
-    }
 
-    public Student(Long id, String name, LocalDate dob, Integer age, String email) {
-        this.id = id;
+    public Student(String name,Integer age, String email , User user , Department department) {
         this.name = name;
-        this.dob = dob;
         this.age = age;
         this.email = email;
-    }
-
-    public Student(String name, LocalDate dob, Integer age, String email) {
-        this.name = name;
-        this.dob = dob;
-        this.age = age;
-        this.email = email;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public LocalDate getDob() {
-        return dob;
-    }
-
-    public void setDob(LocalDate dob) {
-        this.dob = dob;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+        this.user = user;
+        this.department = department;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", dob=" + dob +
                 ", age=" + age +
                 ", email='" + email + '\'' +
+                ", user=" + user +
+                ", department=" + department +
                 '}';
     }
 }
