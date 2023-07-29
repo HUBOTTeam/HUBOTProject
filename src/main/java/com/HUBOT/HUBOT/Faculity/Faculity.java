@@ -14,6 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Faculity {
     @Id
     private String faculityId;
+    @Indexed(unique = true)
     private String faculityName;
     private String keyword;
     private String description;

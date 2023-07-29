@@ -7,36 +7,30 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@AllArgsConstructor
 @RestController
 @RequestMapping("/student/")
 public class StudentController {
 
-    @Autowired
-    StudentServices studentServices;
+    private StudentServices studentServices;
     @GetMapping("/getAllStudents")
     public List<Student> getAllStudents(){
         return studentServices.getAllStudents();
     }
-
-    @GetMapping("/getStudent")
-    public Optional<Student> getStudent(@RequestParam String Id){
-        return studentServices.getStudent(Id);
-    }
-
     @PostMapping("/createStudent")
-    public String addStudent(@RequestParam Student student){
+    public String addStudent(@RequestBody Student student){
         return studentServices.addStudent(student);
     }
 
-    @PutMapping("updateStudentName")
-    public String updateStudentName(@RequestParam Student student){
-        return studentServices.updateStudentName(student);
-    }
+//    @PutMapping("updateStudentName")
+//    public String updateStudentName(@RequestParam Student student){
+//        return studentServices.updateStudentName(student);
+//    }
 
-    @DeleteMapping("/deleteStudent")
-    public String deleteStudent(@RequestParam String id){
-        return studentServices.deleteStudent(id);
-    }
-
+//    @DeleteMapping("/deleteStudent")
+//    public String deleteStudent(@RequestParam String id){
+//        return studentServices.deleteStudent(id);
+//    }
+//
 
 }

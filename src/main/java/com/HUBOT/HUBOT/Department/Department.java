@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
@@ -13,11 +14,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Department {
     @Id
     private String departmentId;
+    @Indexed(unique = true)
     private String departmentName;
     private String keyword;
     private String description;
-    @Indexed(unique = true)
     private int departmentLocationId;
     private int floor;
+    @DBRef
     private Faculity faculity;
 }
