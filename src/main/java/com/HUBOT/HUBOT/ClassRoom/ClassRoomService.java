@@ -27,13 +27,13 @@ public class ClassRoomService {
         return classRoomRepository.findByBuildingBuildingId(buildingId);
     }
 
-    public ClassRoom updateClassRoom(ClassRoom classRoom) {
-        ClassRoom existingClassRoom = classRoomRepository.findById(classRoom.getClassRoomId()).orElse(null);
-        if (existingClassRoom != null) {
-            return classRoomRepository.save(classRoom);
-        }
-        return null;
-    }
+//    public ClassRoom updateClassRoom(ClassRoom classRoom) {
+//        ClassRoom existingClassRoom = classRoomRepository.findById(classRoom.getClassRoomId()).orElse(null);
+//        if (existingClassRoom != null) {
+//            return classRoomRepository.save(classRoom);
+//        }
+//        return null;
+//    }
 
     public boolean deleteClassRoom(int classRoomId) {
         ClassRoom existingClassRoom = classRoomRepository.findById(classRoomId).orElse(null);

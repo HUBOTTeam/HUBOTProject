@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
@@ -20,5 +21,6 @@ public class Course {
     private String description;
     private int pointsOfDifficulty;
     private int creditHours;
+    @DBRef
     private Department department;
 }

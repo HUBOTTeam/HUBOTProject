@@ -59,15 +59,15 @@ public class ClassRoomController {
         }
     }
 
-    @PutMapping("/updateClassRoom")
-    public ResponseEntity<ClassRoom> updateClassRoom(@RequestBody ClassRoom classRoom) {
-        ClassRoom updatedClassRoom = classRoomService.updateClassRoom(classRoom);
-        if (updatedClassRoom != null) {
-            return new ResponseEntity<>(updatedClassRoom, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
+//    @PutMapping("/updateClassRoom")
+//    public ResponseEntity<ClassRoom> updateClassRoom(@RequestBody ClassRoom classRoom) {
+//        ClassRoom updatedClassRoom = classRoomService.updateClassRoom(classRoom);
+//        if (updatedClassRoom != null) {
+//            return new ResponseEntity<>(updatedClassRoom, HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
+//    }
 
     @DeleteMapping("/deleteClassRoom")
     public ResponseEntity<String> deleteClassRoom(@RequestParam int classRoomId) {
