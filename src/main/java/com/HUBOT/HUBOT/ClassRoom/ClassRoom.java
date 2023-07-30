@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document("classrooms")
 public class ClassRoom {
     @Id
-    private int classRoomId;
+    private String classRoomId;
     @DBRef
     private Building building;
     private int classRoomNumber;
