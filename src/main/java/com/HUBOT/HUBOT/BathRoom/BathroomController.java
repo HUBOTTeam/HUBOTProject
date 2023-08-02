@@ -41,8 +41,8 @@ public class BathroomController {
 
     @GetMapping("getBathroomInBuildingByGender")
     public ResponseEntity<List<Bathroom>> getBathroomInBuildingByGender(
-            @RequestParam String buildingName, @RequestParam Gender gender) {
-        List<Bathroom> bathrooms = bathroomService.getBathroomInBuildingByGender(buildingName, gender);
+            @RequestParam String buildingId, @RequestParam Gender gender) {
+        List<Bathroom> bathrooms = bathroomService.getBathroomInBuildingByGender(buildingId, gender);
         if (bathrooms != null && !bathrooms.isEmpty()) {
             return new ResponseEntity<>(bathrooms, HttpStatus.OK);
         } else {
@@ -71,12 +71,7 @@ public class BathroomController {
     }
 
     @DeleteMapping("deleteBathroom")
-    public ResponseEntity<String> deleteBathroom(@RequestParam String bathroomName) {
-        Bathroom deletedBathroom = bathroomService.deleteBathroom(bathroomName);
-        if (deletedBathroom != null) {
-            return new ResponseEntity<>("Bathroom " + bathroomName + " was deleted successfully", HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>("Bathroom " + bathroomName + " not found", HttpStatus.NOT_FOUND);
-        }
+    public void deleteBathroom(@RequestParam String bathroomId) {
+       bathroomService.deleteBathroom(bathroomId);
     }
 }

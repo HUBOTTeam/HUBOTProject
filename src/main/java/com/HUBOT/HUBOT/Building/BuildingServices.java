@@ -7,37 +7,37 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@AllArgsConstructor
 @Service
 public class BuildingServices {
 
-    private BuildingsRepository buildingRepositry;
+    private final BuildingRepository buildingRepository;
+
+    public BuildingServices(BuildingRepository buildingRepository) {
+        this.buildingRepository = buildingRepository;
+    }
 
     public String addBuilding(Building building) {
-        buildingRepositry.insert(building);
-        return "The building "+building.getBuildingName()+" was inserted successfully!!";
+        buildingRepository.insert(building);
+        return "The building " + building.getBuildingName() + " was inserted successfully!";
     }
 
     public List<Building> getAllBuildings() {
-        return buildingRepositry.findAll();
+        return buildingRepository.findAll();
     }
-    public Building getBuilding(String buildingName){
-        Building building = buildingRepositry.findByBuildingName(buildingName);
-        if(building != null){
-            return buildingRepositry.findByBuildingName(buildingName);
-        }
-        else
-            return null;
+
+    public Building getBuildingByName(String buildingName) {
+        return buildingRepository.findByBuildingName(buildingName);
     }
+
     public String updateBuildingKeyword(String buildingName, String keyword) {
-        Building building = buildingRepositry.findByBuildingName(buildingName);
+        Building building = buildingRepository.findByBuildingName(buildingName);
         building.setKeyword(keyword);
-        buildingRepositry.save(building);
-        return buildingName+" was updated successfully!!";
+        buildingRepository.save(building);
+        return buildingName + " was updated successfully!";
     }
 
     public String deleteBuilding(String buildingName) {
-        buildingRepositry.deleteByBuildingName(buildingName);
-        return buildingName+" deleted successfully!!";
+        buildingRepository.deleteByBuildingName(buildingName);
+        return buildingName + " deleted successfully!";
     }
 }

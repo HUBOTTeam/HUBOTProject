@@ -8,39 +8,44 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@AllArgsConstructor
 @RestController
-@RequestMapping(path = "/building/")
+@RequestMapping("/building")
 public class BuildingController {
 
+    private final BuildingServices buildingService;
 
-    private BuildingServices buildingServices;
+    public BuildingController(BuildingServices buildingService) {
+        this.buildingService = buildingService;
+    }
 
-    @PostMapping(value = "addBuilding")
-    public String addBuilding(@RequestBody Building building){
-        return buildingServices.addBuilding(building);
-    }@GetMapping(value = "getAllBuildings")
+    @PostMapping("/add")
+    public String addBuilding(@RequestBody Building building) {
+        return buildingService.addBuilding(building);
+    }
+
+    @GetMapping("/all")
     public List<Building> getAllBuildings() {
-        return buildingServices.getAllBuildings();
+        return buildingService.getAllBuildings();
     }
-    @GetMapping("getBuilding")
-    public ResponseEntity<Building> getBuilding(@RequestParam String buildingName){
-        Building building = buildingServices.getBuilding(buildingName);
-        if(building == null){
+
+    @GetMapping("/get")
+    public ResponseEntity<Building> getBuilding(@RequestParam String buildingName) {
+        Building building = buildingService.getBuildingByName(buildingName);
+        if (building == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-        else
+        } else {
             return new ResponseEntity<>(building, HttpStatus.OK);
+        }
     }
 
-    @PutMapping(value = "updateBuildingKeyword")
-    public String updateBuildingKeyword(@RequestParam String buildingName , @RequestParam String keyword){
-        return buildingServices.updateBuildingKeyword(buildingName,keyword);
-    }
-    @DeleteMapping(value = "deleteBuilding")
-    public String deleteBuilding(@RequestParam String buildingName){
-        return buildingServices.deleteBuilding(buildingName);
+    @PutMapping("/update")
+    public String updateBuildingKeyword(@RequestParam String buildingName, @RequestParam String keyword) {
+        return buildingService.updateBuildingKeyword(buildingName, keyword);
     }
 
+    @DeleteMapping("/delete")
+    public String deleteBuilding(@RequestParam String buildingName) {
+        return buildingService.deleteBuilding(buildingName);
+    }
 
 }

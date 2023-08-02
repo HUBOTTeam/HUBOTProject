@@ -9,8 +9,6 @@ import java.util.List;
 @Repository
 public interface BathroomRepository extends MongoRepository<Bathroom, String> {
     List<Bathroom> findByBuildingBuildingId(String buildingId);
+    List<Bathroom> findByBuildingBuildingIdAndGender(String buildingId, Gender gender);
 
-    List<Bathroom> findByBuildingBuildingNameAndGender(String buildingName, Gender gender);
-
-    Bathroom findByKeyword(String keyword);
 }

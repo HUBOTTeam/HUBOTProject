@@ -23,8 +23,8 @@ public class BathroomService {
         return bathroomRepository.findByBuildingBuildingId(buildingId);
     }
 
-    public List<Bathroom> getBathroomInBuildingByGender(String buildingName, Gender gender) {
-        return bathroomRepository.findByBuildingBuildingNameAndGender(buildingName, gender);
+    public List<Bathroom> getBathroomInBuildingByGender(String buildingId, Gender gender) {//***
+        return bathroomRepository.findByBuildingBuildingIdAndGender(buildingId, gender);
     }
 
     public List<Bathroom> getAllBathrooms() {
@@ -35,13 +35,8 @@ public class BathroomService {
         return bathroomRepository.save(bathroom);
     }
 
-    public Bathroom deleteBathroom(String bathroomName) {
-        Bathroom bathroom = bathroomRepository.findByKeyword(bathroomName);
-        if (bathroom != null) {
-            bathroomRepository.delete(bathroom);
-            return bathroom;
-        }
-        return null;
+    public void deleteBathroom(String bathroomId) {
+        bathroomRepository.deleteById(bathroomId);
     }
 }
 
