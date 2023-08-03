@@ -19,17 +19,75 @@ public class CourseServices {
         return courseRepositry.findAll();
     }
 
-    public Course getCourseBycourseNumber(int courseNumber) {
-        return courseRepositry.findBycourseNumber(courseNumber);
+    public Course getCourseByCourseNumber(int courseNumber) {
+        return courseRepositry.findByCourseNumber(courseNumber);
+    }
+    public List<Course> getAllCoursesInDepartment(String departmentId) {
+        return courseRepositry.findCourseByDepartmentDepartmentId(departmentId);
+    }
+    public Course updateCourseName(int courseNumber, String CourseName) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        course.setCourseName(CourseName);
+        courseRepositry.save(course);
+        return course;
     }
 
-    public Course updateCourseName(int courseNumber, String keyword) {
-        Course course = courseRepositry.findBycourseNumber(courseNumber);
-        course.setKeyword(keyword);
-        return courseRepositry.save(course);
+
+
+    public Course updateCourseNumber(int courseNumber,int courseNewNumber) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if (course != null ){
+            course.setCourseNumber(courseNewNumber);
+            return course;
+        }
+        else
+            return null;
     }
 
+
+
+    public Course updateCourseKeyword(int courseNumber, String newKeyword) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if (course != null){
+            course.setKeyword(newKeyword);
+            return course;
+        }
+        else
+            return null;
+    }
+    public Course updateCourseDescription(int courseNumber, String description) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if (course != null) {
+            course.setDescription(description);
+            return courseRepositry.save(course);
+        }
+        return null;
+    }
+
+    public Course updatePointsOfDifficulty(int courseNumber, int pointsOfDifficulty) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if (course != null) {
+            course.setPointsOfDifficulty(pointsOfDifficulty);
+            return courseRepositry.save(course);
+        }
+        return null;
+    }
+
+    public Course updateCreditHours(int courseNumber, int creditHours) {
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if (course != null) {
+            course.setCreditHours(creditHours);
+            return courseRepositry.save(course);
+        }
+        return null;
+    }
     public Course deleteCourse(int courseNumber) {
-        return courseRepositry.deleteBycourseNumber(courseNumber);
+        Course course = courseRepositry.findByCourseNumber(courseNumber);
+        if(course == null)
+            return null;
+        else {
+            courseRepositry.deleteByCourseNumber(courseNumber);
+            return course;
+        }
     }
 }

@@ -15,51 +15,94 @@ public class CourseController {
     private CourseServices courseServices;
 
     @PostMapping(value = "addCourse")
-    public ResponseEntity<String> addCourse(@RequestBody Course course) {
+    public ResponseEntity<Course> addCourse(@RequestBody Course course) {
         Course addedCourse = courseServices.addCourse(course);
-
         if (addedCourse != null) {
-            String responseMessage = "Course added successfully!";
-            return new ResponseEntity<>(responseMessage, HttpStatus.OK);
+            return new ResponseEntity<>(course,HttpStatus.OK);
         } else {
-            String errorMessage = "Course addition failed!";
-            return new ResponseEntity<>(errorMessage, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
     @GetMapping(value = "getAllCourses")
     public ResponseEntity<List<Course>> getAllCourses(){
         List<Course> courses = courseServices.getAllCourses();
-
         if (!courses.isEmpty())
             return new ResponseEntity<>(courses,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @GetMapping(value = "getCourse")
-    public ResponseEntity<Course> getCourseBycourseNumber(@RequestParam int courseNumber){
-        Course course = courseServices.getCourseBycourseNumber(courseNumber);
-
+    @GetMapping(value = "getCourseByCourseNumber")
+    public ResponseEntity<Course> getCourseByCourseNumber(@RequestParam int courseNumber){
+        Course course = courseServices.getCourseByCourseNumber(courseNumber);
+        if (course != null)
+            return new ResponseEntity<>(course,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+    @GetMapping(value = "getAllCoursesInDepartment")
+    public ResponseEntity<List<Course>> getAllCoursesInDepartment(@RequestParam String departmentId){
+        List<Course> course = courseServices.getAllCoursesInDepartment(departmentId);
         if (course != null)
             return new ResponseEntity<>(course,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @PutMapping(value = "updateCourseKeyword")
-    public ResponseEntity<String> updateCourseName(@RequestParam int courseNumber , @RequestParam String keyword){
-        Course course = courseServices.updateCourseName(courseNumber,keyword);
-
+    @PutMapping(value = "updateCourseName")
+    public ResponseEntity<Course> updateCourseName(@RequestParam int courseNumber , @RequestParam String courseName){
+        Course course = courseServices.updateCourseName(courseNumber,courseName);
         if (course != null)
-            return new ResponseEntity<>(courseNumber+" updated successfully!",HttpStatus.OK);
-        return new ResponseEntity<>("Failed to updated !",HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(course,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+    @PutMapping(value = "updateCourseNumber")
+    public ResponseEntity<Course> updateCourseNumber(@RequestParam int courseNumber,@RequestParam int courseNewNumber){
+        Course course = courseServices.updateCourseNumber(courseNumber,courseNewNumber);
+        if (course != null)
+            return new ResponseEntity<>(course,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+    @PutMapping(value = "updateCourseKeyword")
+    public ResponseEntity<Course> updateCourseKeyword(@RequestParam int courseNumber,@RequestParam String newKeyword){
+        Course course = courseServices.updateCourseKeyword(courseNumber,newKeyword);
+        if (course != null)
+            return new ResponseEntity<>(course,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+    @PutMapping("updateCourseDescription")
+    public ResponseEntity<Course> updateCourseDescription(@RequestParam int courseNumber, @RequestParam String description) {
+        Course course = courseServices.updateCourseDescription(courseNumber, description);
+        if (course != null) {
+            return new ResponseEntity<>(course, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @PutMapping("updatePointsOfDifficulty")
+    public ResponseEntity<Course> updatePointsOfDifficulty(@RequestParam int courseNumber, @RequestParam int pointsOfDifficulty) {
+        Course course = courseServices.updatePointsOfDifficulty(courseNumber, pointsOfDifficulty);
+        if (course != null) {
+            return new ResponseEntity<>(course, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @PutMapping("updateCreditHours")
+    public ResponseEntity<Course> updateCreditHours(@RequestParam int courseNumber, @RequestParam int creditHours) {
+        Course course = courseServices.updateCreditHours(courseNumber, creditHours);
+        if (course != null) {
+            return new ResponseEntity<>(course, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
     @DeleteMapping(value = "deleteCourse")
-    public ResponseEntity<String> deleteCourse(@RequestParam int courseNumber){
+    public ResponseEntity<Course> deleteCourse(@RequestParam int courseNumber){
         Course course = courseServices.deleteCourse(courseNumber);
-
         if(course != null)
-            return new ResponseEntity<>(courseNumber+" deleted successfully!",HttpStatus.OK);
+            return new ResponseEntity<>(HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
