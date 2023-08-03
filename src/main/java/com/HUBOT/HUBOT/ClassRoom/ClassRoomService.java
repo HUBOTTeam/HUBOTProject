@@ -16,11 +16,15 @@ public class ClassRoomService {
     }
 
     public ClassRoom addClassRoom(ClassRoom classRoom) {
-        return classRoomRepository.save(classRoom);
+        return classRoomRepository.insert(classRoom);
     }
 
     public ClassRoom getClassRoomById(int classRoomId) {
         return classRoomRepository.findById(classRoomId).orElse(null);
+    }
+    public ClassRoom getClassRoomByClassRoomNumberInBuilding(String buildingId,int classRoomNumber){
+        return classRoomRepository.findClassRoomByBuildingIdAndClassRoomNumber(buildingId,classRoomNumber);
+
     }
 
     public List<ClassRoom> getClassRoomsByBuildingId(String buildingId) {
@@ -46,6 +50,13 @@ public class ClassRoomService {
 
     public List<ClassRoom> getAllClassRooms() {
         return classRoomRepository.findAll();
+    }
+
+    public ClassRoom updateClassRoom(ClassRoom classRoom) {
+        if(classRoom.getClassRoomId() != null)
+            return classRoomRepository.save(classRoom);
+        else
+            return null;
     }
 
     // Add any additional methods you need for querying ClassRooms

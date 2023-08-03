@@ -38,6 +38,15 @@ public class ClassRoomController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+    @GetMapping("/getClassRoomByClassRoomNumberInBuilding")
+    public ResponseEntity<ClassRoom> getClassRoomByClassRoomNumberInBuilding(@RequestParam String buildingId,@RequestParam int classRoomNumber) {
+        ClassRoom classRoom = classRoomService.getClassRoomByClassRoomNumberInBuilding(buildingId,classRoomNumber);
+        if (classRoom != null) {
+            return new ResponseEntity<>(classRoom, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
     @GetMapping("/getClassRoomsByBuildingId")
     public ResponseEntity<List<ClassRoom>> getClassRoomsByBuildingId(@RequestParam String buildingId) {
@@ -59,15 +68,15 @@ public class ClassRoomController {
         }
     }
 
-//    @PutMapping("/updateClassRoom")
-//    public ResponseEntity<ClassRoom> updateClassRoom(@RequestBody ClassRoom classRoom) {
-//        ClassRoom updatedClassRoom = classRoomService.updateClassRoom(classRoom);
-//        if (updatedClassRoom != null) {
-//            return new ResponseEntity<>(updatedClassRoom, HttpStatus.OK);
-//        } else {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//    }
+    @PutMapping("/updateClassRoom")
+    public ResponseEntity<ClassRoom> updateClassRoom(@RequestBody ClassRoom classRoom) {
+        ClassRoom updatedClassRoom = classRoomService.updateClassRoom(classRoom);
+        if (updatedClassRoom != null) {
+            return new ResponseEntity<>(updatedClassRoom, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
     @DeleteMapping("/deleteClassRoom")
     public ResponseEntity<String> deleteClassRoom(@RequestParam int classRoomId) {

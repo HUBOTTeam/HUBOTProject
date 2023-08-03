@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Building;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
@@ -24,7 +25,10 @@ public class Building {
     @CreatedDate
     private LocalDateTime addedDate;//date that building created
 
-    public Building(String buildingName, String description,String keyword ,int locationId)  {
+    public Building() {
+    }
+
+    public Building(String buildingName, String description, String keyword , int locationId)  {
         this.buildingName = buildingName;
         this.description = description;
         this.locationId = locationId;

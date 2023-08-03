@@ -1,24 +1,23 @@
 package com.HUBOT.HUBOT.Building;
 
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
+
 
 @Service
 public class BuildingServices {
 
-    private final BuildingRepository buildingRepository;
+    private BuildingsRepository buildingRepository;
 
-    public BuildingServices(BuildingRepository buildingRepository) {
+    @Autowired
+    public BuildingServices(BuildingsRepository buildingRepository) {
         this.buildingRepository = buildingRepository;
     }
 
-    public String addBuilding(Building building) {
-        buildingRepository.insert(building);
-        return "The building " + building.getBuildingName() + " was inserted successfully!";
+    public Building addBuilding(Building building) {
+        return buildingRepository.insert(building);
     }
 
     public List<Building> getAllBuildings() {
@@ -29,15 +28,25 @@ public class BuildingServices {
         return buildingRepository.findByBuildingName(buildingName);
     }
 
-    public String updateBuildingKeyword(String buildingName, String keyword) {
+    public Building updateBuildingKeyword(String buildingName, String keyword) {
         Building building = buildingRepository.findByBuildingName(buildingName);
-        building.setKeyword(keyword);
-        buildingRepository.save(building);
-        return buildingName + " was updated successfully!";
+        if (building != null) {
+            building.setKeyword(keyword);
+            return buildingRepository.save(building);
+        }
+        return null;
     }
 
-    public String deleteBuilding(String buildingName) {
+    public Building updateBuildingName(String buildingName, String newBuildingName) {
+        Building building = buildingRepository.findByBuildingName(buildingName);
+        if (building != null) {
+            building.setBuildingName(newBuildingName);
+            return buildingRepository.save(building);
+        }
+        return null;
+    }
+
+    public void deleteBuilding(String buildingName) {
         buildingRepository.deleteByBuildingName(buildingName);
-        return buildingName + " deleted successfully!";
     }
 }

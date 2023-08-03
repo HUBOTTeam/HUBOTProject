@@ -1,6 +1,5 @@
 package com.HUBOT.HUBOT.Building;
 
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,38 +13,59 @@ public class BuildingController {
 
     private final BuildingServices buildingService;
 
+    @Autowired
     public BuildingController(BuildingServices buildingService) {
         this.buildingService = buildingService;
     }
 
-    @PostMapping("/add")
-    public String addBuilding(@RequestBody Building building) {
-        return buildingService.addBuilding(building);
+    @PostMapping("/addBuilding")
+    public ResponseEntity<Building> addBuilding(@RequestBody Building building) {
+        Building addedBuilding = buildingService.addBuilding(building);
+        if (addedBuilding != null) {
+            return new ResponseEntity<>(addedBuilding, HttpStatus.CREATED);
+        } else {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
-    @GetMapping("/all")
+    @GetMapping("/getAllBuildings")
     public List<Building> getAllBuildings() {
         return buildingService.getAllBuildings();
     }
 
-    @GetMapping("/get")
+    @GetMapping("/getBuilding")
     public ResponseEntity<Building> getBuilding(@RequestParam String buildingName) {
         Building building = buildingService.getBuildingByName(buildingName);
-        if (building == null) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        } else {
+        if (building != null) {
             return new ResponseEntity<>(building, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
-    @PutMapping("/update")
-    public String updateBuildingKeyword(@RequestParam String buildingName, @RequestParam String keyword) {
-        return buildingService.updateBuildingKeyword(buildingName, keyword);
+    @PutMapping("/updateBuildingKeyword")
+    public ResponseEntity<Building> updateBuildingKeyword(@RequestParam String buildingName, @RequestParam String keyword) {
+        Building updatedBuilding = buildingService.updateBuildingKeyword(buildingName, keyword);
+        if (updatedBuilding != null) {
+            return new ResponseEntity<>(updatedBuilding, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
-    @DeleteMapping("/delete")
-    public String deleteBuilding(@RequestParam String buildingName) {
-        return buildingService.deleteBuilding(buildingName);
+    @PutMapping("/updateBuildingName")
+    public ResponseEntity<Building> updateBuildingName(@RequestParam String buildingName, @RequestParam String buildingNewName) {
+        Building updatedBuilding = buildingService.updateBuildingName(buildingName, buildingNewName);
+        if (updatedBuilding != null) {
+            return new ResponseEntity<>(updatedBuilding, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
+    @DeleteMapping("/deleteBuilding")
+    public ResponseEntity<String> deleteBuilding(@RequestParam String buildingName) {
+        buildingService.deleteBuilding(buildingName);
+        return new ResponseEntity<>("Building deleted successfully!", HttpStatus.OK);
+    }
 }
