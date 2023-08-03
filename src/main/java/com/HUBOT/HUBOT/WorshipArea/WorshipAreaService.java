@@ -12,7 +12,7 @@ public class WorshipAreaService {
     private  WorshipAreaRepository worshipAreaRepository;
 
     public WorshipArea addWorshipArea(WorshipArea worshipArea) {
-        return worshipAreaRepository.save(worshipArea);
+        return worshipAreaRepository.insert(worshipArea);
     }
 
     public WorshipArea getWorshipAreaById(String worshipAreaId) {
@@ -23,10 +23,26 @@ public class WorshipAreaService {
         return worshipAreaRepository.findByBuildingBuildingId(buildingId);
     }
 
-    public WorshipArea updateWorshipArea(WorshipArea worshipArea) {
-        WorshipArea existingWorshipArea = worshipAreaRepository.findById(worshipArea.getWorshipAreaId()).orElse(null);
+    public List<WorshipArea> getAllWorshipAreas() {
+        return worshipAreaRepository.findAll();
+    }
+    public List<WorshipArea> getWorshipAreasByGenderAndBuilding(Gender gender, String buildingId) {
+        return worshipAreaRepository.findByGenderAndBuildingBuildingId(gender, buildingId);
+    }
+    public WorshipArea updateWorshipAreaGender(String worshipAreaId, Gender gender) {
+        WorshipArea existingWorshipArea = worshipAreaRepository.findById(worshipAreaId).orElse(null);
         if (existingWorshipArea != null) {
-            return worshipAreaRepository.save(worshipArea);
+            existingWorshipArea.setGender(gender);
+            return worshipAreaRepository.save(existingWorshipArea);
+        }
+        return null;
+    }
+
+    public WorshipArea updateWorshipAreaKeyword(String worshipAreaId, String keyword) {
+        WorshipArea existingWorshipArea = worshipAreaRepository.findById(worshipAreaId).orElse(null);
+        if (existingWorshipArea != null) {
+            existingWorshipArea.setKeyword(keyword);
+            return worshipAreaRepository.save(existingWorshipArea);
         }
         return null;
     }
@@ -38,13 +54,6 @@ public class WorshipAreaService {
             return true;
         }
         return false;
-    }
-
-    public List<WorshipArea> getAllWorshipAreas() {
-        return worshipAreaRepository.findAll();
-    }
-    public List<WorshipArea> getWorshipAreasByGenderAndBuilding(Gender gender, String buildingId) {
-        return worshipAreaRepository.findByGenderAndBuildingBuildingId(gender, buildingId);
     }
 
 }

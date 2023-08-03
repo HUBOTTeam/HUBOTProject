@@ -70,9 +70,18 @@ public class WorshipAreaController {
         }
     }
 
-    @PutMapping("/updateWorshipArea")
-    public ResponseEntity<WorshipArea> updateWorshipArea(@RequestBody WorshipArea worshipArea) {
-        WorshipArea updatedWorshipArea = worshipAreaService.updateWorshipArea(worshipArea);
+    @PutMapping("/updateWorshipAreaGender")
+    public ResponseEntity<WorshipArea> updateWorshipAreaGender(@RequestParam String worshipAreaId,@RequestParam Gender gender) {
+        WorshipArea updatedWorshipArea = worshipAreaService.updateWorshipAreaGender(worshipAreaId,gender);
+        if (updatedWorshipArea != null) {
+            return new ResponseEntity<>(updatedWorshipArea, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+    @PutMapping("/updateWorshipAreaKeyword")
+    public ResponseEntity<WorshipArea> updateWorshipAreaKeyword(@RequestParam String worshipAreaId,@RequestParam String keyword) {
+        WorshipArea updatedWorshipArea = worshipAreaService.updateWorshipAreaKeyword(worshipAreaId,keyword);
         if (updatedWorshipArea != null) {
             return new ResponseEntity<>(updatedWorshipArea, HttpStatus.OK);
         } else {
