@@ -26,6 +26,9 @@ public class ClassRoom {
     @CreatedDate
     private LocalDateTime addedDate;
 
+    public ClassRoom(){
+    }
+
     public ClassRoom(Building building, int classRoomNumber, int capacity, int classRoomLocationId, int floor, String keyword) {
         this.building = building;
         this.classRoomNumber = classRoomNumber;

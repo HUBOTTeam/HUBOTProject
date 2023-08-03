@@ -10,7 +10,7 @@ import java.util.List;
 
 @Validated
 @RestController
-@RequestMapping(path = "/classRoom")
+@RequestMapping(path = "/classroom")
 public class ClassRoomController {
     private final ClassRoomService classRoomService;
 
@@ -30,7 +30,7 @@ public class ClassRoomController {
     }
 
     @GetMapping("/getClassRoomById")
-    public ResponseEntity<ClassRoom> getClassRoomById(@RequestParam int classRoomId) {
+    public ResponseEntity<ClassRoom> getClassRoomById(@RequestParam String classRoomId) {
         ClassRoom classRoom = classRoomService.getClassRoomById(classRoomId);
         if (classRoom != null) {
             return new ResponseEntity<>(classRoom, HttpStatus.OK);
@@ -79,7 +79,7 @@ public class ClassRoomController {
     }
 
     @DeleteMapping("/deleteClassRoom")
-    public ResponseEntity<String> deleteClassRoom(@RequestParam int classRoomId) {
+    public ResponseEntity<String> deleteClassRoom(@RequestParam String classRoomId) {
         boolean deleted = classRoomService.deleteClassRoom(classRoomId);
         if (deleted) {
             return new ResponseEntity<>("ClassRoom with ID: " + classRoomId + " was deleted successfully!", HttpStatus.OK);

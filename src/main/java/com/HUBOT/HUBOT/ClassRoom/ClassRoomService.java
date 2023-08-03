@@ -19,7 +19,7 @@ public class ClassRoomService {
         return classRoomRepository.insert(classRoom);
     }
 
-    public ClassRoom getClassRoomById(int classRoomId) {
+    public ClassRoom getClassRoomById(String classRoomId) {
         return classRoomRepository.findById(classRoomId).orElse(null);
     }
     public ClassRoom getClassRoomByClassRoomNumberInBuilding(String buildingId,int classRoomNumber){
@@ -39,7 +39,7 @@ public class ClassRoomService {
 //        return null;
 //    }
 
-    public boolean deleteClassRoom(int classRoomId) {
+    public boolean deleteClassRoom(String classRoomId) {
         ClassRoom existingClassRoom = classRoomRepository.findById(classRoomId).orElse(null);
         if (existingClassRoom != null) {
             classRoomRepository.delete(existingClassRoom);
