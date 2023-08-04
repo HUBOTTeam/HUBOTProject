@@ -11,15 +11,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @AllArgsConstructor
 @Document("faculities")
-public class Faculity {
+public class Faculty {
     @Id
-    private String faculityId;
+    private String facultyId;
     @Indexed(unique = true)
-    private String faculityName;
+    private String facultyName;
     private String keyword;
     private String description;
     @Indexed(unique = true)
-    private int faculityLocationId;
+    private int facultyLocationId;
     private int floor;
     @DBRef
     private Building building;

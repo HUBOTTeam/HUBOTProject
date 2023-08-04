@@ -9,6 +9,6 @@ import java.util.List;
 @Repository
 public interface LabRepository extends MongoRepository<Lab, String> {
     List<Lab> findByBuildingBuildingId(String buildingId);
+    List<Lab> findByBuildingBuildingIdAndLabNumber(String buildingId, int labNumber);
 
-    // Add any additional query methods if needed
 }

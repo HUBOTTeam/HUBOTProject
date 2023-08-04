@@ -19,6 +19,7 @@ public class LabController {
         this.labService = labService;
     }
 
+    // Endpoint to add a new lab
     @PostMapping("/addLab")
     public ResponseEntity<Lab> addLab(@RequestBody Lab lab) {
         Lab addedLab = labService.addLab(lab);
@@ -29,6 +30,7 @@ public class LabController {
         }
     }
 
+    // Endpoint to get a lab by its ID
     @GetMapping("/getLabById")
     public ResponseEntity<Lab> getLabById(@RequestParam String labId) {
         Lab lab = labService.getLabById(labId);
@@ -39,6 +41,7 @@ public class LabController {
         }
     }
 
+    // Endpoint to get all labs in a building by building ID
     @GetMapping("/getLabsByBuildingId")
     public ResponseEntity<List<Lab>> getLabsByBuildingId(@RequestParam String buildingId) {
         List<Lab> labs = labService.getLabsByBuildingId(buildingId);
@@ -49,6 +52,7 @@ public class LabController {
         }
     }
 
+    // Endpoint to get all labs
     @GetMapping("/getAllLabs")
     public ResponseEntity<List<Lab>> getAllLabs() {
         List<Lab> labs = labService.getAllLabs();
@@ -59,6 +63,80 @@ public class LabController {
         }
     }
 
+    // Endpoint to get labs by building ID and lab number
+    @GetMapping("/getLabByBuildingAndLabNumber")
+    public ResponseEntity<List<Lab>> getLabByBuildingAndLabNumber(
+            @RequestParam String buildingId,
+            @RequestParam int labNumber) {
+        List<Lab> labs = labService.getLabsByBuildingIdAndLabNumber(buildingId, labNumber);
+        if (!labs.isEmpty()) {
+            return new ResponseEntity<>(labs, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Endpoint to update the category of a lab by lab ID
+    @PutMapping("/updateLabCategory")
+    public ResponseEntity<Lab> updateLabCategory(
+            @RequestParam String labId,
+            @RequestParam String category) {
+        Lab lab = labService.getLabById(labId);
+        if (lab != null) {
+            lab.setCategory(category);
+            Lab updatedLab = labService.updateLab(lab);
+            return new ResponseEntity<>(updatedLab, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Endpoint to update the keyword of a lab by lab ID
+    @PutMapping("/updateLabKeyword")
+    public ResponseEntity<Lab> updateLabKeyword(
+            @RequestParam String labId,
+            @RequestParam String keyword) {
+        Lab lab = labService.getLabById(labId);
+        if (lab != null) {
+            lab.setKeyword(keyword);
+            Lab updatedLab = labService.updateLab(lab);
+            return new ResponseEntity<>(updatedLab, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Endpoint to update the lab location ID of a lab by lab ID
+    @PutMapping("/updateLabLocationId")
+    public ResponseEntity<Lab> updateLabLocationId(
+            @RequestParam String labId,
+            @RequestParam int labLocationId) {
+        Lab lab = labService.getLabById(labId);
+        if (lab != null) {
+            lab.setLabLocationId(labLocationId);
+            Lab updatedLab = labService.updateLab(lab);
+            return new ResponseEntity<>(updatedLab, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Endpoint to update the floor of a lab by lab ID
+    @PutMapping("/updateLabFloor")
+    public ResponseEntity<Lab> updateLabFloor(
+            @RequestParam String labId,
+            @RequestParam int floor) {
+        Lab lab = labService.getLabById(labId);
+        if (lab != null) {
+            lab.setFloor(floor);
+            Lab updatedLab = labService.updateLab(lab);
+            return new ResponseEntity<>(updatedLab, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Endpoint to update a lab (general update) by lab ID
     @PutMapping("/updateLab")
     public ResponseEntity<Lab> updateLab(@RequestBody Lab lab) {
         Lab updatedLab = labService.updateLab(lab);
@@ -69,6 +147,7 @@ public class LabController {
         }
     }
 
+    // Endpoint to delete a lab by lab ID
     @DeleteMapping("/deleteLab")
     public ResponseEntity<String> deleteLab(@RequestParam String labId) {
         boolean deleted = labService.deleteLab(labId);

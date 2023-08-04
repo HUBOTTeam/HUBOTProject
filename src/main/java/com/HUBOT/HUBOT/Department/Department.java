@@ -1,6 +1,6 @@
 package com.HUBOT.HUBOT.Department;
 
-import com.HUBOT.HUBOT.Faculity.Faculity;
+import com.HUBOT.HUBOT.Faculity.Faculty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
@@ -25,7 +25,7 @@ public class Department {
     private int departmentLocationId;
     private int floor;
     @DBRef
-    private Faculity faculity;
+    private Faculty faculity;
     @CreatedDate
     private LocalDateTime addedTime;
 }
