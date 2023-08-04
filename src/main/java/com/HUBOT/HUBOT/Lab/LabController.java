@@ -81,10 +81,8 @@ public class LabController {
     public ResponseEntity<Lab> updateLabCategory(
             @RequestParam String labId,
             @RequestParam String category) {
-        Lab lab = labService.getLabById(labId);
-        if (lab != null) {
-            lab.setCategory(category);
-            Lab updatedLab = labService.updateLab(lab);
+        Lab updatedLab = labService.updateLabCategory(labId, category);
+        if (updatedLab != null) {
             return new ResponseEntity<>(updatedLab, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -96,10 +94,8 @@ public class LabController {
     public ResponseEntity<Lab> updateLabKeyword(
             @RequestParam String labId,
             @RequestParam String keyword) {
-        Lab lab = labService.getLabById(labId);
-        if (lab != null) {
-            lab.setKeyword(keyword);
-            Lab updatedLab = labService.updateLab(lab);
+        Lab updatedLab = labService.updateLabKeyword(labId, keyword);
+        if (updatedLab != null) {
             return new ResponseEntity<>(updatedLab, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -111,10 +107,8 @@ public class LabController {
     public ResponseEntity<Lab> updateLabLocationId(
             @RequestParam String labId,
             @RequestParam int labLocationId) {
-        Lab lab = labService.getLabById(labId);
-        if (lab != null) {
-            lab.setLabLocationId(labLocationId);
-            Lab updatedLab = labService.updateLab(lab);
+        Lab updatedLab = labService.updateLabLocationId(labId, labLocationId);
+        if (updatedLab != null) {
             return new ResponseEntity<>(updatedLab, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -126,15 +120,14 @@ public class LabController {
     public ResponseEntity<Lab> updateLabFloor(
             @RequestParam String labId,
             @RequestParam int floor) {
-        Lab lab = labService.getLabById(labId);
-        if (lab != null) {
-            lab.setFloor(floor);
-            Lab updatedLab = labService.updateLab(lab);
+        Lab updatedLab = labService.updateLabFloor(labId, floor);
+        if (updatedLab != null) {
             return new ResponseEntity<>(updatedLab, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
 
     // Endpoint to update a lab (general update) by lab ID
     @PutMapping("/updateLab")

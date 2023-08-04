@@ -45,6 +45,8 @@ public class LabService {
     public List<Lab> getAllLabs() {
         return labRepository.findAll();
     }
+
+    // Update the category of a lab
     public Lab updateLabCategory(String labId, String category) {
         Lab lab = labRepository.findById(labId).orElse(null);
         if (lab != null) {
@@ -55,6 +57,7 @@ public class LabService {
         }
     }
 
+    // Update the keyword of a lab
     public Lab updateLabKeyword(String labId, String keyword) {
         Lab lab = labRepository.findById(labId).orElse(null);
         if (lab != null) {
@@ -65,6 +68,7 @@ public class LabService {
         }
     }
 
+    // Update the lab location ID of a lab
     public Lab updateLabLocationId(String labId, int labLocationId) {
         Lab lab = labRepository.findById(labId).orElse(null);
         if (lab != null) {
@@ -75,6 +79,7 @@ public class LabService {
         }
     }
 
+    // Update the floor of a lab
     public Lab updateLabFloor(String labId, int floor) {
         Lab lab = labRepository.findById(labId).orElse(null);
         if (lab != null) {
