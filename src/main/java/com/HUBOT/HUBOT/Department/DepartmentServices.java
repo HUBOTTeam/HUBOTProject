@@ -1,35 +1,59 @@
 package com.HUBOT.HUBOT.Department;
 
-import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
-@AllArgsConstructor
 @Service
 public class DepartmentServices {
+    private final DepartmentRepository departmentRepository;
 
-    private DepartmentRepositry departmentRepositry;
+    @Autowired
+    public DepartmentServices(DepartmentRepository departmentRepository) {
+        this.departmentRepository = departmentRepository;
+    }
 
     public String addDepartment(Department department) {
-        departmentRepositry.insert(department);
-        return department.getDepartmentName()+" added successfully!!";
+        departmentRepository.save(department);
+        return "Department added successfully.";
     }
 
     public List<Department> getAllDepartments() {
-        return departmentRepositry.findAll();
+        return departmentRepository.findAll();
+    }
+
+    public Optional<Department> getDepartmentById(String departmentId) {
+        return departmentRepository.findById(departmentId);
+    }
+
+    public List<Department> getDepartmentsByName(String departmentName) {
+        return departmentRepository.findByDepartmentName(departmentName);
     }
 
     public String editKeyword(String departmentName, String keyword) {
-        Department department = departmentRepositry.findBydepartmentName(departmentName);
-        department.setKeyword(keyword);
-        departmentRepositry.save(department);
-        return departmentName+" edited successfully!";
-
+        List<Department> departments = departmentRepository.findByDepartmentName(departmentName);
+        if (!departments.isEmpty()) {
+            Department department = departments.get(0);
+            department.setKeyword(keyword);
+            departmentRepository.save(department);
+            return "Keyword updated successfully.";
+        }
+        return "Department not found.";
     }
 
     public String deleteDepartment(String departmentName) {
-        departmentRepositry.deleteBydepartmentName(departmentName);
-        return departmentName+" deleted successfully!!";
+        List<Department> departments = departmentRepository.findByDepartmentName(departmentName);
+        if (!departments.isEmpty()) {
+            departmentRepository.delete(departments.get(0));
+            return "Department deleted successfully.";
+        }
+        return "Department not found.";
+    }
+
+    public String updateDepartment(Department department) {
+        departmentRepository.save(department);
+        return "Department updated successfully.";
     }
 }

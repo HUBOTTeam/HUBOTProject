@@ -1,7 +1,9 @@
 package com.HUBOT.HUBOT.FAQ;
 
-public class Faq {
+import org.springframework.data.annotation.Id;
 
+public class Faq {
+    @Id
     private int faqId;
     private String question;
     private String answer;

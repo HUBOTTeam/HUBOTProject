@@ -15,10 +15,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Instructor {
     @Id
     private String instructor_id;
-    private String instructor_name;
-    Gender gender;
-    @DBRef
-    private Office office;
     @DBRef
     private Department department;
+    @DBRef
+    private Office office;
+    private String instructorFirstName;
+    private String instructorLastName;
+    Gender gender;
 }

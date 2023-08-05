@@ -1,8 +1,9 @@
-package com.HUBOT.HUBOT.Department;
+package com.HUBOT.HUBOT.SportArea;
 
-import com.HUBOT.HUBOT.Faculity.Faculty;
+import com.HUBOT.HUBOT.Building.Building;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
@@ -13,19 +14,19 @@ import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
-@Document("departments")
-public class Department {
+@NoArgsConstructor
+@Document("sportAreas")
+public class SportArea {
     @Id
-    private String departmentId;
-    @Indexed(unique = true)
-    private String departmentName;
-    private String keyword;
-    private String description;
-    @Indexed(unique = true)
-    private int departmentLocationId;
-    private int floor;
+    private String sportAreaId;
     @DBRef
-    private Faculty faculty;
+    private Building building;
+    private String sportAreaName;
+    private String typeOfSport;
+    private String keyword;
+    @Indexed(unique = true)
+    private int sportAreaLocationId;
     @CreatedDate
-    private LocalDateTime addedTime;
+    private LocalDateTime addedDate;
+
 }
