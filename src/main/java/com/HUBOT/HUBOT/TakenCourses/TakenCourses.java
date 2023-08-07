@@ -1,33 +1,28 @@
-package com.HUBOT.HUBOT.Schedual;
+package com.HUBOT.HUBOT.TakenCourses;
 
 import com.HUBOT.HUBOT.Course.Course;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document("Schedule")
-public class Schedule {
+@Document("TakenCourses")
+public class TakenCourses {
     @Id
     private String id;
-    private String studentId;
+    @DBRef
+    private Course course;
     private int semester;
     private int year;
-    private List<Course> courses = new ArrayList<>();
-
-    @Data
-    @AllArgsConstructor
-    @NoArgsConstructor
-    public static class ScheduleEntry {
-        @DBRef
-        private Course course;
-    }
+    private double grade;
+    @CreatedDate
+    private LocalDateTime dateAdded;
 }

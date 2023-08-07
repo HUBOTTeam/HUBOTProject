@@ -1,72 +1,87 @@
 package com.HUBOT.HUBOT.Schedual;
 
-import lombok.AllArgsConstructor;
+import com.HUBOT.HUBOT.Course.Course;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @RestController
-@RequestMapping("/schedual")
+@RequestMapping("/schedule")
 public class ScheduleController {
 
     private final ScheduleService scheduleService;
 
+    @Autowired
     public ScheduleController(ScheduleService scheduleService) {
         this.scheduleService = scheduleService;
     }
 
-    @PostMapping("/add")
-    public ResponseEntity<Schedule> addSchedual(@RequestBody Schedule schedule) {
-        Schedule addedSchedule = scheduleService.addSchedule(schedule);
-        if (addedSchedule != null) {
-            return new ResponseEntity<>(addedSchedule, HttpStatus.OK);
+    @PostMapping("/createSchedule")
+    public ResponseEntity<Schedule> createSchedule(@RequestParam String studentId,
+                                                   @RequestParam int semester,
+                                                   @RequestParam int year) {
+        Schedule createdSchedule = scheduleService.createSchedule(studentId, semester, year);
+        if (createdSchedule != null) {
+            return new ResponseEntity<>(createdSchedule, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
-    @GetMapping("/getById")
-    public ResponseEntity<Schedule> getScheduleById(@RequestParam String id) {
-        Schedule schedule = scheduleService.getScheduleById(id);
+    @PostMapping("/addCourseToSchedule")
+    public ResponseEntity<Schedule> addCourseToSchedule(@RequestParam String scheduleId,
+                                                        @RequestBody Course course) {
+        Schedule updatedSchedule = scheduleService.addCourseToSchedule(scheduleId, course);
+        if (updatedSchedule != null) {
+            return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @GetMapping("/getScheduleByStudentId")
+    public ResponseEntity<Schedule> getScheduleByStudentId(@RequestParam String studentId,
+                                                           @RequestParam int semester,
+                                                           @RequestParam int year) {
+        Schedule schedule = scheduleService.getScheduleByStudentId(studentId, semester, year);
         if (schedule != null) {
             return new ResponseEntity<>(schedule, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-    @GetMapping("/getAll")
-    public ResponseEntity<List<Schedule>> getAllSchedules() {
-        List<Schedule> schedules = scheduleService.getAllScheduals();
-        if (!schedules.isEmpty()) {
-            return new ResponseEntity<>(schedules, HttpStatus.OK);
+    @DeleteMapping("/removeSubject")
+    public ResponseEntity<Schedule> removeSubjectFromSchedule(@RequestParam String studentId, @RequestBody Course course) {
+        Schedule updatedSchedule = scheduleService.removeSubjectFromSchedule(studentId, course);
+        if (updatedSchedule != null) {
+            return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
-    @PutMapping("/update")
-    public ResponseEntity<Schedule> updateSchedual(@RequestBody Schedule schedual) {
-        Schedule updatedSchedual = scheduleService.updateSchedual(schedual);
-        if (updatedSchedual != null) {
-            return new ResponseEntity<>(updatedSchedual, HttpStatus.OK);
+    @PutMapping("/updateSemesterAndYear")
+    public ResponseEntity<Schedule> updateSemesterAndYear(@RequestParam String studentId, @RequestParam int semester, @RequestParam int year) {
+        Schedule updatedSchedule = scheduleService.updateSemesterAndYear(studentId, semester, year);
+        if (updatedSchedule != null) {
+            return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-    @DeleteMapping("/delete")
-    public ResponseEntity<String> deleteSchedual(@RequestParam String id) {
-        boolean deleted = scheduleService.deleteSchedual(id);
-        if (deleted) {
-            return new ResponseEntity<>("Schedual with ID: " + id + " was deleted successfully!", HttpStatus.OK);
+    @PostMapping("/transferCoursesToTakenCourses")
+    public ResponseEntity<Schedule> transferCoursesToTakenCourses(@RequestParam String studentId,
+                                                                  @RequestParam int semester,
+                                                                  @RequestParam int year,
+                                                                  @RequestParam double grade) {
+        Schedule updatedSchedule = scheduleService.transferCoursesToTakenCourses(studentId, semester, year, grade);
+        if (updatedSchedule != null) {
+            return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("Schedual with ID: " + id + " not found", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-    // Additional endpoints for handling Schedual
 }

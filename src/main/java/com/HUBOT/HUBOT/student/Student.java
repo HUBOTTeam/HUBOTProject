@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.student;
 
 import com.HUBOT.HUBOT.Department.Department;
+import com.HUBOT.HUBOT.Schedual.Schedule;
 import com.HUBOT.HUBOT.User.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,9 +19,9 @@ import java.time.LocalDate;
 public class Student {
     @Id
     private String id;
-    private String name;
     @DBRef
     private User user;
     @DBRef
     private Department department;
+    private String name;
 }
