@@ -1,5 +1,8 @@
 package com.HUBOT.HUBOT.Notes;
 
+import com.HUBOT.HUBOT.Course.Course;
+import com.HUBOT.HUBOT.Schedual.Schedule;
+import com.HUBOT.HUBOT.student.Student;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,7 +21,10 @@ public class Note {
     @Indexed(unique = true)
     private String noteTitle;
     private String note;
-//    @DBRef
-//    private
-
+    @DBRef
+    private Schedule schedule; // Reference to the associated schedule
+    @DBRef
+    private Student student;
+    @DBRef
+    private Course course;
 }

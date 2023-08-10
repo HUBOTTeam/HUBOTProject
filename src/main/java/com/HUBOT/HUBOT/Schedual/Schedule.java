@@ -1,6 +1,8 @@
 package com.HUBOT.HUBOT.Schedual;
 
 import com.HUBOT.HUBOT.Course.Course;
+import com.HUBOT.HUBOT.Notes.Note;
+import com.HUBOT.HUBOT.student.Student;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,6 +23,9 @@ public class Schedule {
     private String studentId;
     private int semester;
     private int year;
+    @DBRef
     private List<Course> courses = new ArrayList<>();
+    @DBRef
+    private List<Note> notes; // List of associated notes
 
 }
