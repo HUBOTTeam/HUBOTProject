@@ -23,11 +23,4 @@ public class Schedule {
     private int year;
     private List<Course> courses = new ArrayList<>();
 
-    @Data
-    @AllArgsConstructor
-    @NoArgsConstructor
-    public static class ScheduleEntry {
-        @DBRef
-        private Course course;
-    }
 }
