@@ -1,14 +1,15 @@
 package com.HUBOT.HUBOT.Notes;
 
+import com.HUBOT.HUBOT.Notes.Note;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/note")
+@Document("notesL")
 public class NoteController {
 
     private final NoteService noteService;
@@ -19,28 +20,20 @@ public class NoteController {
     }
 
     @PostMapping("/addNote")
-    public ResponseEntity<Note> addNote(@RequestBody Note note) {
-        Note addedNote = noteService.addNote(note);
-        if (addedNote != null) {
-            return new ResponseEntity<>(addedNote, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public ResponseEntity<Note> addNoteToSchedule(@RequestBody Note note) {
+        Note addedNote = noteService.addNoteToSchedule(note);
+        return new ResponseEntity<>(addedNote, HttpStatus.OK);
     }
 
-    @GetMapping("/getNotesByStudentIdAndCourseId")
-    public ResponseEntity<List<Note>> getNotesByStudentIdAndCourseId(@RequestParam String studentId, @RequestParam String courseId) {
-        List<Note> notes = noteService.getNotesByStudentIdAndCourseId(studentId, courseId);
-        if (!notes.isEmpty()) {
-            return new ResponseEntity<>(notes, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    @PutMapping("/updateNote")
+    public ResponseEntity<Note> updateNoteInSchedule(@RequestBody Note note) {
+        Note updatedNote = noteService.updateNoteInSchedule(note);
+        return new ResponseEntity<>(updatedNote, HttpStatus.OK);
     }
 
     @DeleteMapping("/deleteNote")
-    public ResponseEntity<String> deleteNoteById(@RequestParam String noteId) {
-        boolean deleted = noteService.deleteNoteById(noteId);
+    public ResponseEntity<String> deleteNoteFromSchedule(@RequestParam String noteId) {
+        boolean deleted = noteService.deleteNoteFromSchedule(noteId);
         if (deleted) {
             return new ResponseEntity<>("Note with ID: " + noteId + " was deleted successfully!", HttpStatus.OK);
         } else {
@@ -48,5 +41,5 @@ public class NoteController {
         }
     }
 
-    // Add more endpoints as needed
+    // Other methods...
 }
