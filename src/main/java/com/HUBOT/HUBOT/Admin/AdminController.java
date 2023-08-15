@@ -1,7 +1,12 @@
 package com.HUBOT.HUBOT.Admin;
 
 
+import com.HUBOT.HUBOT.Enum.AccessDegree;
+import com.HUBOT.HUBOT.Exeption.NumberOfAdminLessThanRequiredException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -18,40 +23,62 @@ public class AdminController {
         this.adminServices = adminServices;
     }
 
-
     @PostMapping(value = "createAdmin")//add admin account
-    public String addAdmin(@RequestBody Admin admin){
-        return adminServices.addAdmin(admin);
+    public ResponseEntity<Admin> addAdmin(@RequestBody Admin admin){
+        if (adminServices.addAdmin(admin) != null)
+            return new ResponseEntity<>(admin, HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @GetMapping(value = "getAdmin")
-    public Admin getAdmin(@RequestParam String adminUserName){
-        return adminServices.getAdmin(adminUserName);
+    public ResponseEntity<Admin> getAdmin(@RequestParam String adminUserName){
+        Admin admin = adminServices.getAdmin(adminUserName);
+        if(admin != null)
+            return new ResponseEntity<>(admin,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @GetMapping(value = "getAllAdmins")
-    public List<Admin> getAllAdmins(){
-       return adminServices.getAllAdmins();
+    public ResponseEntity<List<Admin>> getAllAdmins(){
+       List<Admin> admins = adminServices.getAllAdmins();
+        if(admins != null)
+            return new ResponseEntity<>(admins,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @PutMapping(value = "editAdminPassword")
-    public Admin editAdminPassword(@RequestParam String adminUserName,@RequestParam String password){
-        return adminServices.editAdminPassword(adminUserName,password);
-    }
 
     @PutMapping(value = "editName")
-    public Admin editName(@RequestParam String adminUserName,@RequestParam String adminFirstName, @RequestParam String adminLastName) {
-        return adminServices.editName(adminUserName,adminFirstName, adminLastName);
+    public ResponseEntity<Admin> editName(@RequestParam String adminUserName,@RequestParam String adminFirstName, @RequestParam String adminLastName) {
+        Admin admin = adminServices.editName(adminUserName,adminFirstName, adminLastName);
+        if (admin != null)
+            return new ResponseEntity<>(admin,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @PutMapping(value = "editAdminAccessDegree")
-    public Admin editAdminAccessDegree(@RequestParam String adminUserName,@RequestParam int adminAccessDegree){
-               return adminServices.editAdminAccessDegree(adminUserName,adminAccessDegree);
+    public ResponseEntity<Admin> editAdminAccessDegree(@RequestParam String adminUserName,@RequestParam AccessDegree adminAccessDegree) throws NumberOfAdminLessThanRequiredException {
+        Admin admin = adminServices.editAdminAccessDegree(adminUserName,adminAccessDegree);
+        if (admin != null)
+            return new ResponseEntity<>(admin,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+    @PutMapping(value = "editAdminPassword")
+    public ResponseEntity<Admin> editAdminPassword(@RequestParam String adminUserName,@RequestParam String password)  {
+        Admin admin = adminServices.editAdminPassword(adminUserName,password);
+        if (admin != null)
+            return new ResponseEntity<>(admin,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
 
     @DeleteMapping(value = "deleteAdmin")
-    public String deleteAdmin(@RequestParam String adminUserName){
-        return adminServices.deleteAdmin(adminUserName);
+    public void deleteAdmin(@RequestParam String adminUserName){
+        adminServices.deleteAdmin(adminUserName);
     }
 }
