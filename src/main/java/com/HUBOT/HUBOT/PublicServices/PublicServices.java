@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.PublicServices;
 
+import com.HUBOT.HUBOT.Enum.TypeOfService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -17,7 +18,7 @@ public class PublicServices {
     private int publicServiceLocationId;
     @DBRef
     private String buildingId;
-    private String typeOfService;
+    private TypeOfService typeOfService;
     private String publicServicePlaceName;
     private String keyword;
     private String description;

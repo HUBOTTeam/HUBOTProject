@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.PublicServices;
 
+import com.HUBOT.HUBOT.Enum.TypeOfService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -49,18 +50,7 @@ public class PublicServicesController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-    @PutMapping("/updatePublicService")
-    public ResponseEntity<PublicServices> updatePublicService(@RequestBody PublicServices publicService) {
-        PublicServices updatedPublicService = publicServicesService.updatePublicService(publicService);
-        if (updatedPublicService != null) {
-            return new ResponseEntity<>(updatedPublicService, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
-
-    // Additional endpoints for filtering and updating public services
+// Existing mappings...
 
     @GetMapping("/getPublicServicesByBuildingId")
     public ResponseEntity<List<PublicServices>> getPublicServicesByBuildingId(@RequestParam String buildingId) {
@@ -73,7 +63,7 @@ public class PublicServicesController {
     }
 
     @GetMapping("/getPublicServicesByTypeOfService")
-    public ResponseEntity<List<PublicServices>> getPublicServicesByTypeOfService(@RequestParam String typeOfService) {
+    public ResponseEntity<List<PublicServices>> getPublicServicesByTypeOfService(@RequestParam TypeOfService typeOfService) {
         List<PublicServices> publicServices = publicServicesService.getPublicServicesByTypeOfService(typeOfService);
         if (!publicServices.isEmpty()) {
             return new ResponseEntity<>(publicServices, HttpStatus.OK);
@@ -104,22 +94,10 @@ public class PublicServicesController {
         }
     }
 
-    @PutMapping("/updateBuildingId")
-    public ResponseEntity<PublicServices> updateBuildingId(
-            @RequestParam String publicServiceId,
-            @RequestParam String buildingId) {
-        PublicServices updatedPublicService = publicServicesService.updateBuildingId(publicServiceId, buildingId);
-        if (updatedPublicService != null) {
-            return new ResponseEntity<>(updatedPublicService, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
-
     @PutMapping("/updateTypeOfService")
     public ResponseEntity<PublicServices> updateTypeOfService(
             @RequestParam String publicServiceId,
-            @RequestParam String typeOfService) {
+            @RequestParam TypeOfService typeOfService) {
         PublicServices updatedPublicService = publicServicesService.updateTypeOfService(publicServiceId, typeOfService);
         if (updatedPublicService != null) {
             return new ResponseEntity<>(updatedPublicService, HttpStatus.OK);
@@ -163,6 +141,7 @@ public class PublicServicesController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
     @DeleteMapping("/deletePublicService")
     public ResponseEntity<String> deletePublicService(@RequestParam String publicServiceId) {
         boolean deleted = publicServicesService.deletePublicService(publicServiceId);

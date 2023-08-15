@@ -26,46 +26,40 @@ public class FacultyServices {
         return facultyRepository.findByFacultyName(facultyName);
     }
 
-    public String updateFacultyKeyword(String facultyName, String keyword) {
+    public Faculty updateFacultyKeyword(String facultyName, String keyword) {
         Faculty faculty = facultyRepository.findByFacultyName(facultyName);
         if (faculty != null) {
             faculty.setKeyword(keyword);
             facultyRepository.save(faculty);
-            return facultyName + " updated successfully!!";
-        } else {
-            return "Faculty with name: " + facultyName + " not found";
+            return faculty;
         }
+        return null;
     }
 
-    public String updateFacultyDescription(String facultyName, String description) {
+    public Faculty updateFacultyDescription(String facultyName, String description) {
         Faculty faculty = facultyRepository.findByFacultyName(facultyName);
         if (faculty != null) {
             faculty.setDescription(description);
             facultyRepository.save(faculty);
-            return facultyName + " updated successfully!!";
-        } else {
-            return "Faculty with name: " + facultyName + " not found";
+            return faculty;
         }
+        return null;
     }
 
-    public String updateFacultyFloor(String facultyName, int floor) {
+    public Faculty updateFacultyFloor(String facultyName, int floor) {
         Faculty faculty = facultyRepository.findByFacultyName(facultyName);
         if (faculty != null) {
             faculty.setFloor(floor);
             facultyRepository.save(faculty);
-            return facultyName + " updated successfully!!";
-        } else {
-            return "Faculty with name: " + facultyName + " not found";
+            return faculty;
         }
+            return null;
     }
 
-    public String deleteFaculty(String facultyName) {
+    public void deleteFaculty(String facultyName) {
         Faculty faculty = facultyRepository.findByFacultyName(facultyName);
         if (faculty != null) {
             facultyRepository.delete(faculty);
-            return facultyName + " deleted successfully!";
-        } else {
-            return "Faculty with name: " + facultyName + " not found";
         }
     }
 }

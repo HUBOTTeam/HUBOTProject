@@ -14,13 +14,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Faculty {
     @Id
     private String facultyId;
-    @Indexed(unique = true)
-    private String facultyName;
-    private String keyword;
-    private String description;
-    @Indexed(unique = true)
-    private int facultyLocationId;
-    private int floor;
     @DBRef
     private Building building;
+    @Indexed(unique = true)
+    private String facultyName;
+    @Indexed(unique = true)
+    private int facultyLocationId;
+    private String keyword;
+    private String description;
+    private int floor;
 }

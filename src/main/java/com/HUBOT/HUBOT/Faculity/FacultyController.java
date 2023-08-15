@@ -44,42 +44,37 @@ public class FacultyController {
     }
 
     @PutMapping(value = "updateFacultyKeyword")
-    public ResponseEntity<String> updateFacultyKeyword(@RequestParam String facultyName, @RequestParam String keyword){
-        String result = facultyServices.updateFacultyKeyword(facultyName, keyword);
-        if (result.equals("Faculty with name: " + facultyName + " not found")) {
-            return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+    public ResponseEntity<Faculty> updateFacultyKeyword(@RequestParam String facultyName, @RequestParam String keyword){
+        Faculty faculty = facultyServices.updateFacultyKeyword(facultyName, keyword);
+        if (faculty != null) {
+            return new ResponseEntity<>(faculty, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(result, HttpStatus.OK);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
     @PutMapping(value = "updateFacultyDescription")
-    public ResponseEntity<String> updateFacultyDescription(@RequestParam String facultyName, @RequestParam String description){
-        String result = facultyServices.updateFacultyDescription(facultyName, description);
-        if (result.equals("Faculty with name: " + facultyName + " not found")) {
-            return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+    public ResponseEntity<Faculty> updateFacultyDescription(@RequestParam String facultyName, @RequestParam String description){
+        Faculty faculty = facultyServices.updateFacultyDescription(facultyName, description);
+        if (faculty != null) {
+            return new ResponseEntity<>(faculty, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(result, HttpStatus.OK);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
     @PutMapping(value = "updateFacultyFloor")
-    public ResponseEntity<String> updateFacultyFloor(@RequestParam String facultyName, @RequestParam int floor){
-        String result = facultyServices.updateFacultyFloor(facultyName, floor);
-        if (result.equals("Faculty with name: " + facultyName + " not found")) {
-            return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+    public ResponseEntity<Faculty> updateFacultyFloor(@RequestParam String facultyName, @RequestParam int floor){
+        Faculty faculty = facultyServices.updateFacultyFloor(facultyName, floor);
+        if (faculty != null) {
+            return new ResponseEntity<>(faculty, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(result, HttpStatus.OK);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
     @DeleteMapping(value = "deleteFaculty")
-    public ResponseEntity<String> deleteFaculty(@RequestParam String facultyName){
-        String result = facultyServices.deleteFaculty(facultyName);
-        if (result.endsWith(" deleted successfully!")) {
-            return new ResponseEntity<>(result, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
-        }
+    public void deleteFaculty(@RequestParam String facultyName) {
+        facultyServices.deleteFaculty(facultyName);
     }
 }

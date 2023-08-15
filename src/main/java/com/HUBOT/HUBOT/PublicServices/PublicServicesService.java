@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.PublicServices;
 
+import com.HUBOT.HUBOT.Enum.TypeOfService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -7,6 +8,7 @@ import java.util.List;
 
 @Service
 public class PublicServicesService {
+
     private final PublicServicesRepository publicServicesRepository;
 
     @Autowired
@@ -15,7 +17,7 @@ public class PublicServicesService {
     }
 
     public PublicServices addPublicService(PublicServices publicService) {
-        return publicServicesRepository.insert(publicService);
+        return publicServicesRepository.save(publicService);
     }
 
     public PublicServices getPublicServiceById(String publicServiceId) {
@@ -26,26 +28,11 @@ public class PublicServicesService {
         return publicServicesRepository.findAll();
     }
 
-    public PublicServices updatePublicService(PublicServices publicService) {
-        return publicServicesRepository.save(publicService);
-    }
-
-    public boolean deletePublicService(String publicServiceId) {
-        PublicServices existingPublicService = publicServicesRepository.findById(publicServiceId).orElse(null);
-        if (existingPublicService != null) {
-            publicServicesRepository.delete(existingPublicService);
-            return true;
-        }
-        return false;
-    }
-
-    // Additional methods for filtering and updating public services
-
     public List<PublicServices> getPublicServicesByBuildingId(String buildingId) {
         return publicServicesRepository.findByBuildingId(buildingId);
     }
 
-    public List<PublicServices> getPublicServicesByTypeOfService(String typeOfService) {
+    public List<PublicServices> getPublicServicesByTypeOfService(TypeOfService typeOfService) {
         return publicServicesRepository.findByTypeOfService(typeOfService);
     }
 
@@ -58,29 +45,17 @@ public class PublicServicesService {
         if (publicService != null) {
             publicService.setPublicServiceLocationId(publicServiceLocationId);
             return publicServicesRepository.save(publicService);
-        } else {
-            return null;
         }
+        return null;
     }
 
-    public PublicServices updateBuildingId(String publicServiceId, String buildingId) {
-        PublicServices publicService = publicServicesRepository.findById(publicServiceId).orElse(null);
-        if (publicService != null) {
-            publicService.setBuildingId(buildingId);
-            return publicServicesRepository.save(publicService);
-        } else {
-            return null;
-        }
-    }
-
-    public PublicServices updateTypeOfService(String publicServiceId, String typeOfService) {
+    public PublicServices updateTypeOfService(String publicServiceId, TypeOfService typeOfService) {
         PublicServices publicService = publicServicesRepository.findById(publicServiceId).orElse(null);
         if (publicService != null) {
             publicService.setTypeOfService(typeOfService);
             return publicServicesRepository.save(publicService);
-        } else {
-            return null;
         }
+        return null;
     }
 
     public PublicServices updatePublicServicePlaceName(String publicServiceId, String publicServicePlaceName) {
@@ -88,9 +63,8 @@ public class PublicServicesService {
         if (publicService != null) {
             publicService.setPublicServicePlaceName(publicServicePlaceName);
             return publicServicesRepository.save(publicService);
-        } else {
-            return null;
         }
+        return null;
     }
 
     public PublicServices updateKeyword(String publicServiceId, String keyword) {
@@ -98,9 +72,8 @@ public class PublicServicesService {
         if (publicService != null) {
             publicService.setKeyword(keyword);
             return publicServicesRepository.save(publicService);
-        } else {
-            return null;
         }
+        return null;
     }
 
     public PublicServices updateDescription(String publicServiceId, String description) {
@@ -108,9 +81,16 @@ public class PublicServicesService {
         if (publicService != null) {
             publicService.setDescription(description);
             return publicServicesRepository.save(publicService);
-        } else {
-            return null;
         }
+        return null;
     }
 
+    public boolean deletePublicService(String publicServiceId) {
+        PublicServices publicService = publicServicesRepository.findById(publicServiceId).orElse(null);
+        if (publicService != null) {
+            publicServicesRepository.delete(publicService);
+            return true;
+        }
+        return false;
+    }
 }
