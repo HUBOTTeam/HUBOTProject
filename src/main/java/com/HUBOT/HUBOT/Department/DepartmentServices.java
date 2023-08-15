@@ -15,9 +15,9 @@ public class DepartmentServices {
         this.departmentRepository = departmentRepository;
     }
 
-    public String addDepartment(Department department) {
-        departmentRepository.save(department);
-        return "Department added successfully.";
+    public Department addDepartment(Department department) {
+        return departmentRepository.save(department);
+
     }
 
     public List<Department> getAllDepartments() {
@@ -31,6 +31,12 @@ public class DepartmentServices {
     public List<Department> getDepartmentsByName(String departmentName) {
         return departmentRepository.findByDepartmentName(departmentName);
     }
+
+    public List<Department> getDepartmentsByFaculty(String departmentName,String facultyId) {
+        return departmentRepository.findDepartmentsByFaculty(departmentName,facultyId);
+
+    }
+
 
     public String editKeyword(String departmentName, String keyword) {
         List<Department> departments = departmentRepository.findByDepartmentName(departmentName);
@@ -56,4 +62,5 @@ public class DepartmentServices {
         departmentRepository.save(department);
         return "Department updated successfully.";
     }
+
 }

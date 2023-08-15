@@ -20,9 +20,12 @@ public class DepartmentController {
     }
 
     @PostMapping(value = "addDepartment")
-    public ResponseEntity<String> addDepartment(@RequestBody Department department){
-        String response = departmentServices.addDepartment(department);
-        return new ResponseEntity<>(response, HttpStatus.OK);
+    public ResponseEntity<Department> addDepartment(@RequestBody Department department){
+        Department addDepartment = departmentServices.addDepartment(department);
+        if (addDepartment != null)
+        return new ResponseEntity<>(addDepartment, HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @GetMapping(value = "getAllDepartments")
@@ -47,6 +50,15 @@ public class DepartmentController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+    @GetMapping(value = "getDepartmentsByFaculty")
+    public ResponseEntity<List<Department>> getDepartmentsByFaculty(@RequestParam String departmentName,@RequestParam String facultyId){
+        List<Department> departments = departmentServices.getDepartmentsByFaculty(departmentName,facultyId);
+        if (!departments.isEmpty()) {
+            return new ResponseEntity<>(departments, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
     @PutMapping(value = "editKeyword")
     public ResponseEntity<String> editKeyword(@RequestParam String departmentName, @RequestParam String keyword){
@@ -54,15 +66,15 @@ public class DepartmentController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @DeleteMapping(value = "deleteDepartment")
-    public ResponseEntity<String> deleteDepartment(@RequestParam String departmentName){
-        String response = departmentServices.deleteDepartment(departmentName);
-        return new ResponseEntity<>(response, HttpStatus.OK);
-    }
 
     @PutMapping(value = "updateDepartment")
     public ResponseEntity<String> updateDepartment(@RequestBody Department department){
         String response = departmentServices.updateDepartment(department);
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+    @DeleteMapping(value = "deleteDepartment")
+    public ResponseEntity<String> deleteDepartment(@RequestParam String departmentName){
+        String response = departmentServices.deleteDepartment(departmentName);
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }

@@ -17,15 +17,15 @@ import java.time.LocalDateTime;
 public class Department {
     @Id
     private String departmentId;
-    @Indexed(unique = true)
-    private String departmentName;
-    private String keyword;
-    private String description;
-    @Indexed(unique = true)
-    private int departmentLocationId;
-    private int floor;
     @DBRef
     private Faculty faculty;
+    @Indexed(unique = true)
+    private String departmentName;
+    @Indexed(unique = true)
+    private int departmentLocationId;
+    private String keyword;
+    private String description;
+    private int floor;
     @CreatedDate
     private LocalDateTime addedTime;
 }
