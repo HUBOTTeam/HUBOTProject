@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.Lab;
 
 import com.HUBOT.HUBOT.Building.Building;
+import com.HUBOT.HUBOT.Enum.Category;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,11 +23,11 @@ public class Lab {
     private String labId;
     @DBRef
     private Building building;
-    private int labNumber;
-    private String category;
-    private String keyword;
     @Indexed(unique = true)
     private int labLocationId;
+    private Category category;
+    private String keyword;
+    private int labNumber;
     private int floor;
     @CreatedDate
     private LocalDateTime addedDate;

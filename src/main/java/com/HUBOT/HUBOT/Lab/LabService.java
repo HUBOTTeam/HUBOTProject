@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Lab;
 
+import com.HUBOT.HUBOT.Enum.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,12 +43,19 @@ public class LabService {
     }
 
     // Get all labs
+    public List<Lab> findLabByBuildingIdAndCategory(String buildingId, Category category) {
+        return labRepository.findLabByBuildingIdAndCategory(buildingId,category);
+    }
+
+    public List<Lab> findLabByCategory(Category category) {
+        return findLabByCategory(category);
+    }
     public List<Lab> getAllLabs() {
         return labRepository.findAll();
     }
 
     // Update the category of a lab
-    public Lab updateLabCategory(String labId, String category) {
+    public Lab updateLabCategory(String labId, Category category) {
         Lab lab = labRepository.findById(labId).orElse(null);
         if (lab != null) {
             lab.setCategory(category);

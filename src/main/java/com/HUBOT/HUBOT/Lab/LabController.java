@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Lab;
 
+import com.HUBOT.HUBOT.Enum.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -51,7 +52,24 @@ public class LabController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
+    @GetMapping("/findLabByBuildingIdAndCategory")
+    public ResponseEntity<List<Lab>> findLabByBuildingIdAndCategory(@RequestParam String buildingId,Category category) {
+        List<Lab> labs = labService.findLabByBuildingIdAndCategory(buildingId,category);
+        if (!labs.isEmpty()) {
+            return new ResponseEntity<>(labs, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+    @GetMapping("/findLabByCategory")
+    public ResponseEntity<List<Lab>> findLabByCategory(@RequestParam Category category) {
+        List<Lab> labs = labService.findLabByCategory(category);
+        if (!labs.isEmpty()) {
+            return new ResponseEntity<>(labs, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
     // Endpoint to get all labs
     @GetMapping("/getAllLabs")
     public ResponseEntity<List<Lab>> getAllLabs() {
@@ -80,7 +98,7 @@ public class LabController {
     @PutMapping("/updateLabCategory")
     public ResponseEntity<Lab> updateLabCategory(
             @RequestParam String labId,
-            @RequestParam String category) {
+            @RequestParam Category category) {
         Lab updatedLab = labService.updateLabCategory(labId, category);
         if (updatedLab != null) {
             return new ResponseEntity<>(updatedLab, HttpStatus.OK);
