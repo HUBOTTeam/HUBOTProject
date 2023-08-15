@@ -2,6 +2,7 @@ package com.HUBOT.HUBOT.WorshipArea;
 
 import com.HUBOT.HUBOT.Building.Building;
 import com.HUBOT.HUBOT.Enum.Gender;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
@@ -9,6 +10,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 @Data
+@AllArgsConstructor
 @NoArgsConstructor
 @Document("worshipAreas")
 public class WorshipArea {
@@ -21,13 +23,4 @@ public class WorshipArea {
     private Gender gender;
     private int floor;
     private String keyword;
-
-    public WorshipArea(Building building, Gender gender, int floor,String keyword, String worshipAreaLocationId) {
-        this.building = building;
-        this.gender = gender;
-        this.floor = floor;
-        this.keyword = keyword;
-        this.worshipAreaLocationId = worshipAreaLocationId;
-    }
-
 }
