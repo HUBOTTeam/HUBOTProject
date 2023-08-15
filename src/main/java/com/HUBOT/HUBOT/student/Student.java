@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.student;
 
 import com.HUBOT.HUBOT.Department.Department;
+import com.HUBOT.HUBOT.Major.Major;
 import com.HUBOT.HUBOT.Schedual.Schedule;
 import com.HUBOT.HUBOT.User.User;
 import lombok.AllArgsConstructor;
@@ -23,5 +24,8 @@ public class Student {
     private User user;
     @DBRef
     private Department department;
-    private String name;
+    @DBRef
+    private Major major;
+    private String firstName;
+    private String lastName;
 }

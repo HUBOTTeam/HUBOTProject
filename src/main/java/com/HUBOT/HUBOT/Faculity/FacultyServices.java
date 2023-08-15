@@ -26,7 +26,6 @@ public class FacultyServices {
         return facultyRepository.findByFacultyName(facultyName);
     }
 
-
     public String updateFacultyKeyword(String facultyName, String keyword) {
         Faculty faculty = facultyRepository.findByFacultyName(facultyName);
         if (faculty != null) {

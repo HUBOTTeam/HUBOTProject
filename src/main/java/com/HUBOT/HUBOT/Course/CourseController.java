@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Course;
 
+import com.HUBOT.HUBOT.Enum.CourseType;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,7 +47,15 @@ public class CourseController {
             return new ResponseEntity<>(course,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
-
+    //used to find specific courses by type in any department
+//    @GetMapping(value = "getAllCoursesByDepartmentAndCourseType")
+//    public ResponseEntity<List<Course>> getAllObligatoryCoursesByDepartment(@RequestParam String departmentId, @RequestParam CourseType courseType){
+//        List<Course>courses = courseServices.getAllObligatoryCoursesByDepartment(departmentId,courseType);
+//        if (courses != null)
+//            return new ResponseEntity<>(courses,HttpStatus.OK);
+//
+//        else return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//    }
     @PutMapping(value = "updateCourseName")
     public ResponseEntity<Course> updateCourseName(@RequestParam int courseNumber , @RequestParam String courseName){
         Course course = courseServices.updateCourseName(courseNumber,courseName);

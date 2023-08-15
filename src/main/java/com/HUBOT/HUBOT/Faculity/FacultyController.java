@@ -19,10 +19,6 @@ public class FacultyController {
         return facultyServices.addFaculty(faculty);
     }
 
-    @GetMapping(value = "getAllFaculties")
-    public List<Faculty> getAllFaculties(){
-        return facultyServices.getAllFaculties();
-    }
     @GetMapping(value = "getFacultyById")
     public ResponseEntity<Faculty> getFacultyById(@RequestParam String facultyId){
         Faculty faculty = facultyServices.getFacultyById(facultyId);
@@ -32,7 +28,11 @@ public class FacultyController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
+    @GetMapping(value = "getAllFaculties")
+    public ResponseEntity<List<Faculty>> getAllFaculties() {
+        List<Faculty> faculties = facultyServices.getAllFaculties();
+        return new ResponseEntity<>(faculties, HttpStatus.OK);
+    }
     @GetMapping(value = "getFacultyByName")
     public ResponseEntity<Faculty> getFacultyByName(@RequestParam String facultyName){
         Faculty faculty = facultyServices.getFacultyByName(facultyName);

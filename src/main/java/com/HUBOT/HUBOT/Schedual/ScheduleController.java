@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.Schedual;
 
 import com.HUBOT.HUBOT.Course.Course;
+import com.HUBOT.HUBOT.Enum.Semester;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +20,7 @@ public class ScheduleController {
 
     @PostMapping("/createSchedule")
     public ResponseEntity<Schedule> createSchedule(@RequestParam String studentId,
-                                                   @RequestParam int semester,
+                                                   @RequestParam Semester semester,
                                                    @RequestParam int year) {
         Schedule createdSchedule = scheduleService.createSchedule(studentId, semester, year);
         if (createdSchedule != null) {
@@ -42,7 +43,7 @@ public class ScheduleController {
 
     @GetMapping("/getScheduleByStudentId")
     public ResponseEntity<Schedule> getScheduleByStudentId(@RequestParam String studentId,
-                                                           @RequestParam int semester,
+                                                           @RequestParam Semester semester,
                                                            @RequestParam int year) {
         Schedule schedule = scheduleService.getScheduleByStudentId(studentId, semester, year);
         if (schedule != null) {
@@ -62,7 +63,7 @@ public class ScheduleController {
     }
 
     @PutMapping("/updateSemesterAndYear")
-    public ResponseEntity<Schedule> updateSemesterAndYear(@RequestParam String studentId, @RequestParam int semester, @RequestParam int year) {
+    public ResponseEntity<Schedule> updateSemesterAndYear(@RequestParam String studentId, @RequestParam Semester semester, @RequestParam int year) {
         Schedule updatedSchedule = scheduleService.updateSemesterAndYear(studentId, semester, year);
         if (updatedSchedule != null) {
             return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
@@ -72,7 +73,7 @@ public class ScheduleController {
     }
     @PostMapping("/transferCoursesToTakenCourses")
     public ResponseEntity<Schedule> transferCoursesToTakenCourses(@RequestParam String studentId,
-                                                                  @RequestParam int semester,
+                                                                  @RequestParam Semester semester,
                                                                   @RequestParam int year,
                                                                   @RequestParam double grade) {
         Schedule updatedSchedule = scheduleService.transferCoursesToTakenCourses(studentId, semester, year, grade);

@@ -1,6 +1,6 @@
 package com.HUBOT.HUBOT.WorshipArea;
 
-import com.HUBOT.HUBOT.Gender;
+import com.HUBOT.HUBOT.Enum.Gender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
 package com.HUBOT.HUBOT.BathRoom;
 
 import com.HUBOT.HUBOT.Building.Building;
-import com.HUBOT.HUBOT.Gender;
+import com.HUBOT.HUBOT.Enum.Gender;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;

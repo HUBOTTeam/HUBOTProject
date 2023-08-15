@@ -2,7 +2,7 @@ package com.HUBOT.HUBOT.Schedual;
 
 import com.HUBOT.HUBOT.Course.Course;
 import com.HUBOT.HUBOT.Notes.Note;
-import com.HUBOT.HUBOT.student.Student;
+import com.HUBOT.HUBOT.Enum.Semester;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,8 +20,9 @@ import java.util.List;
 public class Schedule {
     @Id
     private String id;
+    @DBRef
     private String studentId;
-    private int semester;
+    private Semester semester;
     private int year;
     @DBRef
     private List<Course> courses = new ArrayList<>();

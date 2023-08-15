@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.Schedual;
 
 import com.HUBOT.HUBOT.Course.Course;
+import com.HUBOT.HUBOT.Enum.Semester;
 import com.HUBOT.HUBOT.TakenCourses.TakenCourses;
 import com.HUBOT.HUBOT.TakenCourses.TakenCoursesService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ public class ScheduleService {
         this.takenCoursesService = takenCoursesService;
     }
 
-    public Schedule createSchedule(String studentId, int semester, int year) {
+    public Schedule createSchedule(String studentId, Semester semester, int year) {
         Schedule existingSchedule = scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
         if (existingSchedule == null) {
             Schedule newSchedule = new Schedule();
@@ -45,11 +46,11 @@ public class ScheduleService {
         return scheduleRepository.save(schedule);
     }
 
-    public Schedule getScheduleByStudentId(String studentId, int semester, int year) {
+    public Schedule getScheduleByStudentId(String studentId, Semester semester, int year) {
         return scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
     }
 
-    public Schedule updateSemesterAndYear(String studentId, int semester, int year) {
+    public Schedule updateSemesterAndYear(String studentId, Semester semester, int year) {
         Schedule schedule = scheduleRepository.findByStudentId(studentId);
         if (schedule != null) {
             schedule.setSemester(semester);
@@ -68,7 +69,7 @@ public class ScheduleService {
         }
         return null;
     }
-    public Schedule transferCoursesToTakenCourses(String studentId, int semester, int year, double grade) {
+    public Schedule transferCoursesToTakenCourses(String studentId, Semester semester, int year, double grade) {
         Schedule schedule = scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
         if (schedule != null) {
             for (Course course : schedule.getCourses()) {

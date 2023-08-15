@@ -1,7 +1,7 @@
 package com.HUBOT.HUBOT.WorshipArea;
 
 import com.HUBOT.HUBOT.Building.Building;
-import com.HUBOT.HUBOT.Gender;
+import com.HUBOT.HUBOT.Enum.Gender;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;

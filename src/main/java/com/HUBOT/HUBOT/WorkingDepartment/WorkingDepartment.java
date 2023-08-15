@@ -1,7 +1,6 @@
 package com.HUBOT.HUBOT.WorkingDepartment;
 
 import com.HUBOT.HUBOT.Building.Building;
-import com.HUBOT.HUBOT.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

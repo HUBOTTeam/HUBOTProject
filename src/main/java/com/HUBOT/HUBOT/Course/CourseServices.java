@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Course;
 
+import com.HUBOT.HUBOT.Enum.CourseType;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -90,4 +91,8 @@ public class CourseServices {
             return course;
         }
     }
+    //used to find specific courses by type in any department
+//    public List<Course> getAllObligatoryCoursesByDepartment(String departmentId, CourseType courseType) {
+//        return courseRepositry.fineCourseByCourseTypAndDepartment(courseType,departmentId);
+//    }
 }

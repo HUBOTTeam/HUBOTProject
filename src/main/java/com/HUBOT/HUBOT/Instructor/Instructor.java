@@ -1,7 +1,7 @@
 package com.HUBOT.HUBOT.Instructor;
 
 import com.HUBOT.HUBOT.Department.Department;
-import com.HUBOT.HUBOT.Gender;
+import com.HUBOT.HUBOT.Enum.Gender;
 import com.HUBOT.HUBOT.Office.Office;
 import lombok.AllArgsConstructor;
 import lombok.Data;
