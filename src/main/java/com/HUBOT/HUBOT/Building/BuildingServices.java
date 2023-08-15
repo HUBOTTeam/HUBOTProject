@@ -37,6 +37,14 @@ public class BuildingServices {
         return null;
     }
 
+    public Building updateBuildingDescription(String buildingName, String description) {
+        Building building = buildingRepository.findByBuildingName(buildingName);
+        if (building != null) {
+            building.setDescription(description);
+            return buildingRepository.save(building);
+        }
+        return null;
+    }
     public Building updateBuildingName(String buildingName, String newBuildingName) {
         Building building = buildingRepository.findByBuildingName(buildingName);
         if (building != null) {
@@ -49,4 +57,5 @@ public class BuildingServices {
     public void deleteBuilding(String buildingName) {
         buildingRepository.deleteByBuildingName(buildingName);
     }
+
 }

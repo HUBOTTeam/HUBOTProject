@@ -52,6 +52,15 @@ public class BuildingController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+    @PutMapping("/updateBuildingDescription")
+    public ResponseEntity<Building> updateBuildingDescription(@RequestParam String buildingName, @RequestParam String description) {
+        Building updatedBuilding = buildingService.updateBuildingDescription(buildingName, description);
+        if (updatedBuilding != null) {
+            return new ResponseEntity<>(updatedBuilding, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
     @PutMapping("/updateBuildingName")
     public ResponseEntity<Building> updateBuildingName(@RequestParam String buildingName, @RequestParam String buildingNewName) {

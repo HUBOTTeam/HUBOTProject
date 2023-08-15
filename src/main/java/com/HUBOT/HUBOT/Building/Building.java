@@ -3,6 +3,7 @@ package com.HUBOT.HUBOT.Building;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Document("buildings")
 public class Building {
 
@@ -24,15 +26,4 @@ public class Building {
     private int locationId;
     @CreatedDate
     private LocalDateTime addedDate;//date that building created
-
-    public Building() {
-    }
-
-    public Building(String buildingName, String description, String keyword , int locationId)  {
-        this.buildingName = buildingName;
-        this.description = description;
-        this.locationId = locationId;
-        this.keyword = keyword;
-    }
-
 }
