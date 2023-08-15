@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -18,10 +19,11 @@ public class ClassRoom {
     private String classRoomId;
     @DBRef
     private Building building;
-    private int classRoomNumber;
-    private int capacity;
+    @Indexed(unique = true)
     private int classRoomLocationId;
     private int floor;
+    private int classRoomNumber;
+    private int capacity;
     private String keyword;
     @CreatedDate
     private LocalDateTime addedDate;
