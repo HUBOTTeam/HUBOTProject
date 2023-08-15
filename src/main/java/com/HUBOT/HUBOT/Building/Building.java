@@ -21,9 +21,10 @@ public class Building {
     private String buildingId;
     @Indexed(unique = true)
     private String buildingName;
+    @Indexed(unique = true)
+    private int locationId;
     private String description;
     private String keyword;
-    private int locationId;
     @CreatedDate
     private LocalDateTime addedDate;//date that building created
 }
