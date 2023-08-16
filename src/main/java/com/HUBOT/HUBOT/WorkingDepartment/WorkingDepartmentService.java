@@ -22,31 +22,34 @@ public class WorkingDepartmentService {
     public WorkingDepartment getWorkingDepartmentById(String workingDepartmentId) {
         return workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
     }
+    public WorkingDepartment getWorkingDepartmentByName(String workingDepartmentName) {
+        return workingDepartmentRepository.findByWorkingDepartmentName(workingDepartmentName);
+    }
 
     public List<WorkingDepartment> getAllWorkingDepartments() {
         return workingDepartmentRepository.findAll();
     }
 
 
-    public WorkingDepartment updateBuildingReference(String workingDepartmentId, Building building) {
-        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
-        if (workingDepartment != null) {
-            workingDepartment.setBuilding(building);
-            return workingDepartmentRepository.save(workingDepartment);
-        } else {
-            return null;
-        }
-    }
-
-    public WorkingDepartment updateWorkingDepartmentLocationId(String workingDepartmentId, String workingDepartmentLocationId) {
-        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
-        if (workingDepartment != null) {
-            workingDepartment.setWorkingDepartmentLocationId(workingDepartmentLocationId);
-            return workingDepartmentRepository.save(workingDepartment);
-        } else {
-            return null;
-        }
-    }
+//    public WorkingDepartment updateBuildingReference(String workingDepartmentId, Building building) {
+//        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
+//        if (workingDepartment != null) {
+//            workingDepartment.setBuilding(building);
+//            return workingDepartmentRepository.save(workingDepartment);
+//        } else {
+//            return null;
+//        }
+//    }
+//
+//    public WorkingDepartment updateWorkingDepartmentLocationId(String workingDepartmentId, String workingDepartmentLocationId) {
+//        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
+//        if (workingDepartment != null) {
+//            workingDepartment.setWorkingDepartmentLocationId(workingDepartmentLocationId);
+//            return workingDepartmentRepository.save(workingDepartment);
+//        } else {
+//            return null;
+//        }
+//    }
 
     public WorkingDepartment updateWorkingDepartmentName(String workingDepartmentId, String workingDepartmentName) {
         WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
@@ -78,15 +81,15 @@ public class WorkingDepartmentService {
         }
     }
 
-    public WorkingDepartment updateWorkingDepartmentFloor(String workingDepartmentId, int floor) {
-        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
-        if (workingDepartment != null) {
-            workingDepartment.setFloor(floor);
-            return workingDepartmentRepository.save(workingDepartment);
-        } else {
-            return null;
-        }
-    }
+//    public WorkingDepartment updateWorkingDepartmentFloor(String workingDepartmentId, int floor) {
+//        WorkingDepartment workingDepartment = workingDepartmentRepository.findById(workingDepartmentId).orElse(null);
+//        if (workingDepartment != null) {
+//            workingDepartment.setFloor(floor);
+//            return workingDepartmentRepository.save(workingDepartment);
+//        } else {
+//            return null;
+//        }
+//    }
     public WorkingDepartment updateWorkingDepartment(WorkingDepartment workingDepartment) {
         return workingDepartmentRepository.save(workingDepartment);
     }
@@ -99,4 +102,5 @@ public class WorkingDepartmentService {
         }
         return false;
     }
+
 }

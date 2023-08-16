@@ -40,35 +40,21 @@ public class WorkingDepartmentController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+    @GetMapping("/getWorkingDepartmentByName")
+    public ResponseEntity<WorkingDepartment> getWorkingDepartmentByName(@RequestParam String workingDepartmentName) {
+        WorkingDepartment workingDepartment = workingDepartmentService.getWorkingDepartmentByName(workingDepartmentName);
+        if (workingDepartment != null) {
+            return new ResponseEntity<>(workingDepartment, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
 
     @GetMapping("/getAllWorkingDepartments")
     public ResponseEntity<List<WorkingDepartment>> getAllWorkingDepartments() {
         List<WorkingDepartment> workingDepartments = workingDepartmentService.getAllWorkingDepartments();
         if (!workingDepartments.isEmpty()) {
             return new ResponseEntity<>(workingDepartments, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
-    @PutMapping("/updateBuildingReference")
-    public ResponseEntity<WorkingDepartment> updateBuildingReference(
-            @RequestParam String workingDepartmentId,
-            @RequestBody Building building) {
-        WorkingDepartment updatedWorkingDepartment = workingDepartmentService.updateBuildingReference(workingDepartmentId, building);
-        if (updatedWorkingDepartment != null) {
-            return new ResponseEntity<>(updatedWorkingDepartment, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
-
-    @PutMapping("/updateWorkingDepartmentLocationId")
-    public ResponseEntity<WorkingDepartment> updateWorkingDepartmentLocationId(
-            @RequestParam String workingDepartmentId,
-            @RequestParam String workingDepartmentLocationId) {
-        WorkingDepartment updatedWorkingDepartment = workingDepartmentService.updateWorkingDepartmentLocationId(workingDepartmentId, workingDepartmentLocationId);
-        if (updatedWorkingDepartment != null) {
-            return new ResponseEntity<>(updatedWorkingDepartment, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
@@ -110,17 +96,6 @@ public class WorkingDepartmentController {
         }
     }
 
-    @PutMapping("/updateWorkingDepartmentFloor")
-    public ResponseEntity<WorkingDepartment> updateWorkingDepartmentFloor(
-            @RequestParam String workingDepartmentId,
-            @RequestParam int floor) {
-        WorkingDepartment updatedWorkingDepartment = workingDepartmentService.updateWorkingDepartmentFloor(workingDepartmentId, floor);
-        if (updatedWorkingDepartment != null) {
-            return new ResponseEntity<>(updatedWorkingDepartment, HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
     @PutMapping("/updateWorkingDepartment")
     public ResponseEntity<WorkingDepartment> updateWorkingDepartment(@RequestBody WorkingDepartment workingDepartment) {
         WorkingDepartment updatedWorkingDepartment = workingDepartmentService.updateWorkingDepartment(workingDepartment);

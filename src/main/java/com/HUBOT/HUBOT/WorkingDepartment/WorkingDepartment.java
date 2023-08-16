@@ -20,6 +20,7 @@ public class WorkingDepartment {
     private Building building; // Represents a reference to the Building document
     @Indexed(unique = true)
     private String workingDepartmentLocationId;
+    @Indexed(unique = true)
     private String workingDepartmentName;
     private String description;
     private String keyword;
