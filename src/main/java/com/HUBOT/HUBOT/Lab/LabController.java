@@ -61,9 +61,9 @@ public class LabController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-    @GetMapping("/findLabByCategory")
-    public ResponseEntity<List<Lab>> findLabByCategory(@RequestParam Category category) {
-        List<Lab> labs = labService.findLabByCategory(category);
+    @GetMapping("/getLabByCategory")
+    public ResponseEntity<List<Lab>> findLabsByCategory(@RequestParam Category category) {
+        List<Lab> labs = labService.findLabsByCategory(category);
         if (!labs.isEmpty()) {
             return new ResponseEntity<>(labs, HttpStatus.OK);
         } else {

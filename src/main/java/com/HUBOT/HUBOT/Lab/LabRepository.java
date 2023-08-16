@@ -12,6 +12,6 @@ public interface LabRepository extends MongoRepository<Lab, String> {
     List<Lab> findByBuildingBuildingId(String buildingId);
     List<Lab> findByBuildingBuildingIdAndLabNumber(String buildingId, int labNumber);
     List<Lab> findLabByBuildingIdAndCategory(String buildingId, Category category);
-    List<Lab> findLabByCategory(Category category);
+    List<Lab> findLabsByCategory(Category category);
 
 }

@@ -8,12 +8,8 @@ import java.util.List;
 
 @Service
 public class LabService {
-    private final LabRepository labRepository;
+    private  LabRepository labRepository;
 
-    @Autowired
-    public LabService(LabRepository labRepository) {
-        this.labRepository = labRepository;
-    }
 
     // Add a new lab with lab number uniqueness check
     public Lab addLab(Lab lab) {
@@ -47,8 +43,8 @@ public class LabService {
         return labRepository.findLabByBuildingIdAndCategory(buildingId,category);
     }
 
-    public List<Lab> findLabByCategory(Category category) {
-        return findLabByCategory(category);
+    public List<Lab> findLabsByCategory(Category category) {
+        return labRepository.findLabsByCategory(category);
     }
     public List<Lab> getAllLabs() {
         return labRepository.findAll();
