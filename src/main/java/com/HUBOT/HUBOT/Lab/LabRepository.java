@@ -9,9 +9,9 @@ import java.util.List;
 
 @Repository
 public interface LabRepository extends MongoRepository<Lab, String> {
-    List<Lab> findByBuildingBuildingId(String buildingId);
-    List<Lab> findByBuildingBuildingIdAndLabNumber(String buildingId, int labNumber);
-    List<Lab> findLabByBuildingIdAndCategory(String buildingId, Category category);
-    List<Lab> findLabsByCategory(Category category);
+//    List<Lab> findByBuildingBuildingId(String buildingId);
+//    List<Lab> findByBuildingBuildingIdAndLabNumber(String buildingId, int labNumber);
+//    List<Lab> findLabByBuildingIdAndCategory(String buildingId, Category category);
+//    List<Lab> findLabsByCategory(Category category);
 
 }
