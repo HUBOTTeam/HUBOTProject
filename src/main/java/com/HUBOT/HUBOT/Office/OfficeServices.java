@@ -1,41 +1,50 @@
 package com.HUBOT.HUBOT.Office;
 
+import com.HUBOT.HUBOT.Department.Department;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @AllArgsConstructor
 @Service
 public class OfficeServices {
 
-    private OfficeRepositry officeRepositry;
+    private OfficeRepository officeRepository;
 
     public Office addOffice(Office office) {
-        return officeRepositry.insert(office);
+        return officeRepository.insert(office);
     }
 
     public List<Office> getAllOffices() {
-        return officeRepositry.findAll();
+        return officeRepository.findAll();
     }
 
     public Office getOffice(String office_id) {
-        return officeRepositry.findById(office_id).orElse(null);
+        return officeRepository.findById(office_id).orElse(null);
+    }
+    public List<Office> getOfficeByDepartment(Department department) {
+        return officeRepository.findOfficeByDepartment(department);
     }
 
     public Office updateOfficeKeyword(String office_id, String keyword) {
-        Office office = officeRepositry.findById(office_id).orElse(null);
-        office.setKeyword(keyword);
-        return officeRepositry.save(office);
-    }
-    public ResponseEntity<String> deleteOffice(String officeId) {
-        if (officeRepositry.existsById(officeId)) {
-            officeRepositry.deleteById(officeId);
-            return new ResponseEntity<>("Office deleted successfully!", HttpStatus.OK);
+        Office office = officeRepository.findById(office_id).orElse(null);
+        if (office != null) {
+            office.setKeyword(keyword);
+             officeRepository.save(office);
+             return office;
         }
-            return new ResponseEntity<>("Deletion Error!!",HttpStatus.NOT_FOUND);
+            return null;
+    }
+    public Office deleteOffice(String officeId) {
+        Office office = officeRepository.findById(officeId).orElse(null);
+        if (office != null){
+            officeRepository.deleteById(officeId);
+            return office;
+        }
+        else
+            return null;
     }
 }
