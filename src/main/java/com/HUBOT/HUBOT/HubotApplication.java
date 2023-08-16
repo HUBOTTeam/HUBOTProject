@@ -11,5 +11,4 @@ public class HubotApplication {
 	public static void main(String[] args)   {
 		SpringApplication.run(HubotApplication.class, args);
 	}
-
 }
