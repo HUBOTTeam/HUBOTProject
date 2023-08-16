@@ -1,6 +1,6 @@
 package com.HUBOT.HUBOT.Instructor;
 
-import com.HUBOT.HUBOT.Enum.Gender;
+import com.HUBOT.HUBOT.Department.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,8 +32,8 @@ public class InstructorService {
         return instructorRepository.findByInstructorFirstNameAndInstructorLastName(firstName, lastName);
     }
 
-    public List<Instructor> getInstructorsByGender(Gender gender) {
-        return instructorRepository.findByGender(gender);
+    public List<Instructor> getInstructorsByDepartment(Department department) {
+        return instructorRepository.findInstructorByDepartment(department);
     }
 
     public Instructor updateInstructor(Instructor instructor) {

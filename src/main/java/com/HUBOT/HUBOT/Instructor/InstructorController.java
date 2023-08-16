@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Instructor;
 
+import com.HUBOT.HUBOT.Department.Department;
 import com.HUBOT.HUBOT.Enum.Gender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -61,9 +62,9 @@ public class InstructorController {
         }
     }
 
-    @GetMapping("/getInstructorsByGender")
-    public ResponseEntity<List<Instructor>> getInstructorsByGender(@RequestParam Gender gender) {
-        List<Instructor> instructors = instructorService.getInstructorsByGender(gender);
+    @GetMapping("/getInstructorsByDepartment")
+    public ResponseEntity<List<Instructor>> getInstructorsByDepartment(@RequestParam Department department) {
+        List<Instructor> instructors = instructorService.getInstructorsByDepartment(department);
         if (!instructors.isEmpty()) {
             return new ResponseEntity<>(instructors, HttpStatus.OK);
         } else {

@@ -21,5 +21,5 @@ public class Instructor {
     private Office office;
     private String instructorFirstName;
     private String instructorLastName;
-    Gender gender;
+    private Gender gender;
 }
