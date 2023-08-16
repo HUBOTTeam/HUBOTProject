@@ -8,16 +8,15 @@ import java.util.List;
 @Service
 public class WorkingEmployeeService {
 
-    private final WorkingEmployeeRepository workingEmployeeRepository;
-
-    @Autowired
-    public WorkingEmployeeService(WorkingEmployeeRepository workingEmployeeRepository) {
-        this.workingEmployeeRepository = workingEmployeeRepository;
-    }
+    private  WorkingEmployeeRepository workingEmployeeRepository;
 
     public WorkingEmployee addWorkingEmployee(WorkingEmployee workingEmployee) {
         return workingEmployeeRepository.save(workingEmployee);
     }
+
+//    public List<WorkingEmployee> getWorkingEmployeeByWorkingDepartment(String workingDepartmentId) {
+//        return workingEmployeeRepository.findAllWorkingEmployeeByWorkingDepartmentId(workingDepartmentId);
+//    }
 
     public List<WorkingEmployee> getAllWorkingEmployees() {
         return workingEmployeeRepository.findAll();

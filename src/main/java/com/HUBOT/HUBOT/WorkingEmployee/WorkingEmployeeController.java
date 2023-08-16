@@ -47,7 +47,15 @@ public class WorkingEmployeeController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
+//    @GetMapping("/getWorkingEmployeeByWorkingId")
+//    public ResponseEntity<List<WorkingEmployee>> getWorkingEmployeeByWorkingDepartment(@RequestParam String workingDepartmentId) {
+//        List<WorkingEmployee> workingEmployee = workingEmployeeService.getWorkingEmployeeByWorkingDepartment(workingDepartmentId);
+//        if (workingEmployee != null) {
+//            return new ResponseEntity<>(workingEmployee, HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
+//    }
     @GetMapping("/getWorkingEmployeeByFullName")
     public ResponseEntity<WorkingEmployee> getWorkingEmployeeByFullName(
             @RequestParam String firstName,
