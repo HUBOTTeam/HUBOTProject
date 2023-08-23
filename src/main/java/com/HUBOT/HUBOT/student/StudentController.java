@@ -2,6 +2,8 @@ package com.HUBOT.HUBOT.student;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,24 +15,52 @@ import java.util.Optional;
 public class StudentController {
 
     private StudentServices studentServices;
-    @GetMapping("/getAllStudents")
-    public List<Student> getAllStudents(){
-        return studentServices.getAllStudents();
-    }
     @PostMapping("/createStudent")
     public String addStudent(@RequestBody Student student){
         return studentServices.addStudent(student);
     }
+    @GetMapping("/getAllStudents")
+    public List<Student> getAllStudents(){
+        return studentServices.getAllStudents();
+    }
 
-//    @PutMapping("updateStudentName")
-//    public String updateStudentName(@RequestParam Student student){
-//        return studentServices.updateStudentName(student);
-//    }
+    @GetMapping("/getStudentById")
+    public ResponseEntity<Student> getStudentById(@RequestParam String id){
+        Student student = studentServices.getStudentById(id);
+        if (student != null)
+            return new ResponseEntity<>(student,HttpStatus.OK);
+        return new ResponseEntity<>(student,HttpStatus.NOT_FOUND);
+    }
 
-//    @DeleteMapping("/deleteStudent")
-//    public String deleteStudent(@RequestParam String id){
-//        return studentServices.deleteStudent(id);
-//    }
-//
+    @GetMapping("/getStudentByUserId")
+    public ResponseEntity<Student> getStudentByUserId(@RequestParam String id){
+        Student student = studentServices.getStudentByUserId(id);
+        if (student != null)
+            return new ResponseEntity<>(student,HttpStatus.OK);
+        return new ResponseEntity<>(student,HttpStatus.NOT_FOUND);
+    }
 
+    @GetMapping("/getStudentsByDepartmentId")
+    public ResponseEntity<List<Student>> getStudentsByDepartmentId(@RequestParam String departmentId){
+        List<Student> students = studentServices.getStudentsByDepartmentId(departmentId);
+        if (students != null)
+            return new ResponseEntity<>(students,HttpStatus.OK);
+        return new ResponseEntity<>(students,HttpStatus.NOT_FOUND);
+    }
+
+    @PutMapping("/updateStudentName")
+    public ResponseEntity<Student> updateStudentName(@RequestParam String id ,@RequestParam String name){
+        Student student = studentServices.updateStudentName(id,name);
+        if (student != null)
+            return new ResponseEntity<>(student,HttpStatus.OK);
+        return new ResponseEntity<>(student,HttpStatus.NOT_FOUND);
+    }
+
+    @DeleteMapping("/deleteStudent")
+    public ResponseEntity<String> deleteStudent(@RequestParam String id){
+        Boolean student = studentServices.deleteStudent(id);
+        if(student != null)
+            return new ResponseEntity<>("Student with id "+id+" was deleted successfully!!",HttpStatus.OK);
+        return new ResponseEntity<>("Student with "+id+" was deleted successfully!!",HttpStatus.NOT_FOUND);
+    }
 }

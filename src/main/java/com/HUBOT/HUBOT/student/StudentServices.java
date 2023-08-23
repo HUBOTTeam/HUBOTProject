@@ -1,18 +1,14 @@
 package com.HUBOT.HUBOT.student;
 
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
+@AllArgsConstructor
 @Service
 public class StudentServices {
 
-    //    @Autowired
-//    Student std;
-    @Autowired
     StudentRepositry studentRepositry;
 
     public List<Student> getAllStudents() {
@@ -23,18 +19,33 @@ public class StudentServices {
         return "Student added successfully";
     }
 
-//    public String updateStudentName(Student student) {
-//        if (studentRepositry.findById(student.getId()).isEmpty()) {
-//            System.out.println("There is no student with this id");
-//        } else {
-//            studentRepositry.save(student);
-//            System.out.println("Student name updated sucessfully!!");
-//        }
-//        return null;
-//    }
+    public Student getStudentById(String id) {
+        return studentRepositry.findById(id).get();
+    }
 
-//    public String deleteStudent(String Id) {
-//        studentRepositry.deleteById(Id);
-//        return "Student with this id "+ Id+" is removed successfully!!";
-//    }
+    public Student getStudentByUserId(String id) {
+        return studentRepositry.findByUserId(id);
+    }
+
+    public List<Student> getStudentsByDepartmentId(String departmentId) {
+        return studentRepositry.findByDepartmentDepartmentId(departmentId);
+    }
+
+    public Student updateStudentName(String id ,String name) {
+        Student student = studentRepositry.findById(id).get();
+        if (student != null){
+            student.setName(name);
+            return studentRepositry.save(student);
+        }
+        return null;
+    }
+
+
+    public Boolean deleteStudent(String id) {
+        Student student = studentRepositry.findById(id).get();
+        if (student != null){
+            studentRepositry.deleteById(id);
+            return true;}
+        return false;
+    }
 }
