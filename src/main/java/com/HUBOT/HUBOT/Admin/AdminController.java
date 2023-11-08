@@ -23,7 +23,7 @@ public class AdminController {
         this.adminServices = adminServices;
     }
 
-    @PostMapping(value = "createAdmin")//add admin account
+    @PostMapping(value = "createAdmin")//add an admin account
     public ResponseEntity<Admin> addAdmin(@RequestBody Admin admin){
         if (adminServices.addAdmin(admin) != null)
             return new ResponseEntity<>(admin, HttpStatus.OK);

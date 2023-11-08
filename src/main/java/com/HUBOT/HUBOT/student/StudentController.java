@@ -45,7 +45,7 @@ public class StudentController {
         List<Student> students = studentServices.getStudentsByDepartmentId(departmentId);
         if (students != null)
             return new ResponseEntity<>(students,HttpStatus.OK);
-        return new ResponseEntity<>(students,HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @PutMapping("/updateStudentName")
@@ -53,14 +53,14 @@ public class StudentController {
         Student student = studentServices.updateStudentName(id,name);
         if (student != null)
             return new ResponseEntity<>(student,HttpStatus.OK);
-        return new ResponseEntity<>(student,HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @DeleteMapping("/deleteStudent")
-    public ResponseEntity<String> deleteStudent(@RequestParam String id){
+    public ResponseEntity<Void> deleteStudent(@RequestParam String id){
         Boolean student = studentServices.deleteStudent(id);
         if(student != null)
-            return new ResponseEntity<>("Student with id "+id+" was deleted successfully!!",HttpStatus.OK);
-        return new ResponseEntity<>("Student with "+id+" was deleted successfully!!",HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 }

@@ -20,7 +20,7 @@ public class StudentServices {
     }
 
     public Student getStudentById(String id) {
-        return studentRepositry.findById(id).get();
+        return studentRepositry.findById(id).orElse(null);
     }
 
     public Student getStudentByUserId(String id) {
@@ -32,7 +32,7 @@ public class StudentServices {
     }
 
     public Student updateStudentName(String id ,String name) {
-        Student student = studentRepositry.findById(id).get();
+        Student student = studentRepositry.findById(id).orElse(null);
         if (student != null){
             student.setName(name);
             return studentRepositry.save(student);
@@ -42,10 +42,8 @@ public class StudentServices {
 
 
     public Boolean deleteStudent(String id) {
-        Student student = studentRepositry.findById(id).get();
-        if (student != null){
-            studentRepositry.deleteById(id);
-            return true;}
-        return false;
+        Student student = studentRepositry.findById(id).orElse(null);
+        studentRepositry.deleteById(id);
+        return true;
     }
 }
