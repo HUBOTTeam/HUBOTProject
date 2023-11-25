@@ -13,7 +13,11 @@ public class CourseServices {
     private CourseRepositry courseRepositry;
 
     public Course addCourse(Course course) {
+        Course course1 = courseRepositry.findByCourseNumber(course.getCourseNumber());
+        if (course1 == null)
             return courseRepositry.insert(course);
+        else
+            return null;
     }
 
     public List<Course> getAllCourses() {

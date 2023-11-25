@@ -118,22 +118,10 @@
 				<version>2.1.1</version>
 			</dependency>
 			<!-- Add more dependencies as needed -->
-		<dependency>
-			<groupId>org.languagetool</groupId>
-			<artifactId>language-en</artifactId>
-			<version>6.3</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.languagetool</groupId>
-			<artifactId>languagetool-core</artifactId>
-			<version>6.3</version>
-		</dependency>
 
 
+		</dependencies>
 
 
-
-	</dependencies>
 
 </project>

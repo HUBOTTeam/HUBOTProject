@@ -26,12 +26,12 @@ public class User {
     @JsonProperty("password")
     private String password;
 
-    @JsonProperty("email")
-    @Indexed(unique = true)
-    private String email;
-
-    @JsonProperty("gender")
-    private Gender gender;
+//    @JsonProperty("email")
+//    @Indexed(unique = true)
+//    private String email;
+//
+//    @JsonProperty("gender")
+//    private Gender gender;
 
     @CreatedDate
     private LocalDate dob;
@@ -39,12 +39,9 @@ public class User {
     @JsonCreator
     public User(
             @JsonProperty("userName") String userName,
-            @JsonProperty("password") String password,
-            @JsonProperty("email") String email,
-            @JsonProperty("gender") Gender gender) {
+            @JsonProperty("password") String password) {
         this.userName = userName;
         this.password = password;
-        this.email = email;
-        this.gender = gender;
     }
+
 }

@@ -21,13 +21,13 @@ public class ScheduleService {
         this.takenCoursesService = takenCoursesService;
     }
 
-    public Schedule createSchedule(String studentId, Semester semester, int year) {
-        Schedule existingSchedule = scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
+    public Schedule createSchedule(String studentId/*, Semester semester, int year*/) {
+        Schedule existingSchedule = scheduleRepository.findByStudentId/*AndSemesterAndYear*/(studentId/*, semester, year*/);
         if (existingSchedule == null) {
             Schedule newSchedule = new Schedule();
             newSchedule.setStudentId(studentId);
-            newSchedule.setSemester(semester);
-            newSchedule.setYear(year);
+//            newSchedule.setSemester(semester);
+//            newSchedule.setYear(year);
             return scheduleRepository.save(newSchedule);
         }
         return existingSchedule;
@@ -47,7 +47,7 @@ public class ScheduleService {
     }
 
     public Schedule getScheduleByStudentId(String studentId, Semester semester, int year) {
-        return scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
+        return scheduleRepository.findByStudentId/*AndSemesterAndYear*/(studentId/*, semester, year*/);
     }
 
     public Schedule updateSemesterAndYear(String studentId, Semester semester, int year) {
@@ -69,15 +69,15 @@ public class ScheduleService {
         }
         return null;
     }
-    public Schedule transferCoursesToTakenCourses(String studentId, Semester semester, int year, double grade) {
-        Schedule schedule = scheduleRepository.findByStudentIdAndSemesterAndYear(studentId, semester, year);
+    public Schedule transferCoursesToTakenCourses(String studentId/*, Semester semester, int year, double grade*/) {
+        Schedule schedule = scheduleRepository.findByStudentId/*AndSemesterAndYear*/(studentId/*, semester, year*/);
         if (schedule != null) {
             for (Course course : schedule.getCourses()) {
                 TakenCourses takenCourse = new TakenCourses();
                 takenCourse.setCourse(course);
-                takenCourse.setSemester(semester);
-                takenCourse.setYear(year);
-                takenCourse.setGrade(grade);
+//                takenCourse.setSemester(semester);
+//                takenCourse.setYear(year);
+//                takenCourse.setGrade(grade);
                 takenCoursesService.addTakenCourse(takenCourse);
             }
 

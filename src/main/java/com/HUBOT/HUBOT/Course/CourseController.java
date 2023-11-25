@@ -21,7 +21,7 @@ public class CourseController {
         if (addedCourse != null) {
             return new ResponseEntity<>(course,HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_ACCEPTABLE);
         }
     }
 

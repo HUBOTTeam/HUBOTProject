@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface CourseRepositry extends MongoRepository<Course,String> {
-    Course findByCourseNumber(int courseNumber);
+    Course findByCourseNumber(long courseNumber);
     List<Course> findCourseByDepartmentDepartmentId(String departmentName);
    // List<Course> fineCourseByCourseTypAndDepartment(CourseType courseType,String departmentId);
 

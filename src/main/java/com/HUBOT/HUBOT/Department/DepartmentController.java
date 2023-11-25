@@ -51,14 +51,15 @@ public class DepartmentController {
         }
     }
     @GetMapping(value = "getDepartmentsByFaculty")
-    public ResponseEntity<List<Department>> getDepartmentsByFaculty(@RequestParam String departmentName,@RequestParam String facultyId){
-        List<Department> departments = departmentServices.getDepartmentsByFaculty(departmentName,facultyId);
+    public ResponseEntity<List<Department>> getDepartmentsByFaculty(@RequestParam String facultyId){
+        List<Department> departments = departmentServices.getDepartmentsByFaculty(facultyId);
         if (!departments.isEmpty()) {
             return new ResponseEntity<>(departments, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
 
     @PutMapping(value = "editKeyword")
     public ResponseEntity<String> editKeyword(@RequestParam String departmentName, @RequestParam String keyword){

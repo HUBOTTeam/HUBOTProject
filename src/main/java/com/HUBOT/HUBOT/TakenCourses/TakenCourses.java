@@ -23,9 +23,9 @@ public class TakenCourses {
     private String studentId;
     @DBRef
     private Course course;
-    private Semester semester;
-    private int year;
-    private double grade;
+//    private Semester semester;
+//    private int year;
+//    private double grade;
     @CreatedDate
     private LocalDateTime dateAdded;
 }

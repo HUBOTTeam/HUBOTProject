@@ -5,6 +5,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ScheduleRepository extends MongoRepository<Schedule, String> {
     Schedule findByStudentId(String studentId);
-    Schedule findByStudentIdAndSemesterAndYear(String studentId, Semester semester, int year);
+    //Schedule findByStudentId/*AndSemesterAndYear*/(String studentId/*, Semester semester, int year*/);
 
 }

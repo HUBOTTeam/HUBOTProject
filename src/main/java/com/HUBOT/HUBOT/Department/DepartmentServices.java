@@ -32,8 +32,8 @@ public class DepartmentServices {
         return departmentRepository.findByDepartmentName(departmentName);
     }
 
-    public List<Department> getDepartmentsByFaculty(String departmentName,String facultyId) {
-        return departmentRepository.findDepartmentsByFaculty(departmentName,facultyId);
+    public List<Department> getDepartmentsByFaculty(String facultyId) {
+        return departmentRepository.findDepartmentsByFaculty(facultyId);
 
     }
 

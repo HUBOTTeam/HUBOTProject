@@ -6,9 +6,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface StudentRepositry extends MongoRepository<Student,String> {
+public interface StudentRepository extends MongoRepository<Student,String> {
 
     Student findByUserId(String id);
+
+    Student findByUserUserName(String userName);
 
     List<Student> findByDepartmentDepartmentId(String departmentId);
 

@@ -22,7 +22,7 @@ public class ScheduleController {
     public ResponseEntity<Schedule> createSchedule(@RequestParam String studentId,
                                                    @RequestParam Semester semester,
                                                    @RequestParam int year) {
-        Schedule createdSchedule = scheduleService.createSchedule(studentId, semester, year);
+        Schedule createdSchedule = scheduleService.createSchedule(studentId/*, semester, year*/);
         if (createdSchedule != null) {
             return new ResponseEntity<>(createdSchedule, HttpStatus.OK);
         } else {
@@ -72,11 +72,11 @@ public class ScheduleController {
         }
     }
     @PostMapping("/transferCoursesToTakenCourses")
-    public ResponseEntity<Schedule> transferCoursesToTakenCourses(@RequestParam String studentId,
+    public ResponseEntity<Schedule> transferCoursesToTakenCourses(@RequestParam String studentId/*,
                                                                   @RequestParam Semester semester,
                                                                   @RequestParam int year,
-                                                                  @RequestParam double grade) {
-        Schedule updatedSchedule = scheduleService.transferCoursesToTakenCourses(studentId, semester, year, grade);
+                                                                  @RequestParam double grade*/) {
+        Schedule updatedSchedule = scheduleService.transferCoursesToTakenCourses(studentId/*, semester, year, grade*/);
         if (updatedSchedule != null) {
             return new ResponseEntity<>(updatedSchedule, HttpStatus.OK);
         } else {

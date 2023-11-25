@@ -9,41 +9,52 @@ import java.util.List;
 @Service
 public class StudentServices {
 
-    StudentRepositry studentRepositry;
+    StudentRepository studentRepository;
 
-    public List<Student> getAllStudents() {
-        return studentRepositry.findAll();
-    }
     public String addStudent(Student student) {
-        studentRepositry.insert(student);
-        return "Student added successfully";
+        try {
+      studentRepository.insert(student);
+      return " ";
+        }catch (Exception e){
+            return null;
+        }
+    }
+    public List<Student> getAllStudents() {
+        return studentRepository.findAll();
     }
 
     public Student getStudentById(String id) {
-        return studentRepositry.findById(id).orElse(null);
+        return studentRepository.findById(id).orElse(null);
     }
 
     public Student getStudentByUserId(String id) {
-        return studentRepositry.findByUserId(id);
+        return studentRepository.findByUserId(id);
+    }
+
+    public Student getStudentByUserName(String id) {
+        return studentRepository.findByUserUserName(id);
     }
 
     public List<Student> getStudentsByDepartmentId(String departmentId) {
-        return studentRepositry.findByDepartmentDepartmentId(departmentId);
+        return studentRepository.findByDepartmentDepartmentId(departmentId);
     }
 
-    public Student updateStudentName(String id ,String name) {
-        Student student = studentRepositry.findById(id).orElse(null);
+    public Student updateStudentFirstName(String id , String firstName,
+                                           String middleName, String LastName) {
+        Student student = studentRepository.findById(id).orElse(null);
         if (student != null){
-            student.setName(name);
-            return studentRepositry.save(student);
+            student.setFirstName(firstName);
+            student.setMiddleName(middleName);
+            student.setLastName(LastName);
+            return studentRepository.save(student);
         }
         return null;
     }
 
 
-    public Boolean deleteStudent(String id) {
-        Student student = studentRepositry.findById(id).orElse(null);
-        studentRepositry.deleteById(id);
+    public Boolean deleteStudent(String userName) {
+        Student student = studentRepository.findByUserUserName(userName);
+        studentRepository.deleteById(userName);
         return true;
     }
 }
