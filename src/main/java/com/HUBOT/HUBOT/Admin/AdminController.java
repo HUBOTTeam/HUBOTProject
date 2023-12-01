@@ -5,7 +5,6 @@ import com.HUBOT.HUBOT.Enum.AccessDegree;
 import com.HUBOT.HUBOT.Exeption.NumberOfAdminLessThanRequiredException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -31,9 +30,18 @@ public class AdminController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @GetMapping(value = "getAdmin")
-    public ResponseEntity<Admin> getAdmin(@RequestParam String adminUserName){
-        Admin admin = adminServices.getAdmin(adminUserName);
+    @GetMapping(value = "getAdminByUserName")
+    public ResponseEntity<Admin> getAdminByUserName(@RequestParam String adminUserName){
+        Admin admin = adminServices.getAdminByUserName(adminUserName);
+        if(admin != null)
+            return new ResponseEntity<>(admin,HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
+    @GetMapping(value = "getAdminByID")
+    public ResponseEntity<Admin> getAdmin(@RequestParam String adminId){
+        Admin admin = adminServices.getAdmin(adminId);
         if(admin != null)
             return new ResponseEntity<>(admin,HttpStatus.OK);
         else
@@ -59,14 +67,14 @@ public class AdminController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
-    @PutMapping(value = "editAdminAccessDegree")
-    public ResponseEntity<Admin> editAdminAccessDegree(@RequestParam String adminUserName,@RequestParam AccessDegree adminAccessDegree) throws NumberOfAdminLessThanRequiredException {
-        Admin admin = adminServices.editAdminAccessDegree(adminUserName,adminAccessDegree);
-        if (admin != null)
-            return new ResponseEntity<>(admin,HttpStatus.OK);
-        else
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-    }
+//    @PutMapping(value = "editAdminAccessDegree")
+//    public ResponseEntity<Admin> editAdminAccessDegree(@RequestParam String adminUserName,@RequestParam AccessDegree adminAccessDegree) throws NumberOfAdminLessThanRequiredException {
+//        Admin admin = adminServices.editAdminAccessDegree(adminUserName,adminAccessDegree);
+//        if (admin != null)
+//            return new ResponseEntity<>(admin,HttpStatus.OK);
+//        else
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//    }
     @PutMapping(value = "editAdminPassword")
     public ResponseEntity<Admin> editAdminPassword(@RequestParam String adminUserName,@RequestParam String password)  {
         Admin admin = adminServices.editAdminPassword(adminUserName,password);

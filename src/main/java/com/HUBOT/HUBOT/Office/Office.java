@@ -16,11 +16,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Office {
 
     @Id
-    private String office_id;
+    private String officeId;
     @Indexed(unique = true)
     private int office_location_id;
     @DBRef
     private Department department;
+    private String officeNumber;
     private String keyword;
     private int floor;
 }

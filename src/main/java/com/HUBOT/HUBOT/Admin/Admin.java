@@ -21,7 +21,7 @@ public class Admin {
     private String adminId;
     @Indexed(unique = true)
     private String adminUserName;
-    private AccessDegree accessDegree;//admins have different access abilities FOUR is the highest and down to one
+    //private AccessDegree accessDegree;//admins have different access abilities FOUR is the highest and down to one
     private String adminFirstName;
     private String adminLastName;
     private Gender gender;

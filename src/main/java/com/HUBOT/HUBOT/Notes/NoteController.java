@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/note")
-@Document("notesL")
+@Document("notes")
 public class NoteController {
 
     private final NoteService noteService;
@@ -19,8 +19,8 @@ public class NoteController {
     }
 
     @PostMapping("/addNote")
-    public ResponseEntity<Note> addNoteToSchedule(@RequestBody Note note) {
-        Note addedNote = noteService.addNoteToSchedule(note);
+    public ResponseEntity<Note> addNoteToSubject(@RequestBody Note note) {
+        Note addedNote = noteService.addNoteToSubject(note);
         return new ResponseEntity<>(addedNote, HttpStatus.OK);
     }
 
@@ -30,15 +30,16 @@ public class NoteController {
         return new ResponseEntity<>(updatedNote, HttpStatus.OK);
     }
 
-    @DeleteMapping("/deleteNote")
-    public ResponseEntity<String> deleteNoteFromSchedule(@RequestParam String noteId) {
-        boolean deleted = noteService.deleteNoteFromSchedule(noteId);
-        if (deleted) {
-            return new ResponseEntity<>("Note with ID: " + noteId + " was deleted successfully!", HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>("Note with ID: " + noteId + " not found", HttpStatus.NOT_FOUND);
-        }
-    }
+    //@DeleteMapping("/deleteNote")
+  //  public ResponseEntity<String> deleteNoteFromSchedule(@RequestParam String noteId) {
+        //  boolean deleted = noteService.deleteNoteFromSchedule(noteId);
+//        if (deleted) {
+//            return new ResponseEntity<>("Note with ID: " + noteId + " was deleted successfully!", HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>("Note with ID: " + noteId + " not found", HttpStatus.NOT_FOUND);
+//        }
+//    }
 
-    // Other methods...
+        //}
+  //  }
 }

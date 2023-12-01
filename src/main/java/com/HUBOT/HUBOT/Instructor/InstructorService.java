@@ -17,7 +17,7 @@ public class InstructorService {
     }
 
     public Instructor addInstructor(Instructor instructor) {
-        return instructorRepository.save(instructor);
+        return instructorRepository.insert(instructor);
     }
 
     public Instructor getInstructorById(String instructorId) {
