@@ -95,6 +95,7 @@ public class CourseServices {
             return course;
         }
     }
+
     //used to find specific courses by type in any department
 //    public List<Course> getAllObligatoryCoursesByDepartment(String departmentId, CourseType courseType) {
 //        return courseRepositry.fineCourseByCourseTypAndDepartment(courseType,departmentId);

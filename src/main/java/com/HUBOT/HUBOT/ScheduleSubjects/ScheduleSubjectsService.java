@@ -1,4 +1,4 @@
-package com.HUBOT.HUBOT.Schedual;
+package com.HUBOT.HUBOT.ScheduleSubjects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

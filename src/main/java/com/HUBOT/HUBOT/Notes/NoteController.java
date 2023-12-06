@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.Notes;
 
+import org.checkerframework.checker.units.qual.N;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.http.HttpStatus;
@@ -21,25 +22,25 @@ public class NoteController {
     @PostMapping("/addNote")
     public ResponseEntity<Note> addNoteToSubject(@RequestBody Note note) {
         Note addedNote = noteService.addNoteToSubject(note);
-        return new ResponseEntity<>(addedNote, HttpStatus.OK);
+        if(addedNote != null)
+           return new ResponseEntity<>(addedNote, HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.NOT_ACCEPTABLE);
+    }
+
+    @GetMapping("/getNote")
+    public ResponseEntity<Note> getNote(@RequestParam String studentId, @RequestParam String subjectId){
+        Note note = noteService.getNote(studentId,subjectId);
+        if (note != null)
+            return new ResponseEntity<>(note,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @PutMapping("/updateNote")
-    public ResponseEntity<Note> updateNoteInSchedule(@RequestBody Note note) {
-        Note updatedNote = noteService.updateNoteInSchedule(note);
-        return new ResponseEntity<>(updatedNote, HttpStatus.OK);
+    public ResponseEntity<String> updateNote(@RequestParam String noteId,@RequestParam String note){
+        String note1 = noteService.updateNote(noteId,note);
+        if (note1 != null)
+            return new ResponseEntity<>(note1,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_ACCEPTABLE);
     }
-
-    //@DeleteMapping("/deleteNote")
-  //  public ResponseEntity<String> deleteNoteFromSchedule(@RequestParam String noteId) {
-        //  boolean deleted = noteService.deleteNoteFromSchedule(noteId);
-//        if (deleted) {
-//            return new ResponseEntity<>("Note with ID: " + noteId + " was deleted successfully!", HttpStatus.OK);
-//        } else {
-//            return new ResponseEntity<>("Note with ID: " + noteId + " not found", HttpStatus.NOT_FOUND);
-//        }
-//    }
-
-        //}
-  //  }
 }

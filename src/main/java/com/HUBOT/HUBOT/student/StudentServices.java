@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Locale;
 
 @AllArgsConstructor
 @Service
@@ -56,5 +57,30 @@ public class StudentServices {
         Student student = studentRepository.findByUserUserName(userName);
         studentRepository.deleteById(userName);
         return true;
+    }
+
+
+    public String getFirstNameAndLastName(String userId) {
+        try {
+            Student student = studentRepository.findByUserId(userId);
+            if (student != null)
+            return student.getFirstName() +" "+ student.getLastName();
+            else
+                return null;
+        }catch (Exception e){
+            return null;
+        }
+    }
+
+    public String getGender(String userId) {
+        try {
+            Student student = studentRepository.findByUserId(userId);
+            if (student != null)
+                return student.getGender().toString().toLowerCase();
+            else
+                return null;
+        }catch (Exception e){
+            return null;
+        }
     }
 }

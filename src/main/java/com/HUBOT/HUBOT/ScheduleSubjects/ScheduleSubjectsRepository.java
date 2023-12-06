@@ -1,4 +1,4 @@
-package com.HUBOT.HUBOT.Schedual;
+package com.HUBOT.HUBOT.ScheduleSubjects;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

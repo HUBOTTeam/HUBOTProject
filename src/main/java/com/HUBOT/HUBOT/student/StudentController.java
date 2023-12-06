@@ -50,6 +50,23 @@ public class StudentController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
+    @GetMapping("/getName")
+    public ResponseEntity<String> getFirstNameAndLastName(String userId){
+        String name = studentServices.getFirstNameAndLastName(userId);
+        if (name != null)
+            return new ResponseEntity<>(name,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+
+    }
+
+    @GetMapping("/getGender")
+    public ResponseEntity<String> getGender(String userId) {
+        String gender = studentServices.getGender(userId);
+        if (gender != null)
+            return new ResponseEntity<>(gender,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
     @GetMapping("/getStudentsByDepartmentId")
     public ResponseEntity<List<Student>> getStudentsByDepartmentId(@RequestParam String departmentId){
         List<Student> students = studentServices.getStudentsByDepartmentId(departmentId);

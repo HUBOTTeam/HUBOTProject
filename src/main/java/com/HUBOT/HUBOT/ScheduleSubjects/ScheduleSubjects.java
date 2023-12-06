@@ -1,4 +1,4 @@
-package com.HUBOT.HUBOT.Schedual;
+package com.HUBOT.HUBOT.ScheduleSubjects;
 
 import com.HUBOT.HUBOT.Course.Course;
 import com.HUBOT.HUBOT.student.Student;
