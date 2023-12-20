@@ -1,4 +1,4 @@
-0,IS A <SET>MAMMAL</SET> A MAMMAL,*,*,Yes,ontology.aiml
+0,IS A CA MAMMAL,*,*,Yes,ontology.aiml
 0,IS A * A MAMMAL,*,*,unknown,ontology.aiml
 0,IS A <SET>BIRD</SET> A BIRD,*,*,Yes,ontology.aiml
 0,IS A * A BIRD,*,*,unknown,ontology.aiml

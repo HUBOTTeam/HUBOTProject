@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>
+            When are the dates of the graduation ceremony determined
+        </pattern>
+        <template>
+            University Website Deanship of Student Affairs
+        </template>
+    </category>
+    
+    <category>
+    <pattern>How can I find out the dates of the graduation ceremony</pattern>
+    <template><srai>When are the dates of the graduation ceremony determined</srai></template>
+</category>
+
+<category>
+    <pattern>Where can I get information about the graduation ceremony dates</pattern>
+    <template><srai>When are the dates of the graduation ceremony determined</srai></template>
+</category>
+
+<category>
+    <pattern>Can you tell me when the graduation ceremony dates are decided</pattern>
+    <template><srai>When are the dates of the graduation ceremony determined</srai></template>
+</category>
+
+<category>
+    <pattern>What is the process for determining the dates of the graduation ceremony</pattern>
+    <template><srai>When are the dates of the graduation ceremony determined</srai></template>
+</category>
+
+<category>
+    <pattern>Where should I check for updates on the graduation ceremony dates</pattern>
+    <template><srai>When are the dates of the graduation ceremony determined</srai></template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        Are there any training courses during the summer semester
+    </pattern>
+    <template>
+        Yes, there are training courses and workshops remotely
+    </template>
+</category>
+
+<category>
+    <pattern>Can I take training courses during the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is it possible to enroll in training courses in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any workshops offered in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can I participate in remote training courses during the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there an opportunity for summer semester training programs</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are training workshops available in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a chance to attend training sessions in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can I register for training courses during the summer term</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are training opportunities available in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a chance for remote training in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can I take part in any training activities in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are there remote learning opportunities for training in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is it possible to engage in training programs during the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any online training courses offered in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a chance to participate in summer semester training</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+
+</aiml>

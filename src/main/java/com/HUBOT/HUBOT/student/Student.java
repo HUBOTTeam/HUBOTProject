@@ -1,8 +1,11 @@
 package com.HUBOT.HUBOT.student;
 
+import com.HUBOT.HUBOT.Course.Course;
 import com.HUBOT.HUBOT.Department.Department;
 import com.HUBOT.HUBOT.Enum.Gender;
 import com.HUBOT.HUBOT.User.User;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,7 +27,7 @@ public class Student {
     private Department department;
     private String firstName;
     private String middleName;
-    private String LastName;
+    private String lastName;
     @Indexed(unique = true)
     private String email;
     private Gender gender;

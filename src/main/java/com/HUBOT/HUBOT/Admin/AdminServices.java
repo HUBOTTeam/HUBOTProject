@@ -15,7 +15,12 @@ import java.util.List;
 @Service
 public class AdminServices {
     @Autowired
-    AdminRepository adminRepository;
+    private final AdminRepository adminRepository;
+
+    public AdminServices(AdminRepository adminRepository) {
+        this.adminRepository = adminRepository;
+    }
+
     public Admin addAdmin(Admin admin) {//here admin with access degree of 3 can add new admin to the system
         Admin admin1 = adminRepository.findAdminByAdminUserName(admin.getAdminUserName());
         if (admin1 != null)

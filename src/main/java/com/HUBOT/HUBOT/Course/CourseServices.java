@@ -96,6 +96,16 @@ public class CourseServices {
         }
     }
 
+    public Course getCourseByCourseId(String courseId) {
+        return courseRepositry.findById(courseId).orElse(null);
+    }
+
+    public String getCourseIdByCourseName(String courseName) {
+        Course course = courseRepositry.findByCourseName(courseName);
+        return course.getCourseId();
+
+    }
+
     //used to find specific courses by type in any department
 //    public List<Course> getAllObligatoryCoursesByDepartment(String departmentId, CourseType courseType) {
 //        return courseRepositry.fineCourseByCourseTypAndDepartment(courseType,departmentId);

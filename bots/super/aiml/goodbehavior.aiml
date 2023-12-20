@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>
+	        How to obtain a certificate of good conduct
+	    </pattern>
+	    <template>
+	        <ol>
+	            <li>open your student portal</li>
+	            <li>financial unit</li>
+	            <li>student deanship</li>
+	            <li>student care and services</li>
+	            <li>first floor to complete the procedure to obtain required papers</li>
+            </ol>
+	    </template>
+    </category>
+    <category>
+    <pattern>What is the process for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>How do I go about getting a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>What are the steps to obtain a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the procedure for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Where can I find information on obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>What steps do I need to follow to get a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>How is the process for obtaining a certificate of good conduct initiated?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific protocol for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide guidance on the paperwork needed for a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>What is the official procedure for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>How can I complete the procedure to obtain a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Can you outline the steps to complete for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific offices I need to visit to obtain a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>What is the first floor process for obtaining a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+<category>
+    <pattern>How do I complete the required paperwork for a certificate of good conduct?</pattern>
+    <template><srai>How to obtain a certificate of good conduct</srai></template>
+</category>
+
+	
+</aiml>

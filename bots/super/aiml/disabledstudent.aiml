@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+ <category>
+     <pattern>
+         What are the documents required for the academic discount for the disabled student
+     </pattern>
+     <template>
+         The original or true copy of the medical report from the district committees and delivered to the health center at the university,
+         provided that the student name is included in the unified admission list students with disabilities.
+     </template>
+ </category>
+
+<category>
+    <pattern>What paperwork is needed for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Can you list the necessary documents for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>What documents do I need for the academic discount as a disabled student</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific documents required for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>What is the documentation process for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the paperwork required for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>How can I apply for the academic discount as a disabled student</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>What are the prerequisites for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me through the process of obtaining the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific checklist for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>What steps should I follow to submit the necessary documents for the academic discount as a disabled student</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any specific forms I need to fill out for the academic discount as a disabled student</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide details on the paperwork required for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>How should I prepare the necessary documents for the academic discount as a disabled student</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+<category>
+    <pattern>What are the necessary forms and documents for the academic discount for disabled students</pattern>
+    <template><srai>What are the documents required for the academic discount for the disabled student</srai></template>
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+        What is the procedure if the name of the disability student is not on the unified admission list Disabled students
+    </pattern>
+    <template>
+        He must refer to the Higher Council for the Rights of Persons with Disabilities to obtain a letter addressing the university and the management of the academic discount procedures.
+    </template>
+</category>
+ <category>
+    <pattern>What should I do if my name is not on the unified admission list for disabled students</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>If my name is not on the unified admission list for disabled students what steps should I take</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me through the process if my name is missing from the unified admission list for disabled students</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What actions are required if I am a disabled student and my name is not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>If I am a disabled student and my name is not on the unified admission list, what are the necessary steps</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What should disabled students do if their names are not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the process if the name of a disabled student is not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>How can a disabled student address the situation if their name is not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What are the necessary steps for a disabled student if their name is missing from the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What is the procedure for disabled students not listed on the unified admission roster</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>How should a disabled student proceed if their name is not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>If a disabled student's name is not on the unified admission list, what are the required actions</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What is the protocol for disabled students whose names are absent from the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the steps for disabled students if their names are not on the unified admission list</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>If a disabled student is not on the unified admission list, what actions should they take</pattern>
+    <template><srai>What is the procedure if the name of the disability student is not on the unified admission list Disabled students</srai></template>
+</category>
+
+ 
+ 
+ <category>
+     <pattern>
+         What is the value of the academic discount that the disabled student receive
+     </pattern>
+     <template>
+         The maximum limit of fees borne by persons with disabilities admitted to government higher education institutions shall not exceed 10% for the competitive program and 25% for the parallel program.
+     </template>
+ </category>
+ 
+ <category>
+    <pattern>Explain the academic discount value for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Describe the discount amount for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide details on the academic discount for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>What is the percentage of the academic discount for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>What discount do disabled students receive for their academics</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Can you elaborate on the academic discount value for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Explain the maximum limit of fees for disabled students in higher education institutions</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Provide information about the maximum discount for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>What is the cap on fees for disabled students in government higher education institutions</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>How much discount do disabled students get for their education</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Provide details on the academic discount limit for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Explain the discount percentage for disabled students in higher education</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Describe the maximum discount amount for disabled students in government institutions</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>What is the maximum limit for fees covered by disabled students in competitive programs</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+<category>
+    <pattern>Can you elaborate on the academic discount cap for disabled students</pattern>
+    <template><srai>What is the value of the academic discount that the disabled student receive</srai></template>
+</category>
+
+
+
+
+ <category>
+     <pattern>
+         Is the university provides readers and sign language interpreters for the disabled students
+     </pattern>
+     <template>
+         Yes, Through the Department of Student Services and Welfare at the Deanship of Student Affairs, Disabled Students Welfare Office.
+     </template>
+ </category>
+ 
+ <category>
+    <pattern>Are readers and sign language interpreters provided for disabled students at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Does the university offer assistance like readers and sign language interpreters for disabled students</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Is there support in the form of readers and sign language interpreters for disabled students</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Can disabled students receive help such as readers and sign language interpreters at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What support is available, including readers and sign language interpreters, for disabled students</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Is assistance provided in the form of readers and sign language interpreters for disabled students</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Are there services like readers and sign language interpreters for disabled students at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Is the university committed to providing readers and sign language interpreters for disabled students</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Can I get assistance such as readers and sign language interpreters if Im a disabled student at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Does the university have services like readers and sign language interpreters for students with disabilities</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>What resources, including readers and sign language interpreters, are available for disabled students at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Is there support for disabled students, such as readers and sign language interpreters, provided by the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Are readers and sign language interpreters part of the support services for disabled students at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Does the university facilitate services like readers and sign language interpreters for students with disabilities</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+<category>
+    <pattern>Is assistance available, including readers and sign language interpreters, for disabled students at the university</pattern>
+    <template><srai>Is the university provides readers and sign language interpreters for the disabled students</srai></template>
+</category>
+
+ 
+ 
+ 
+ <category>
+     <pattern>
+         Is there a Braille printer for blind students in the Deanship of Student Affairs
+     </pattern>
+     <template>
+         Yes, The printer is in the disabled student hall.
+     </template>
+ </category>
+ 
+ <category>
+    <pattern>Is there a Braille printer for blind students at the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Does the Deanship of Student Affairs have a Braille printer for blind students</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Can blind students access a Braille printer at the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is a Braille printer available for blind students in the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Where can blind students find a Braille printer at the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a printer for Braille materials for blind students in the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is a Braille printer accessible for blind students within the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is the Deanship of Student Affairs equipped with a Braille printer for blind students</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Does the Deanship of Student Affairs provide a Braille printer for blind students</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there assistance for blind students in the form of a Braille printer at the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Where is the Braille printer located for blind students in the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Can blind students use a Braille printer provided by the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a Braille printer facility for blind students in the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is a Braille printer accessible to blind students at the Deanship of Student Affairs</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+<category>
+    <pattern>Is the Deanship of Student Affairs equipped with a Braille printer for the benefit of blind students</pattern>
+    <template><srai>Is there a Braille printer for blind students in the Deanship of Student Affairs</srai></template>
+</category>
+
+ 
+ 
+ 
+ <category>
+     <pattern>
+         Will the registration of disabled students be submitted before their colleagues who are not disabled
+     </pattern>
+     <template>Yes, In coordination with the Admission and Registration Unit, so that the student reviews his own electronic portal to carry out the registration process.
+     </template>
+ </category>
+ <category>
+    <pattern>Is the registration process different for disabled students compared to their non disabled colleagues</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Do disabled students have a priority in the registration process over non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a special registration procedure for disabled students ahead of non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students given priority in the registration queue compared to non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is the registration timeline different for disabled students than for their non disabled counterparts</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Do disabled students get to register before their non disabled peers</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is there an early registration option for disabled students compared to non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students allowed to register ahead of non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is the registration process expedited for disabled students in comparison to non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students given preference in the registration order over non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Does the registration timeline favor disabled students over non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a priority registration option for disabled students compared to non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Do disabled students receive early access to the registration process over non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a preferential registration procedure for disabled students ahead of non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students allowed to register before non disabled students</pattern>
+    <template><srai>Will the registration of disabled students be submitted before their colleagues who are not disabled</srai></template>
+</category>
+
+
+
+<category>
+    <pattern>
+        Is the disabled student exposed to a clinical examination at the university by special medical committees
+    </pattern>
+    <template>
+        Yes, at the university health center.
+    </template>
+</category>
+
+<category>
+    <pattern>Do disabled students undergo a clinical examination at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a clinical examination for disabled students conducted by special medical committees at the university</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students required to undergo a clinical examination by special medical committees at the university</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination part of the process for disabled students at the university conducted by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Do special medical committees at the university conduct clinical examinations for disabled students</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination mandatory for disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Are there special medical committees at the university conducting clinical examinations for disabled students</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination part of the evaluation process for disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a clinical examination component for disabled students at the university conducted by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Are disabled students assessed through a clinical examination at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination conducted for disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Do special medical committees at the university perform clinical examinations for disabled students</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination included in the process for disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Are clinical examinations part of the assessment for disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+<category>
+    <pattern>Is a clinical examination involved in the evaluation of disabled students at the university by special medical committees</pattern>
+    <template><srai>Is the disabled student exposed to a clinical examination at the university by special medical committees</srai></template>
+</category>
+
+</aiml>
+

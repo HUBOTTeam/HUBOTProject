@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>
+            How is a university ID issued to first time students
+        </pattern>
+        <template>
+            After paying the tuition fees follow the following steps
+            <ol>
+                <li>Submit a personal photo on which the students name and university number are clearly written on the back to the Identity Office 
+                    Department of Student Services and Welfare Deanship of Student Affairs First Floor</li>
+                <li>
+                    Entering the students electronic portal to ensure the following information
+                    <ul>
+                        <li>
+                            The name in English from three syllables and then the amendment if any through the Admission and Registration Unit
+                            Ensure the phone number and address of the student place of residence and the amendment
+                            if any is made through the Deanship of Student Affairs Department of Student Services and Welfare First Floor
+                        </li>
+                        <li>And then work on the last steps which is to approve the information through the student portal</li>
+                        <li>The ID is submitted during the semester in which the student is registered through the ID Distribution Center of Cairo Amman Bank</li>
+                    </ul>
+                </li>
+            </ol>
+           
+        </template>
+    </category>
+    <category>
+    <pattern>How can I obtain a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What steps should I follow to get my university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the process of obtaining a university ID for first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What is the procedure for getting a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific steps to follow to obtain a university ID for new students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How does the process work for issuing university IDs to first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the steps involved in getting a university ID for new students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What are the requirements for obtaining a university ID as a first-time student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific office or department I should visit to get my university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the ID issuance process for first-time university students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How can I ensure that my university ID is issued correctly as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What steps are involved in the university ID issuance for first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the documentation and submission process for obtaining a university ID?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific forms or paperwork needed for obtaining a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How do I initiate the process of obtaining a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        When the university ID is lost the following steps are followed
+    </pattern>
+    <template>
+        <ol>
+            <li>Visit the ID Office at the Deanship of Student Affairs</li>
+            <li>Student Services and Welfare Department to report the identity in case of loss, and information about students is taken</li>
+            <li>then the information is sent to Cairo Amman Bank for issuance and the student reviews the bank after two weeks.</li>
+        </ol>
+          
+    </template>
+</category>
+<category>
+    <pattern>How can I obtain a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What steps should I follow to get my university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the process of obtaining a university ID for first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What is the procedure for getting a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific steps to follow to obtain a university ID for new students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How does the process work for issuing university IDs to first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the steps involved in getting a university ID for new students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What are the requirements for obtaining a university ID as a first-time student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific office or department I should visit to get my university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the ID issuance process for first-time university students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How can I ensure that my university ID is issued correctly as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>What steps are involved in the university ID issuance for first-time students?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the documentation and submission process for obtaining a university ID?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific forms or paperwork needed for obtaining a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+<category>
+    <pattern>How do I initiate the process of obtaining a university ID as a new student?</pattern>
+    <template><srai>How is a university ID issued to first-time students</srai></template>
+</category>
+
+    
+</aiml>

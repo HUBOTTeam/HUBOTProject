@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>
+             How do I get a visa to study in Jordan
+        </pattern>
+        <template>
+           Through the Kingdom embassies and consulates spread in all countries of the world.
+        </template>
+    </category>
+    <category>
+    <pattern>What is the process for obtaining a study visa in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on obtaining a study visa for Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What steps should I follow to secure a study visa for Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How is the visa application process for studying in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific requirements for obtaining a study visa in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the procedure for getting a study visa to Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the protocol for applying for a study visa in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How can I initiate the process of obtaining a study visa for Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific embassy or consulate I should contact for a study visa in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the documentation needed for a study visa in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What are the steps for obtaining a study visa to Jordan through embassies?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How does the embassy process study visa applications for Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the timeframe for obtaining a study visa for Jordan through embassies?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the visa application steps for studying in Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific embassies that handle study visa applications for Jordan?</pattern>
+    <template><srai>How do I get a visa to study in Jordan</srai></template>
+</category>
+
+
+<category>
+    <pattern>
+        What are the procedures for residency in Jordan
+    </pattern>
+    <template>
+        Upon coming to Jordan, the student is granted a temporary residence permit for a period of one month, 
+        so that the student can register and enroll in the university in which he wishes to study, 
+        and after completing the registration procedures and during the period of the temporary residence permit mentioned above,
+        the student must visit the nearest security center (police) to determine his place of residence, 
+        and then the student must prepare the required documents, which are
+         Passport, student proof from the Admission and Registration Unit, 
+         old residence card in case of residence renewal, 
+         exit and re-entry visa for students who hold a travel document, 
+         and submit it to the International Students Division at
+         the Deanship of Student Affairs at the Hashemite University to start the procedures for obtaining annual residency.
+    </template>
+</category>
+
+<category>
+    <pattern>How can I obtain residency in Jordan as a student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the steps for obtaining residency in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the process for getting residency in Jordan as an international student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How do I apply for residency in Jordan as a new student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific requirements for obtaining residency in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What documentation is needed for the residency process in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the residency application procedure for students in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How long does it take to obtain residency in Jordan as a student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific office or department I should visit for residency in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What steps should I follow to secure residency in Jordan as a student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the residency card renewal process in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How does the residency process work for international students in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the timeframe for obtaining residency in Jordan after arriving?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific residency rules for students studying in Jordan?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How can I start the process of obtaining residency in Jordan as a student?</pattern>
+    <template><srai>What are the procedures for residency in Jordan</srai></template>
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+        What is the cost of living in Jordan
+    </pattern>
+    <template>
+        The monthly living costs depend on the personal requirements of each individual,
+        as they vary from one individual to another, 
+        but the average basic living cost for the student is: 
+        Housing costs from 150-200 Jordanian dinars.
+        Living costs from 100-150 Jordanian dinars.
+        Transportation costs from 40-60 Jordanian dinars.
+    </template>
+</category>
+<category>
+    <pattern>What are the living expenses in Jordan for students?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on the average monthly living costs in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How much does it cost to live in Jordan on a monthly basis?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific estimates for housing costs in Jordan for students?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the average cost of living for students in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on the living expenses for students studying in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How much should I budget for living costs in Jordan as a student?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Are there variations in living costs for students in different cities of Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What factors influence the cost of living for students in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you break down the components of living expenses for students in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How much should I allocate for housing if I'm studying in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the average monthly transportation cost for students in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide estimates for living and transportation costs in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific budget recommendation for students living in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>How do living expenses in Jordan compare to other countries?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you give me an idea of the average living costs for students in Jordan?</pattern>
+    <template><srai>What is the cost of living in Jordan</srai></template>
+</category>
+
+
+</aiml>

@@ -1,0 +1,54 @@
+0,HOW TO BOOK SPORTS HALLS,*,*,Department of Sports Activities - Fill out and approve the hall reservation form.,sportsactivity.aiml
+0,WHAT IS THE PROCEDURE FOR ENROLLING IN SUMMER SEMESTER TRAINING COURSES,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,HOW CAN I APPLY FOR TRAINING OPPORTUNITIES IN THE SUMMER SEMESTER,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,ARE SUMMER SEMESTER TRAINING COURSES AVAILABLE FOR REGISTRATION,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,CAN YOU PROVIDE INFORMATION ABOUT SUMMER SEMESTER TRAINING OPTIONS,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,WHAT ARE THE OPPORTUNITIES FOR TRAINING IN THE SUMMER SEMESTER,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,IS THERE A SPECIFIC PORTAL FOR ENROLLING IN SUMMER SEMESTER TRAINING PROGRAMS,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,HOW CAN I PARTICIPATE IN SUMMER SEMESTER TRAINING WORKSHOPS,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,WHERE CAN I FIND INFORMATION ABOUT SUMMER SEMESTER TRAINING COURSES,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,CAN YOU GUIDE ME ON JOINING TRAINING SESSIONS IN THE SUMMER SEMESTER,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,ARE SUMMER SEMESTER TRAINING OPPORTUNITIES OPEN TO ALL STUDENTS,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,IS THERE A DEADLINE FOR ENROLLING IN SUMMER SEMESTER TRAINING COURSES,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,WHAT ARE THE REQUIREMENTS FOR PARTICIPATING IN SUMMER SEMESTER TRAINING,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,HOW CAN I ACCESS INFORMATION ABOUT SUMMER SEMESTER TRAINING OFFERINGS,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,WHAT TYPES OF TRAINING ARE AVAILABLE IN THE SUMMER SEMESTER,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,CAN I GET INVOLVED IN REMOTE TRAINING DURING THE SUMMER SEMESTER,*,*,<srai>Are there any training courses during the summer semester</srai>,sportsactivity.aiml
+0,WHAT ACTIVITIES ARE AVAILABLE WITHIN THE SPORTS ACTIVITY DEPARTMENT,*,*,1. Sports activities for all individual and team games. #Newline        2. Affiliation to the Hashemite University Tour. #Newline        3. Affiliation to the Hassan Youth Award through the award liaison officer at the university. #Newline        4. Participation in the activities of the Ministry of Youth (camps and workshops) Department of Sports Activity.,sportsactivity.aiml
+0,WHAT KIND OF SPORTS ACTIVITIES ARE OFFERED AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,CAN YOU TELL ME ABOUT THE SPORTS PROGRAMS AVAILABLE AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,WHAT ARE THE OPTIONS FOR SPORTS INVOLVEMENT AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,HOW CAN I PARTICIPATE IN SPORTS ACTIVITIES AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,ARE THERE OPPORTUNITIES FOR SPORTS ENGAGEMENT ON CAMPUS,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,CAN YOU ELABORATE ON THE SPORTS OPTIONS WITHIN THE UNIVERSITY SPORTS ACTIVITY DEPARTMENT,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,WHAT ARE THE AVAILABLE SPORTS PROGRAMS AND ACTIVITIES AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,HOW CAN I GET INVOLVED IN SPORTS AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,ARE THERE ANY SPORTS EVENTS OR COMPETITIONS AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,CAN YOU PROVIDE INFORMATION ABOUT THE SPORTS DEPARTMENT OFFERINGS,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,WHAT OPTIONS DO STUDENTS HAVE FOR SPORTS ENGAGEMENT ON CAMPUS,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,ARE THERE ANY CLUBS OR TEAMS WITHIN THE SPORTS ACTIVITY DEPARTMENT,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,CAN YOU EXPLAIN THE SPORTS PROGRAMS AVAILABLE AT THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,HOW CAN I JOIN THE SPORTS ACTIVITIES OFFERED BY THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,WHAT ARE THE SPORTS OPPORTUNITIES PROVIDED BY THE UNIVERSITY,*,*,<srai>What activities are available within the sports activity department</srai>,sportsactivity.aiml
+0,IS IT POSSIBLE TO GIVE FEMALE STUDENTS THE OPPORTUNITY TO PRACTICE SPORTS IN A CLOSED HALL WITHOUT MIXING,*,*,Yes#Comma In coordination with the Department of Sports Activity and the Deanship of the concerned college and in the presence of a supervisor from the college.,sportsactivity.aiml
+0,CAN FEMALE STUDENTS PARTICIPATE IN SPORTS ACTIVITIES IN A SEPARATE CLOSED HALL,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,ARE THERE ARRANGEMENTS FOR FEMALE STUDENTS TO ENGAGE IN SPORTS WITHOUT MIXING IN A CLOSED HALL,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,IS THERE A PROVISION FOR FEMALE STUDENTS TO PRACTICE SPORTS IN A SEGREGATED INDOOR FACILITY,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,CAN FEMALE STUDENTS ACCESS A CLOSED SPORTS HALL WITHOUT MIXING WITH MALE STUDENTS,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,DO FEMALE STUDENTS HAVE THE OPTION TO ENGAGE IN SPORTS ACTIVITIES IN A PRIVATE INDOOR SETTING,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,IS THERE A CLOSED SPORTS FACILITY EXCLUSIVELY FOR FEMALE STUDENTS,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,ARE THERE SEPARATE SPORTS FACILITIES FOR FEMALE STUDENTS TO AVOID MIXING,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,CAN FEMALE STUDENTS PRACTICE SPORTS IN A CLOSED ENVIRONMENT WITHOUT INTERACTION WITH MALE STUDENTS,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,DO FEMALE STUDENTS HAVE THE CHANCE TO ENGAGE IN SPORTS WITHOUT MIXING IN A DESIGNATED HALL,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,IS THERE A SEPARATE INDOOR FACILITY FOR FEMALE STUDENTS TO PARTICIPATE IN SPORTS,*,*,<srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai>,sportsactivity.aiml
+0,DOES A STUDENT OF ATHLETIC EXCELLENCE GET A DISCOUNT IN UNIVERSITY FEES,*,*,No#CommaBut there is a system of incentive incentives for students of sports teams if the player gets one of the first three places.,sportsactivity.aiml
+0,IS THERE A FEE DISCOUNT FOR STUDENTS WITH ATHLETIC EXCELLENCE,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,DO STUDENTS WITH EXCEPTIONAL ATHLETIC ABILITIES RECEIVE A REDUCTION IN FEES,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,IS THERE A FINANCIAL BENEFIT FOR STUDENTS WITH ATHLETIC EXCELLENCE,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,CAN ATHLETES EXPECT A DISCOUNT ON UNIVERSITY FEES,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,IS THERE A FEE REDUCTION FOR STUDENTS EXCELLING IN SPORTS,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,DO OUTSTANDING ATHLETES RECEIVE FINANCIAL INCENTIVES AT THE UNIVERSITY,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,ARE THERE FEE DISCOUNTS AVAILABLE FOR STUDENTS WITH ATHLETIC ACHIEVEMENTS,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,CAN STUDENTS WITH ATHLETIC EXCELLENCE EXPECT A REDUCTION IN FEES,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,IS THERE A FINANCIAL INCENTIVE FOR STUDENTS INVOLVED IN SPORTS TEAMS,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml
+0,DO ATHLETES AT THE UNIVERSITY RECEIVE ANY FEE BENEFITS,*,*,<srai>Does a student of athletic excellence get a discount in university fees</srai>,sportsactivity.aiml

@@ -1,18 +1,24 @@
 package com.HUBOT.HUBOT.student;
 
+import com.HUBOT.HUBOT.ScheduleSubjects.ScheduleSubjectsService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@AllArgsConstructor
+
 @RestController
 @RequestMapping("/registerStudent")
 public class StudentController {
 
-    private StudentServices studentServices;
+    private final StudentServices studentServices;
+    @Autowired
+    public StudentController(StudentServices studentServices) {
+        this.studentServices = studentServices;
+    }
     @PostMapping("/createStudent")
     public ResponseEntity<String> addStudent(@RequestBody Student student){
         if (studentServices.addStudent(student) != null){
@@ -71,7 +77,7 @@ public class StudentController {
     public ResponseEntity<List<Student>> getStudentsByDepartmentId(@RequestParam String departmentId){
         List<Student> students = studentServices.getStudentsByDepartmentId(departmentId);
         if (students != null)
-            return new ResponseEntity<>(HttpStatus.OK);
+            return new ResponseEntity<>(students,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 

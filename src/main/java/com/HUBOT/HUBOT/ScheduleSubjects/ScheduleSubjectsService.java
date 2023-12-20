@@ -1,5 +1,6 @@
 package com.HUBOT.HUBOT.ScheduleSubjects;
 
+import com.HUBOT.HUBOT.DeletionResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,9 +29,21 @@ public class ScheduleSubjectsService {
         return scheduleSubjectsRepository.findByStudentId(studentId);
     }
 
-    public ScheduleSubjects removeSubject(String subjectId,String studentId) {
-        return scheduleSubjectsRepository.deleteBySubjectIdAndStudentId(subjectId,studentId);
+
+    public DeletionResponse removeSubject(String courseId, String studentId) {
+        DeletionResponse response = new DeletionResponse();
+        try {
+            scheduleSubjectsRepository.deleteByCourseCourseIdAndStudentId(courseId, studentId);
+            response.setSuccess(true);
+            response.setMessage("Student deleted successfully.");
+        } catch (Exception e) {
+            response.setSuccess(false);
+            response.setMessage("Failed to delete student.");
+            // Log the exception or handle it as needed
+        }
+        return response;
     }
+
 
 
 }

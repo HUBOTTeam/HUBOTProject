@@ -1,17 +1,21 @@
 package com.HUBOT.HUBOT.student;
 
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Locale;
 
-@AllArgsConstructor
 @Service
 public class StudentServices {
 
-    StudentRepository studentRepository;
+    private final StudentRepository studentRepository;
 
+    @Autowired
+    public StudentServices (StudentRepository studentRepository){
+        this.studentRepository = studentRepository;
+    }
     public String addStudent(Student student) {
         try {
       studentRepository.insert(student);

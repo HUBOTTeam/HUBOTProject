@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>
+	        How much is the loan
+	    </pattern>
+	    <template>
+	        It's the number of loan hours multiply in the price of your major hour.
+	    </template>
+    </category>
+    <category>
+    <pattern>What is the amount of the loan?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you tell me the loan amount?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>How is the loan calculated?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What factors determine the loan amount?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the calculation for the loan?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What formula is used to determine the loan?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>How do I find out the loan amount?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific formula for calculating the loan?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the loan based on?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+<category>
+    <pattern>How can I determine the loan for my program?</pattern>
+    <template><srai>How much is the loan</srai></template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        How to repay the loan
+    </pattern>
+    <template>
+        Installments after the student's graduation
+    </template>
+</category>
+	<category>
+    <pattern>What is the process for repaying the loan?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the steps to repay the loan?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>How can I make loan repayments?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What are the repayment options for the loan?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific procedure for loan repayment?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on repaying the loan after graduation?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What happens after I graduate in terms of loan repayment?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>How does the loan repayment process work?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>What is the timeline for loan repayments after graduation?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information on post-graduation loan repayments?</pattern>
+    <template><srai>How to repay the loan</srai></template>
+</category>
+
+</aiml>

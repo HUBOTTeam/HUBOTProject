@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>
+            how to book sports halls
+        </pattern>
+        <template>
+            Department of Sports Activities - Fill out and approve the hall reservation form.
+        </template>
+    </category>
+    
+    <category>
+    <pattern>What is the procedure for enrolling in summer semester training courses</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>How can I apply for training opportunities in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are summer semester training courses available for registration</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information about summer semester training options</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>What are the opportunities for training in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific portal for enrolling in summer semester training programs</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>How can I participate in summer semester training workshops</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Where can I find information about summer semester training courses</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on joining training sessions in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Are summer semester training opportunities open to all students</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a deadline for enrolling in summer semester training courses</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>What are the requirements for participating in summer semester training</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>How can I access information about summer semester training offerings</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>What types of training are available in the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+<category>
+    <pattern>Can I get involved in remote training during the summer semester</pattern>
+    <template><srai>Are there any training courses during the summer semester</srai></template>
+</category>
+
+
+
+<category>
+    <pattern>
+        What activities are available within the sports activity department
+    </pattern>
+    <template>
+        1. Sports activities for all individual and team games. 
+        2. Affiliation to the Hashemite University Tour. 
+        3. Affiliation to the Hassan Youth Award through the award liaison officer at the university. 
+        4. Participation in the activities of the Ministry of Youth (camps and workshops) Department of Sports Activity.
+    </template>
+</category>
+
+<category>
+    <pattern>What kind of sports activities are offered at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Can you tell me about the sports programs available at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>What are the options for sports involvement at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>How can I participate in sports activities at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Are there opportunities for sports engagement on campus</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Can you elaborate on the sports options within the university sports activity department</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>What are the available sports programs and activities at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>How can I get involved in sports at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any sports events or competitions at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide information about the sports department offerings</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>What options do students have for sports engagement on campus</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any clubs or teams within the sports activity department</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>Can you explain the sports programs available at the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>How can I join the sports activities offered by the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+<category>
+    <pattern>What are the sports opportunities provided by the university</pattern>
+    <template><srai>What activities are available within the sports activity department</srai></template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        Is it possible to give female students the opportunity to practice sports in a closed hall without mixing
+    </pattern>
+    <template>
+        Yes, In coordination with the Department of Sports Activity and the Deanship of the concerned college and in the presence of a supervisor from the college.
+    </template>
+</category>
+<category>
+    <pattern>Can female students participate in sports activities in a separate closed hall</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Are there arrangements for female students to engage in sports without mixing in a closed hall</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a provision for female students to practice sports in a segregated indoor facility</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Can female students access a closed sports hall without mixing with male students</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Do female students have the option to engage in sports activities in a private indoor setting</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a closed sports facility exclusively for female students</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Are there separate sports facilities for female students to avoid mixing</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Can female students practice sports in a closed environment without interaction with male students</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Do female students have the chance to engage in sports without mixing in a designated hall</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a separate indoor facility for female students to participate in sports</pattern>
+    <template><srai>Is it possible to give female students the opportunity to practice sports in a closed hall without mixing</srai></template>
+</category>
+
+
+<category>
+    <pattern>
+        Does a student of athletic excellence get a discount in university fees
+    </pattern>
+    <template>
+        No,But there is a system of incentive incentives for students of sports teams if the player gets one of the first three places.
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a fee discount for students with athletic excellence</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Do students with exceptional athletic abilities receive a reduction in fees</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a financial benefit for students with athletic excellence</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Can athletes expect a discount on university fees</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a fee reduction for students excelling in sports</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Do outstanding athletes receive financial incentives at the university</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Are there fee discounts available for students with athletic achievements</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Can students with athletic excellence expect a reduction in fees</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a financial incentive for students involved in sports teams</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+<category>
+    <pattern>Do athletes at the university receive any fee benefits</pattern>
+    <template><srai>Does a student of athletic excellence get a discount in university fees</srai></template>
+</category>
+
+
+</aiml>

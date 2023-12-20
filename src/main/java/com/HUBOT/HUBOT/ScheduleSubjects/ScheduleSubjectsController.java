@@ -1,6 +1,7 @@
 package com.HUBOT.HUBOT.ScheduleSubjects;
 
 
+import com.HUBOT.HUBOT.DeletionResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -39,14 +40,13 @@ public class ScheduleSubjectsController {
         }
     }
 
-
-    @DeleteMapping("removeSubject")
-    public ResponseEntity<ScheduleSubjects> removeSubject(@RequestParam String subjectId,@RequestParam String studentId){
-        ScheduleSubjects scheduleSubjects = scheduleSubjectsService.removeSubject(subjectId,studentId);
-        if (scheduleSubjects == null) {
-            return new ResponseEntity<>(HttpStatus.OK);
+    @DeleteMapping("/removeSubject")
+    public ResponseEntity<DeletionResponse> removeSubject(@RequestParam String courseId, @RequestParam String studentId) {
+        DeletionResponse deletionResponse = scheduleSubjectsService.removeSubject(courseId, studentId);
+        if (deletionResponse.isSuccess()) {
+            return new ResponseEntity<>(deletionResponse, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(deletionResponse, HttpStatus.NOT_FOUND);
         }
     }
 }

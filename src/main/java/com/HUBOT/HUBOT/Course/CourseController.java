@@ -6,7 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @AllArgsConstructor
 @RestController
@@ -32,6 +34,13 @@ public class CourseController {
             return new ResponseEntity<>(courses,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
+    @GetMapping("getCourseById")
+    public ResponseEntity<Course> getCourseByCourseId(@RequestParam String courseId){
+        Course course = courseServices.getCourseByCourseId(courseId);
+        if (course != null)
+            return new ResponseEntity<>(course,HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
 
     @GetMapping(value = "getCourseByCourseNumber")
     public ResponseEntity<Course> getCourseByCourseNumber(@RequestParam int courseNumber){
@@ -40,6 +49,18 @@ public class CourseController {
             return new ResponseEntity<>(course,HttpStatus.OK);
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
+    @GetMapping("getCourseIdByCourseName")
+    public ResponseEntity<Map<String, String>> getCourseIdByCourseName(@RequestParam String courseName){
+        String courseId = courseServices.getCourseIdByCourseName(courseName);
+        if (courseId != null) {
+            Map<String, String> response = new HashMap<>();
+            response.put("id", courseId);
+            return new ResponseEntity<>(response, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
     @GetMapping(value = "getAllCoursesInDepartment")
     public ResponseEntity<List<Course>> getAllCoursesInDepartment(@RequestParam String departmentId){
         List<Course> course = courseServices.getAllCoursesInDepartment(departmentId);

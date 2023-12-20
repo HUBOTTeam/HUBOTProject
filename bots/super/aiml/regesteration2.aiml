@@ -1,0 +1,3681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>I have placement test scores at another university Can I equalize them and be exempted from taking the placement test at the university</pattern>
+    <template>
+        Yes: by bringing an original transcript from the university and reviewing the relevant registrar (on campus).
+        <button>
+            <text>Find more here</text>
+            <url>https://hu.edu.jo/unitCenter/index.aspx?typ=67&amp;unitid=40000000</url>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>I have placement test scores at another university. Can I equalize them and be exluded from taking the placement test at the hashemite university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I use my placement test scores from a different university to get exempted from the placement test at this university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to transfer my placement test results from another university and avoid taking the placement test here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I have my placement test scores from another university considered for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the process to equalize placement test scores from another university for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to get exempted from the placement test using scores from another university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to be excused from taking the placement test here with scores from another university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to transfer placement test results from another university for exemption</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the procedure for using placement test scores from another university to get exempted</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to have my placement test scores from another university reviewed for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I skip the placement test with scores from another university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I use my placement test scores from a different university to get exempted from the placement test at this university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to transfer my placement test results from another university and avoid taking the placement test here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I have my placement test scores from another university considered for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the process to equalize placement test scores from another university for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to get exempted from the placement test using scores from another university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to be excused from taking the placement test here with scores from another university</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to transfer placement test results from another university for exemption</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the procedure for using placement test scores from another university to get exempted</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to have my placement test scores from another university reviewed for exemption here</pattern>
+    <template>
+        <srai>I have placement test scores at another university. Can I equalize them and be exempted from taking the placement test at the university</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is a new student required to come to the university to register for academic scheduling</pattern>
+    <template>
+        No: registration is electronic and there is no need to attend the university
+        <button>
+            <text>find more here</text>
+            <url>https://hu.edu.jo/unitCenter/index.aspx?typ=273&amp;unitid=40000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>do the new student have to come to the university to register </pattern>
+    <template><srai>Is a new student required to come to the university to register for academic scheduling</srai></template>
+</category>
+
+<category>
+    <pattern>Do I need to visit the university to register for academic scheduling as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is physical presence at the university mandatory for new students to register for academic scheduling</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Must I be present at the university for academic scheduling registration as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I complete the academic scheduling registration without visiting the university as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is physical attendance necessary for new students to register for academic scheduling at the university</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it compulsory for new students to be on-site at the university for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do I have to be present in person at the university to register for academic scheduling as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a requirement for new students to attend the university for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it necessary to visit the university for academic scheduling registration as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I complete the academic scheduling registration without coming to the university as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do I have to personally appear at the university for academic scheduling registration as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it mandatory for new students to show up at the university for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is physical attendance at the university a must for new students to register for academic scheduling</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do I need to be physically present at the university for academic scheduling registration as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it obligatory for new students to come in person to the university for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a requirement for new students to attend the university in person for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Must I physically go to the university for academic scheduling registration as a new student</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is physical presence at the university a condition for new students to register for academic scheduling</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do new students have to be physically present at the university for academic scheduling registration</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it compulsory for new students to appear on campus for academic scheduling registration at the university</pattern>
+    <template>
+        <srai>Is a new student required to come to the university to register for academic scheduling</srai>
+    </template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>How to submit a transfer request to the university</pattern>
+    <template>
+        New students through unified admission (unified admission website). Old students. 
+        The announcement is made through the university portal once every year, according to the university’s instructions,
+        and the transfer takes place at the beginning of each academic year.
+        <button>
+            <text>find more here</text>
+            <url>https://hu.edu.jo/unitCenter/index.aspx?typ=51&amp;unitid=40000000</url>
+        </button>
+        <button>
+            <text>unified admission website</text>
+            <url>https://www.mohe.gov.jo/EN/Pages/Unified_Admission_Unit</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How to transfer to the hashemite university</pattern>
+    <template><srai>How to submit a transfer request to the university</srai></template>
+</category>
+<category>
+    <pattern>What is the process for submitting a transfer request to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide me on transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I request a transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I initiate a transfer request to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the steps to request a transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a procedure for transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the method for transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to apply for a transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to switch to the university from another institution</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the steps for transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you explain the transfer process to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I apply for a transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the application procedure for transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific way to transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I request to transfer to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any requirements for transferring to the university</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide me on transferring to the university from another institution</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for transferring to the university from a different school</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to transfer to the university from another college</pattern>
+    <template>
+        <srai>How to submit a transfer request to the university</srai>
+    </template>
+</category>    
+    
+    
+    
+    
+<category>
+        <pattern>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</pattern>
+        <template>
+            If it exceeds the period announced in the acceptance announcement.
+            <button>
+                <text>find more here</text>
+                <url>https://hu.edu.jo/unitCenter/index.aspx?typ=51&amp;unitid=40000000</url>
+            </button>
+        </template>
+</category>
+
+<category>
+    <pattern>When is the electronic application for admission to parallel and international programs is canceled</pattern>
+    <template><srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai></template>
+</category>
+
+<category>
+        <pattern>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</pattern>
+        <template>
+            If it exceeds the period announced in the acceptance announcement.
+            <button>
+                <text>find more here</text>
+                <url>https://hu.edu.jo/unitCenter/index.aspx?typ=51&amp;unitid=40000000</url>
+            </button>
+        </template>
+</category>
+
+<category>
+    <pattern>When is the electronic application for admission to parallel and international programs is canceled</pattern>
+    <template><srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai></template>
+</category>
+
+<category>
+    <pattern>What is the time frame for accepted students to complete their electronic applications for parallel and international programs</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student extend the validity of their electronic application for parallel and international programs</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the grace period for students to complete their electronic applications for parallel and international programs after being accepted</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any exceptions for students who can't complete their electronic applications for parallel and international programs in time</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What should students do if their electronic application for parallel and international programs is about to expire</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to reapply if the electronic application for parallel and international programs is canceled</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What happens if a student misses the deadline for completing their electronic application for parallel and international programs</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any consequences for not submitting the electronic application for parallel and international programs on time</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the expiration date of electronic applications for parallel and international programs determined</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the implications of not completing the electronic application for parallel and international programs on time</pattern>
+    <template>
+        <srai>When is the electronic application for admission to parallel and international programs submitted by the student canceled if he is accepted</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>How are courses registered for new students</pattern>
+    <template>
+             The student registers through admission and registration,
+             after attemping to the placement test open your portal and look for the schedual,
+              in another it is(automatic). 
+              <button>
+                  <text>go to portal</text>
+                  <url>https://reg2.hu.edu.jo/Default.aspx</url>
+              </button>
+                </template>
+</category>
+
+<category>
+    <pattern>What is the process of course registration for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can new students register for courses</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you explain the course registration procedure for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific way for new students to register for courses</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the steps to enroll in courses for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do new students sign up for courses</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is course registration carried out for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the registration process for courses for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there specific instructions for new students regarding course registration</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide new students on how to register for courses</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the procedure for course registration for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I enroll in courses as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I sign up for courses when I'm a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide me through the course registration process as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the course registration method for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to get started with course registration as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I access course registration as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any specific steps for new students to register for courses</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do new students begin the course registration process</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a guide for new students on course registration</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the procedure to enroll in courses as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to initiate course registration as a new student</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What steps do new students need to follow for course registration</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I access course registration for new students</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the process for course registration for new students like</pattern>
+    <template>
+        <srai>How are courses registered for new students</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the difference between the country of the certificate and the nationality of the certificate?What is the difference between the country of the certificate and the nationality of the certificate</pattern>
+    <template>The country of the certificate, the country from which this certificate is issued, and the nationality of the certificate according to the study classification at the Ministry of Education.
+     <button>
+                <text>find more here</text>
+                <url>https://hu.edu.jo/unitCenter/index.aspx?typ=51&amp;unitid=40000000</url>
+            </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the distinction between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you clarify the disparity between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What separates the country of the certificate from the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do the country of the certificate and the nationality of the certificate differ</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a contrast between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the distinction between the country of the certificate and the nationality of the certificate in academic terms</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate defined</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you differentiate between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the disparity between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate related</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the disparity between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you clarify the distinction between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What separates the country of the certificate from the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do the country of the certificate and the nationality of the certificate differ academically</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a contrast between the country of the certificate and the nationality of the certificate in educational terms</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the distinction between the country of the certificate and the nationality of the certificate from an academic perspective</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate contrasted in educational contexts</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you differentiate between the country of the certificate and the nationality of the certificate in terms of academics</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the difference between the country of the certificate and the nationality of the certificate educationally</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate distinguished in academic discussions</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>How can a student submit an application for admission from outside Jordan</pattern>
+    <template>
+        On the university’s website - admission and registration - apply for admission to the university.
+            <button>
+                <text>apply for admission to the university</text>
+                <url>https://apl.hu.edu.jo/</url>
+            </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the disparity between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you clarify the distinction between the country of the certificate and the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What separates the country of the certificate from the nationality of the certificate</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do the country of the certificate and the nationality of the certificate differ academically</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a contrast between the country of the certificate and the nationality of the certificate in educational terms</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the distinction between the country of the certificate and the nationality of the certificate from an academic perspective</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate contrasted in educational contexts</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you differentiate between the country of the certificate and the nationality of the certificate in terms of academics</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the difference between the country of the certificate and the nationality of the certificate educationally</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are the country of the certificate and the nationality of the certificate distinguished in academic discussions</pattern>
+    <template>
+        <srai>What is the difference between the country of the certificate and the nationality of the certificate</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the cumulative GPA and how is it calculated</pattern>
+    <template>
+    The sum of the marks for each subject divided by the number of hours and the sum is divided by the total number of hours
+    (all the subjects studied at the university in all semesters, 
+    which are counted in the average).<break/>
+    you can use the calculater in this app to calculate it for you eaisly.
+    </template>
+</category>
+
+<category>
+    <pattern>What is the cumulative GPA and how is it calculated</pattern>
+    <template>
+        The sum of the marks for each subject divided by the number of hours and the sum is divided by the total number of hours
+        (all the subjects studied at the university in all semesters, 
+        which are counted in the average).<break/>
+        you can use the calculator in this app to calculate it for you easily.
+    </template>
+</category>
+
+<category>
+    <pattern>Explain cumulative GPA and its calculation</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to compute the cumulative GPA</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the method for calculating cumulative GPA</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide me through cumulative GPA and its calculation</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the cumulative GPA determined</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the process of calculating cumulative GPA</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the formula for calculating cumulative GPA</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to calculate the cumulative GPA</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you explain the cumulative GPA calculation</pattern>
+    <template>
+        <srai>What is the cumulative GPA and how is it calculated</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is the university recognized and is it an official or private university</pattern>
+    <template>
+        It is recognized and an official university
+        <button>
+            <text>visit website</text>
+            <url>https://hu.edu.jo/</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the university officially recognized</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a recognized and official university</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the university private or official</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the university publicly recognized</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it an official and recognized university</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the university acknowledged and official</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a recognized and official educational institution</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a private or officially recognized university</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the institution officially recognized</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it a publicly recognized and official university</pattern>
+    <template>
+        <srai>Is the university recognized and is it an official or private university</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the semester average and how is it calculated</pattern>
+    <template>
+        The sum of the marks for each subject divided by the number of hours and the sum is
+        divided by the total number of hours (all subjects studied during the semester).<break/>
+        you can use the calculater in this app to calculate it for you eaisly.
+    </template>
+</category>
+
+<category>
+    <pattern>How to calculate the semester average</pattern>
+    <template>
+        The semester average is calculated by summing the marks for each subject and dividing the sum by the total number of hours (all subjects studied during the semester).<break/>
+        You can easily calculate it using the calculator in this app.
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the calculation of the semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the method for computing the semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the semester average determined</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the process of calculating the semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the formula for calculating the semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you guide me through semester average calculation</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to determine the semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I calculate my semester average</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the semester average calculation method</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ semester average ^</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ semester grade ^</pattern>
+    <template>
+        <srai>What is the semester average and how is it calculated</srai>
+    </template>
+</category>
+
+
+
+
+
+<category>
+    <pattern>What is the specific time period for submitting an application for admission to the university</pattern>
+    <template>
+        it will be announced on the electronic portal
+          <button>
+                  <text>go to portal</text>
+                  <url>https://reg2.hu.edu.jo/Default.aspx</url>
+          </button>
+    </template>
+</category>
+
+<category>
+    <pattern>When will the specific time period for admission application be announced</pattern>
+    <template>
+        The specific time period for submitting an application for admission to the university will be announced on the electronic portal.
+    </template>
+</category>
+
+<category>
+    <pattern>How can I find out the specific time period for admission application</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I get information about the time period for admission application</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific time frame for applying to the university</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I know when to submit an application for admission</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When is the deadline for admission applications</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the timeline for university admission applications</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific period for applying to the university</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I find out the application period for the university</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the admission application time frame</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ admission application time ^</pattern>
+    <template>
+        <srai>What is the specific time period for submitting an application for admission to the university</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>What happens if a student misses the final exam</pattern>
+    <template>
+        An acceptable excuse must be presented to the dean of the college offering the subject
+        <ol>
+            <li>open your portal</li>
+            <li>go to marks</li>
+            <li>enter your execus</li>
+        </ol>
+        the time of enter the execus will be annouced on the official accounts of the univesity
+        <button>
+            <text>go to portal</text>
+            <url>https://reg2.hu.edu.jo/Default.aspx</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What should I do if I miss the final exam</pattern>
+    <template>
+        If you miss the final exam, you must present an acceptable excuse to the dean of the college offering the subject. Follow these steps:
+        <ol>
+            <li>Open your portal</li>
+            <li>Go to marks</li>
+            <li>Enter your excuse</li>
+        </ol>
+        The time for entering the excuse will be announced on the official university accounts.
+    </template>
+</category>
+
+<category>
+    <pattern>What is the procedure for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What happens when a student can't attend the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a way to make up for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What to do if I can't attend the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I make up for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What if I miss the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a process for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the steps for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to handle missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the protocol for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is a missed final exam handled</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the consequences of missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What should I do if I can't make it to the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the procedure for exam makeup after missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a way to reschedule the final exam if it's missed</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I request an exam makeup after missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the options for making up a missed final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How does the university handle missed final exams</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What if I have a valid reason for missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there an exam makeup policy for missed final exams</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I request an exam makeup after missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ exam makeup ^</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ missing the final exam</pattern>
+    <template>
+        <srai>What happens if a student misses the final exam</srai>
+    </template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>What is an acceptable excuse</pattern>
+    <template>
+        There are many cases of an acceptable excuse (university website - instructions for granting a bachelor’s degree and the student guide electronically)
+        <button>
+            <text>find more here</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What are some valid excuses for missing an exam</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you provide examples of acceptable excuses</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What qualifies as a valid excuse for missing an exam</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I know if my excuse is acceptable</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find information about acceptable excuses</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a list of acceptable excuses for missing exams</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I determine if my excuse is valid</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What documentation is needed for an acceptable excuse</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to provide a valid excuse for missing an exam</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the university's policy on acceptable excuses</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What counts as a legitimate excuse for exam absence</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a formal process for providing excuses</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How to request consideration for an excuse</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the conditions for a valid excuse</pattern>
+    <template>
+        <srai>What is an acceptable excuse</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</pattern>
+    <template>
+        <button>
+            <text>click here</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the maximum number of subjects I can register for in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a limit to how many subjects I can register for in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the minimum number of subjects I can register for in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I choose any number of subjects for a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a maximum subject limit per semester for bachelor students</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the subject registration limit for a bachelor's student in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the maximum course load for a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a restriction on the number of subjects in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How many subjects can a bachelor student enroll in per semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the subject registration policy for bachelor's students</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there subject registration limits for bachelor students</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the maximum credit hours for a bachelor student in a semester</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How many subjects can I take in one semester as a bachelor student</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ the maximum credit hours ^</pattern>
+    <template>
+        <srai>What is the maximum and minimum limit for the subjects registered in the semester for bachelor’s student</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the university calendar</pattern>
+    <template>
+        Specific dates for the academic year that are approved by the university’s council of deans (published on the university’s website)
+        <button>
+            <text>find it here</text>
+            <url>https://hu.edu.jo/unitCenter/index.aspx?typ=49&amp;unitid=40000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>please provide me the university calendar</pattern>
+    <template>
+       <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the academic calendar</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When does the university academic calendar start</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the key dates in the university calendar</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you share the official university calendar</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there an academic calendar for the university</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When does the academic year begin at the university</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you give me the dates for university holidays</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the important dates in the academic calendar</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I access the university's academic schedule</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When does the semester start</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the key events on the academic calendar</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I find the university's academic timetable</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the academic calendar available online</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I check the dates for university events</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When is the next semester scheduled to begin</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the holidays at the university</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I access the academic year schedule</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you provide me with the university's academic timetable</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find the academic calendar of the university</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the semester start dates</pattern>
+    <template>
+        <srai>What is the university calendar</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the prerequisite</pattern>
+    <template>
+        It is a subject that the student must study in order to be able to register for another subject (related to it).<break/>
+        you can find every subject prerequisite on the semester schedule 
+        <button>
+            <text>The semester schedule</text>
+            <url>https://hu.edu.jo/unitCenter/class_a.aspx?unitid=40000000</url>
+        </button>
+        </template>
+</category>
+
+<category>
+    <pattern>Explain what a prerequisite is</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you clarify the concept of a prerequisite subject</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I know which subjects have prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Why are prerequisites important in course registration</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What's the purpose of having prerequisite courses</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find information about subject prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do all subjects have prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I check if I meet the prerequisites for a course</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain the relationship between prerequisites and course registration</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are some examples of prerequisite subjects</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Why are some subjects marked as prerequisites for others</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you provide me with a list of subjects that require prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I find out if a subject has any prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>When do I need to fulfill prerequisite requirements for a course</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do prerequisites vary by department or faculty</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there exceptions to the prerequisite rule</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I know if I'm eligible to enroll in a subject with prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any prerequisites for elective courses</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What if I haven't completed the prerequisite courses</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I view prerequisite information for specific subjects</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What happens if I register for a course without meeting its prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I appeal to waive prerequisite requirements for a course</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find a detailed list of subject prerequisites</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I determine the prerequisites for a specific major</pattern>
+    <template>
+        <srai>What is the prerequisite</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the study plan</pattern>
+    <template>
+        It is all subjects that the student will study at the university (compulsory, elective, free) according to the hours indicated therein
+        <button>
+            <text>find your study plan here</text>
+            <url>https://hu.edu.jo/en/unitcenter/indexreg.aspx?prgm=5001&amp;cid=56000000&amp;did=56030000&amp;unitid=40000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>where can i find the study plan</pattern>
+    <template>
+       <srai>what is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Explain how the study plan works</pattern>
+    <template>
+        see here, 
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the study plan structured</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What does the study plan include</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you provide more details about the study plan</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How do I access my personalized study plan</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the components of a typical study plan</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What subjects are included in my study plan</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the study plan different for each major</pattern>
+    <template>
+        yes, 
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>Are there elective courses in the study plan</pattern>
+    <template>
+        yes, 
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I view my study plan details</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>How can I track my progress with the study plan</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What if I want to make changes to my study plan</pattern>
+    <template>
+        reviwe you section boss,
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Do I need to follow the study plan exactly</pattern>
+    <template>
+        yes,
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How often is the study plan updated</pattern>
+    <template>
+        you must follow the annoucments if there is any changes, 
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>Is the study plan available for all academic programs</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the study plan for transfer students</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>How can I find my study plan for the current semester</pattern>
+    <template>
+        <srai>What is the study plan</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Are there extracurricular activities, student clubs, and a student union</pattern>
+    <template>
+        Yes: Deanship of Student Affairs
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>What extracurricular activities are available for students</pattern>
+    <template>
+         see more here 
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I get involved in student clubs and activities</pattern>
+    <template>
+         see more here 
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a student union at the university</pattern>
+    <template>
+        yes  see more here 
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the responsibilities of the student union</pattern>
+    <template>
+         see more here 
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>    </template>
+</category>
+
+<category>
+    <pattern>How can I join a student club</pattern>
+    <template>
+        see more here 
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the role of the Deanship of Student Affairs</pattern>
+    <template>
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/?unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can students create their own clubs</pattern>
+    <template>
+        <srai>Are there extracurricular activities, student clubs, and a student union</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there sports clubs for students</pattern>
+    <template>
+        <srai>Are there extracurricular activities, student clubs, and a student union</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I stay updated on upcoming events and activities</pattern>
+    <template>
+        <srai>Are there extracurricular activities, student clubs, and a student union</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I start a new student club at the university</pattern>
+    <template>
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>    
+    </template>
+</category>
+
+<category>
+    <pattern>What types of student organizations exist on campus</pattern>
+    <template>
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I contribute to the student community</pattern>
+    <template>
+        <srai>Are there extracurricular activities, student clubs, and a student union</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the role of student clubs in academic life</pattern>
+    <template>
+        <button>
+            <text>Deanship of Student</text>
+            <url>https://hu.edu.jo/facnew/index.aspx?typ=71&amp;unitid=70000000</url>
+        </button>
+        </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is the academic year</pattern>
+    <template>
+        The first and second compulsory semesters and the summer elective
+    </template>
+</category>
+
+<category>
+    <pattern>What semesters are included in the academic year</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How many semesters are there in an academic year</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the summer semester part of the academic year</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the academic year structured</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the significance of the academic year</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How is the academic year relevant to students</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you explain the academic calendar</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is the academic year consistent every year</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the academic year schedule</pattern>
+    <template>
+        <srai>What is the academic year</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is a credit hour</pattern>
+    <template>
+        Published in the instructions for granting a bachelor’s degree and the student guide electronically<break/>
+        Credit hour: An academic evaluation unit that means the student’s attendance is sixteen (16) Theoretical lecture.
+      <button>
+            <text>find more here</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How is a credit hour defined</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What does a credit hour represent</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you explain the concept of a credit hour</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find information about credit hours</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are credit hours the same for all subjects</pattern>
+    <template>
+        NO,
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the maximum number of credit hours per semester</pattern>
+    <template>
+        18 for regular student and 21 for the graduated.
+       <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there different types of credit hours</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How are credit hours assigned to each course</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the significance of credit hours in my degree</pattern>
+    <template>
+        <srai>What is a credit hour</srai>
+    </template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>When is a student’s registration cancelled</pattern>
+    <template>
+        Within the deadline specified in the announcement, and acceptance will be canceled if the student does not pay the university fees
+        <button>
+            <text>follow anoucments</text>
+            <url>https://reg2.hu.edu.jo/Default.aspx</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What leads to the cancellation of a student's registration</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student's registration be cancelled for not paying fees</pattern>
+    <template>
+       yes, <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific deadline for registration to avoid cancellation</pattern>
+    <template>
+       yes, <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What happens if a student misses the registration deadline</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can a student avoid registration cancellation</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a grace period after the registration deadline</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there consequences for late registration</pattern>
+    <template>
+      yes,  <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is registration cancellation reversible</pattern>
+    <template>
+       NO, <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the impact of registration cancellation on a student's record</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the consequences of non payment on registration</pattern>
+    <template>
+        <srai>When is a student’s registration cancelled</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What are the academic warnings that a student gets</pattern>
+    <template>
+        <button>
+            <text>academic warnings</text>
+            <url>https://pic.hu.edu.jo/upload/84000000/std16.doc</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How does a student receive academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are typically issued when a student's academic performance falls below the university's standards. These warnings serve as indicators to address potential issues and improve performance.
+    </template>
+</category>
+
+<category>
+    <pattern>What actions lead to academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings can result from factors such as consistently low grades, failure to meet attendance requirements, or academic misconduct. It's important to adhere to university policies to avoid receiving warnings.
+    </template>
+</category>
+
+<category>
+    <pattern>Can I avoid academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Yes, academic warnings can be avoided by maintaining consistent attendance, actively participating in classes, seeking academic support when needed, and adhering to the university's code of conduct.
+    </template>
+</category>
+
+<category>
+    <pattern>How serious are academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are a serious indication that a student's performance is not meeting the university's expectations. It is crucial to address the issues leading to the warning promptly.
+    </template>
+</category>
+
+<category>
+    <pattern>Where can I find information about academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Detailed information about academic warnings, including the university's policies and procedures, can be found in the official student guide. You can access it on the university's website.
+    </template>
+</category>
+
+<category>
+    <pattern>What happens if I ignore academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Ignoring academic warnings may lead to more severe consequences, such as academic probation or dismissal. It is highly recommended to take immediate action and seek assistance to improve academic performance.
+    </template>
+</category>
+
+<category>
+    <pattern>How can I address academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        To address academic warnings, schedule a meeting with your academic advisor, create a plan for improvement, and utilize university resources such as tutoring services. Taking proactive steps is essential for success.
+    </template>
+</category>
+
+<category>
+    <pattern>Are academic warnings common</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are not uncommon, and many students receive them as a way to identify areas for improvement. The key is to view them as opportunities to enhance academic performance.
+    </template>
+</category>
+
+<category>
+    <pattern>Can academic warnings be appealed</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        In certain circumstances, academic warnings can be appealed. Check the university's policies and procedures for the specific steps and criteria for appealing academic warnings.
+    </template>
+</category>
+
+<category>
+    <pattern>How do academic warnings affect my academic record</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are typically part of the student's academic record. While they do not carry a permanent penalty, they serve as a record of past performance. It is crucial to improve to maintain a positive academic standing.
+    </template>
+</category>
+
+<category>
+    <pattern>What should I do if I receive an academic warning</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        If you receive an academic warning, schedule a meeting with your academic advisor to discuss the specific issues. Develop a plan for improvement, utilize available resources, and take proactive steps to address the underlying concerns.
+    </template>
+</category>
+
+<category>
+    <pattern>Are there different types of academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings may vary based on the nature of the academic issues. Examples include warnings for low grades, attendance, or academic misconduct. Familiarize yourself with the types relevant to your situation.
+    </template>
+</category>
+
+<category>
+    <pattern>How are academic warnings communicated to students</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are typically communicated to students through official university channels, such as email or the student portal. It is essential to regularly check your university communications for important updates.
+    </template>
+</category>
+
+<category>
+    <pattern>Can academic warnings be removed from my record</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Academic warnings are part of your academic record, but in some cases, improvements in performance may lead to their removal. Consult with your academic advisor to understand the specific procedures for addressing and potentially removing academic warnings.
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for resolving academic warnings</pattern>
+    <template>
+        <srai>What are the academic warnings that a student gets</srai>
+        Resolving academic warnings involves working closely with your academic advisor, developing a plan for improvement, and utilizing available resources. Regularly monitor your progress and make adjustments as needed to address the identified issues.
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What is a sub specialization and how do I know its courses</pattern>
+    <template>
+        There is no minor in the university
+    </template>
+</category>
+
+<category>
+    <pattern>Are there minors in the university</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        The university does not offer minors. Students typically focus on their major field of study without the option for sub-specializations or minors.
+    </template>
+</category>
+
+<category>
+    <pattern>Can I pursue a minor at the university</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        No, the university does not provide the option for minors or sub-specializations. Students concentrate on their major coursework without additional specialization tracks.
+    </template>
+</category>
+
+<category>
+    <pattern>How can I add a minor to my major</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Adding a minor is not applicable at the university. Students focus solely on their major field of study without the option for additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>What are the available minors at the university</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        The university does not offer minors or sub-specializations. Students concentrate on their major coursework without the option for additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>Can I choose a sub-specialization for my major</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        The university does not provide the option for sub-specializations or minors. Students focus on their major field of study without additional specialization tracks.
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to have a major and a minor at the same time</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        No, the university does not offer minors or sub-specializations. Students focus solely on their major field of study without the option for additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>How can I customize my academic path with a minor</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Customizing your academic path with a minor is not applicable at the university. Students concentrate on their major coursework without additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>Are minors beneficial at the university</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Since the university does not offer minors or sub-specializations, the academic focus is solely on the major field of study.
+    </template>
+</category>
+
+<category>
+    <pattern>What majors can be combined with a minor</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Combining majors with minors is not applicable at the university. Students concentrate on their major coursework without additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>Can I add a minor to my degree program</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Adding a minor to your degree program is not possible at the university. Students focus solely on their major field of study without additional specializations.
+    </template>
+</category>
+
+<category>
+    <pattern>How do minors work at the university</pattern>
+    <template>
+        <srai>What is a sub specialization and how do I know its courses</srai>
+        Minors are not applicable at the university. Students concentrate on their major coursework without the option for additional specializations.
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>How is the study postponed and is there a specific date for postponement</pattern>
+    <template>
+        Published in the instructions for granting a bachelor’s degree and the student guide electronically and before the start of the semester
+        <ol>
+           <li>The student may postpone his studies at the university for a period not exceeding five compulsory semesters, whether Was it intermittent or continuous?</li> 
+           <li>It is not permissible to postpone the studies of a new student or transferring to the university except after completing one academic semester.At least after joining university.</li> 
+            <li> The student may submit a request to postpone his studies according to the prescribed form before the end of the second week of the semester.
+                Who wishes to postpone his studies, and the Dean of the College decides on this request and communicates his decision to the Director of Admissions and Registration.
+                The Dean of Student Affairs, the head of the relevant department, and any other concerned party.</li> 
+         <li>The period of postponement is not calculated from the maximum period allowed for obtaining a bachelor’s degree or for the purposes of
+                    Remove alarm effect.</li> 
+        </ol>
+        <button>
+            <text>find more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I postpone my studies at the university</pattern>
+    <template>
+        Yes, a student may postpone their studies at the university for a period not exceeding five compulsory semesters, whether it is intermittent or continuous.
+        However, there are specific regulations to follow, and it is important to refer to the instructions for granting a bachelor’s degree and the student guide electronically.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for postponing studies at the university</pattern>
+    <template>
+        The student may submit a request to postpone their studies according to the prescribed form before the end of the second week of the semester.
+        The Dean of the College decides on this request and communicates the decision to the Director of Admissions and Registration, the Dean of Student Affairs, the head of the relevant department, and any other concerned party.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a deadline for requesting a study postponement</pattern>
+    <template>
+        Yes, the student may submit a request to postpone their studies before the end of the second week of the semester.
+        It is crucial to adhere to the specified deadlines and refer to the instructions for granting a bachelor’s degree and the student guide electronically.
+       <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the conditions for postponing studies at the university</pattern>
+    <template>
+        To postpone studies, the student must adhere to specific conditions, which are outlined in the instructions for granting a bachelor’s degree and the student guide electronically.
+        It is essential to review these conditions before submitting a request for study postponement.
+         <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How many semesters can I postpone my studies</pattern>
+    <template>
+        A student may postpone their studies at the university for a period not exceeding five compulsory semesters, whether it is intermittent or continuous.
+        It is essential to review the guidelines and regulations in the instructions for granting a bachelor’s degree and the student guide electronically.
+       <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>^ postpone my studies ^</pattern>
+    <template>
+        A student may postpone their studies at the university for a period not exceeding five compulsory semesters, whether it is intermittent or continuous.
+        It is essential to review the guidelines and regulations in the instructions for granting a bachelor’s degree and the student guide electronically.
+         <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>^ postpone study ^</pattern>
+    <template>
+        A student may postpone their studies at the university for a period not exceeding five compulsory semesters, whether it is intermittent or continuous.
+        It is essential to review the guidelines and regulations in the instructions for granting a bachelor’s degree and the student guide electronically.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to postpone studies after completing one academic semester</pattern>
+    <template>
+        No, it is not permissible to postpone the studies of a new student or someone transferring to the university except after completing one academic semester, at least after joining the university.
+        Refer to the instructions for granting a bachelor’s degree and the student guide electronically for further details.
+      <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I apply for a study postponement at the university</pattern>
+    <template>
+        The student may submit a request to postpone their studies by using the prescribed form.
+        This request should be submitted before the end of the second week of the semester.
+         <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the consequences of not adhering to the study postponement deadlines</pattern>
+    <template>
+        Failure to adhere to the study postponement deadlines may result in academic penalties.
+        It is crucial to follow the specified procedures and timelines, as outlined in the instructions for granting a bachelor’s degree and the student guide electronically.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is there a maximum period for study postponement</pattern>
+    <template>
+        Yes, there is a maximum period for study postponement, and it should not exceed five compulsory semesters, whether intermittent or continuous.
+        It is important to adhere to this limit and refer to the guidelines in the instructions for granting a bachelor’s degree and the student guide electronically.
+      <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>what Is the maximum period for study postponement</pattern>
+    <template>
+        <srai>Is there a maximum period for study postponement</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the conditions for applying for a study postponement</pattern>
+    <template>
+        To apply for a study postponement, the student must meet specific conditions outlined in the university's guidelines.
+        Refer to the instructions for granting a bachelor’s degree and the student guide electronically for detailed information.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I check the status of my study postponement request</pattern>
+    <template>
+        You can check the status of your study postponement request through the university portal or by contacting the relevant department.
+        Ensure to follow up on your request and meet any additional requirements, if necessary.
+    </template>
+</category>
+
+<category>
+    <pattern>What are the common reasons for study postponement</pattern>
+    <template>
+        Study postponement is commonly allowed for reasons such as medical conditions, family emergencies, or other compelling circumstances.
+        Make sure to provide supporting documentation when submitting your request.
+    </template>
+</category>
+
+<category>
+    <pattern>What happens if my study postponement request is denied</pattern>
+    <template>
+        If your study postponement request is denied, you should consult with the Dean of Student Affairs or the relevant department for further guidance.
+        They can provide insights into the denial reasons and discuss potential alternatives.
+    </template>
+</category>
+
+<category>
+    <pattern>Can I appeal a denied study postponement request</pattern>
+    <template>
+        Yes, you can appeal a denied study postponement request. Follow the university's appeal process and provide any additional information that supports your case.
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for withdrawing a study postponement request</pattern>
+    <template>
+        If you wish to withdraw your study postponement request, contact the relevant department or the Dean of Student Affairs as soon as possible.
+        Provide a clear explanation for your decision and follow any required procedures.
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a fee associated with study postponement</pattern>
+    <template>
+        There may be specific fees associated with study postponement. Check the university's fee structure or contact the relevant department for accurate information.
+        Be aware of any financial implications before submitting your request.
+    </template>
+</category>
+
+<category>
+    <pattern>Are there alternatives to study postponement</pattern>
+    <template>
+        In some cases, alternatives to study postponement may include course withdrawals, taking a reduced course load, or exploring flexible scheduling options.
+        Discuss your situation with academic advisors to explore the best alternatives for your circumstances.
+    </template>
+</category>
+
+<category>
+    <pattern>Can international students apply for study postponement</pattern>
+    <template>
+        Yes, international students can apply for study postponement. However, they should consider potential visa implications and communicate with the international student office for guidance.
+    </template>
+</category>
+
+<category>
+    <pattern>What are the steps to apply for study postponement</pattern>
+    <template>
+        The steps to apply for study postponement include completing the prescribed form, providing necessary documentation, and submitting the request before the specified deadline.
+        Follow the guidelines outlined in the university's instructions for granting a bachelor’s degree and the student guide electronically.
+        <button>
+            <text>Learn more on page 14</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>How many semesters can I postpone and what is the legal period for me to stay at the university</pattern>
+    <template>
+        The student may postpone his studies at the university for a period not exceeding five compulsory semesters, whether
+        Was it intermittent or continuous
+        
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>What are the conditions for transferring to the university from another Jordanian university</pattern>
+    <template>
+        To transfer to the university from another official Jordanian university, the following conditions must be met:
+        <ol>
+            <li>A seat must be available for the student in the specialty he wishes to transfer to.</li>
+            <li>The student must have successfully studied no less than (33) credit hours at his current university, which are included in the calculation of his cumulative grades. These grades are not included in calculating his cumulative average at the university.</li>
+            <li>The student's GPA in high school must be acceptable either in the year he obtained high school or the year he applied for the transfer. A very good cumulative average is required. In this case, the student must move to the same subjects he studied at his current university, no less than the major in which he is accepted at the university for regular study.</li>
+            <li>The student must not have been expelled from his current university.</li>
+            <li>The Dean of the College may consider the possibility of the student transferring to a major close to his current major if it is not available at the university.</li>
+        </ol>
+        <button>
+            <text>Learn more on page 15</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>^ transferring to the university ^</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+<category>
+    <pattern>What are the requirements for transferring to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I transfer to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can you tell me the process of transferring to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any specific requirements for transferring to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ transfer process ^</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What do I need to do to transfer to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is it possible to transfer to the university from another Jordanian university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ transfer eligibility ^</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I transfer to the university from another Jordanian university after being expelled from my current university</pattern>
+    <template>
+      <srai>What are the conditions for transferring to the university from another Jordanian university</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is it permissible for a student at a private university to transfer to the Hashemite University</pattern>
+    <template>
+        It is possible on the parallel or international program if the transfer conditions are met 
+        It is permissible to accept students transferring from non-Jordanian universities or private Jordanian universities who have successfully completed (33)
+        One credit hour for those who obtained a very good grade in the parallel or international program, provided that they achieve the minimum
+        The minimum acceptance rate for the specialty approved by the Ministry of Higher Education.
+         <button>
+            <text>Learn more on page 16</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I transfer to the Hashemite University from a private university</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>How can I transfer from a private university to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ private university transfer ^</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Are there any restrictions on transferring from a private university to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the requirements for transferring from a private university to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is transferring from a private university to the Hashemite University competitive</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ private university to HU ^</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can I transfer to the Hashemite University if I am currently studying at a private university</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Is there a specific process for transferring from a private university to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the acceptance rate for transferring from a private university to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student at a private university to transfer to the Hashemite University</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</pattern>
+    <template>
+        Yes, it is permissible if the student is re-accepted.
+        <button>
+            <text>Learn more on page 16</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was dismissed from another university apply to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the conditions for a dismissed student to be accepted at the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ dismissed student acceptance ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was expelled from another university join the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ re-acceptance after dismissal ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who faced dismissal at another university reapply to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ student dismissal and readmission ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was expelled from a previous university study at the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for accepting a student who faced dismissal from another university</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ student readmission ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</pattern>
+    <template>
+        Yes, it is permissible if the student is re-accepted.
+        <button>
+            <text>Learn more on page 16</text>
+            <url>https://pic.hu.edu.jo/Upload/42000000/%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D8%A7%D8%AA%20%D9%85%D9%86%D8%AD%20%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D9%88%D8%B3%202016%D8%A2%D8%AE%D8%B1%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%2027-2-2019.pdf</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was dismissed from another university apply to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What are the conditions for a dismissed student to be accepted at the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ dismissed student acceptance ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was expelled from another university join the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ re-acceptance after dismissal ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who faced dismissal at another university reapply to the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ student dismissal and readmission ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student who was expelled from a previous university study at the Hashemite University</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for accepting a student who faced dismissal from another university</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ student readmission ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who was dismissed from his major at another university to be accepted into the same major at the Hashemite University</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is it permissible for a student who has completed the university graduation requirements with a low GPA and wants to raise his GPA to study new subjects or re study subjects in which he obtained low grades for the purpose of obtaining a higher grade</pattern>
+    <template>
+        Yes, it is permissible, and this is called (postponing graduation) before receiving the documents with official approval from the Deans’ Council.
+        <button>
+            <text>Find more about</text>
+            <url>https://hu.edu.jo/ser/CouncilofDeans.aspx?t=0</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student with a low GPA postpone graduation to raise their GPA by studying new subjects or re studying subjects with low grades</pattern>
+    <template>
+        <srai>Is it permissible for a student who has completed the university graduation requirements with a low GPA and wants to raise his GPA to study new subjects or re study subjects in which he obtained low grades for the purpose of obtaining a higher grade</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ postponing graduation for GPA improvement ^</pattern>
+    <template>
+        <srai>Is it permissible for a student who has completed the university graduation requirements with a low GPA and wants to raise his GPA to study new subjects or re-study subjects in which he obtained low grades for the purpose of obtaining a higher grade</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Can a student request to postpone graduation for GPA enhancement by studying new subjects or restudying subjects with low grades</pattern>
+    <template>
+        <srai>Is it permissible for a student who has completed the university graduation requirements with a low GPA and wants to raise his GPA to study new subjects or re-study subjects in which he obtained low grades for the purpose of obtaining a higher grade</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>What is the process for postponing graduation to improve GPA by studying new subjects or restudying subjects with low grades</pattern>
+    <template>
+        <srai>Is it permissible for a student who has completed the university graduation requirements with a low GPA and wants to raise his GPA to study new subjects or re study subjects in which he obtained low grades for the purpose of obtaining a higher grade</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Is it permissible for a student who withdraws from the university in his first semester to return to school</pattern>
+    <template>
+        He must spend at least one semester studying and can return within four years of his withdrawal, provided that he is not expelled from the university and his GPA is not less than 2.
+    </template>
+</category>
+
+
+
+</aiml>

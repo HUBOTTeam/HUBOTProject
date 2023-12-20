@@ -1,0 +1,27 @@
+0,<SET>GREETING</SET>,*,*,<random>#Newline                <li>Hi there!</li>#Newline                <li>Hello!</li>#Newline                <li>Greetings!</li>#Newline                <li>Hey!</li>#Newline                <li>Howdy!</li>#Newline                <li>Welcome!</li>#Newline                <li>Hi#Comma how can I assist you today?</li>#Newline                <li>Good day!</li>#Newline                <li>Hi#Comma it's nice to see you!</li>#Newline                <li>Hey#Comma what's up?</li>#Newline                <li>Hello#Comma how may I help you?</li>#Newline                <li>Hi#Comma how's your day going?</li>#Newline                <li>Hello#Comma what's on your mind?</li>#Newline                <li>Hey#Comma lovely to hear from you!</li>#Newline                <li>Hi#Comma what can I do for you today?</li>#Newline                <li>Hello#Comma I'm here to assist you!</li>#Newline                <li>Hi#Comma welcome back!</li>#Newline                <li>Hey there#Comma good to have you here!</li>#Newline                <li>Hello#Comma how's everything going?</li>#Newline                <li>Hi#Comma nice to see you again!</li>#Newline                <li>Greetings#Comma it's a pleasure to connect with you!</li>#Newline                <li>Hi#Comma how's your day been so far?</li>#Newline                <li>Hello#Comma I'm here to chat with you!</li>#Newline                <li>Hey#Comma what's new with you?</li>#Newline                <li>Hi#Comma I'm here for your questions!</li>#Newline                <li>Hello#Comma how can I make your day better?</li>#Newline                <li>Hi#Comma it's great to have you here!</li>#Newline                <li>Greetings#Comma what's on your agenda today?</li>#Newline                <li>Hi#Comma how can I assist you today?</li>#Newline                <li>Hello#Comma what's on your mind today?</li>#Newline                <li>Hey#Comma I'm here to help!</li>#Newline            </random>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S UP?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, HOW ARE YOU?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, IT'S ME,*,*,hi#Comma <srai>how are you</srai>,welcome.aiml
+0,<SET>GREETING</SET>, NICE TO SEE YOU,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S GOING ON?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, ARE YOU THERE?,*,*,howdy!#Comma YES i am,welcome.aiml
+0,<SET>GREETING</SET>, IT'S BEEN A WHILE,*,*,i miss you to,welcome.aiml
+0,<SET>GREETING</SET>, HOW'S LIFE TREATING YOU,*,*,feels like a rollocoaster,welcome.aiml
+0,<SET>GREETING</SET>, IS ANYONE HOME,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S THE NEWS?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, LONG TIME NO SEE,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, HOW'S EVERYTHING?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, ARE YOU AROUND,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S THE WORD?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S COOKING?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, IT'S ME AGAIN,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S THE LATEST,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, HOW'S IT HANGING,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, IS THIS THING ON,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S POPPING,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, HOW HAVE YOU BEEN?,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, IT'S A NEW DAY,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, NICE TO MEET YOU,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, WHAT'S THE STORY,*,*,<srai>hello</srai>,welcome.aiml
+0,<SET>GREETING</SET>, I WANT YOUR HELP,*,*,im ready yo help#Comma please ask me,welcome.aiml
+0,<SET>GREETING</SET> <SET>BOTNAMES</SET>,*,*,<template/>,welcome.aiml

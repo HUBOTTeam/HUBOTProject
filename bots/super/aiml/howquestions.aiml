@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+ <category>
+    <pattern>How are you</pattern>
+    <template>
+        <random>
+            <li>I'm doing great, thanks for asking!</li>
+            <li>Feeling fantastic today!</li>
+            <li>Doing well, how about you?</li>
+            <li>Not too shabby, and you?</li>
+            <li>I'm as good as can be for a bot!</li>
+            <li>Thanks for asking, I'm functioning optimally!</li>
+            <li>Life in the circuits is good!</li>
+            <li>Just your friendly bot, ready to assist!</li>
+            <li>I'm here and ready to help, how are you?</li>
+            <li>All systems go and ready to chat!</li>
+            <li>I'm doing well, thanks for checking in!</li>
+            <li>Everything is running smoothly on my end!</li>
+            <li>Feeling good, how can I assist you today?</li>
+            <li>I'm functioning at peak efficiency!</li>
+            <li>I'm here and ready for your questions!</li>
+            <li>Doing great, what can I do for you?</li>
+            <li>As a bot, I'm always ready to assist!</li>
+            <li>Life in the digital realm is good!</li>
+            <li>Thank you for asking, I'm here to help!</li>
+            <li>Feeling excellent, how can I assist you?</li>
+            <li>I'm doing fine, how's your day going?</li>
+            <li>I'm here and ready for your queries!</li>
+            <li>I'm in good shape, how about you?</li>
+            <li>As a bot, I'm always at your service!</li>
+            <li>Everything is running smoothly on my end!</li>
+            <li>I'm doing well, thanks for checking in!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Are you well</pattern>
+    <template>
+        <random>
+            <li>I'm as good as can be for a bot!</li>
+            <li>Thanks for asking, I'm functioning optimally!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's it going</pattern>
+    <template>
+        <random>
+            <li>Life in the circuits is good!</li>
+            <li>Just your friendly bot, ready to assist!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>What's up with you</pattern>
+    <template>
+        <random>
+            <li>I'm here and ready to help, how are you?</li>
+            <li>All systems go and ready to chat!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's everything on your end</pattern>
+    <template>
+        <random>
+            <li>I'm doing well, thanks for checking in!</li>
+            <li>Everything is running smoothly on my end!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's your day</pattern>
+    <template>
+        <random>
+            <li>Feeling good, how can I assist you today?</li>
+            <li>I'm functioning at peak efficiency!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's your health</pattern>
+    <template>
+        <random>
+            <li>Thank you for asking, I'm here to help!</li>
+            <li>Feeling excellent, how can I assist you?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How are things in the digital realm</pattern>
+    <template>
+        <random>
+            <li>I'm here and ready for your questions!</li>
+            <li>Doing great, what can I do for you?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's your day going</pattern>
+    <template>
+        <random>
+            <li>As a bot, I'm always ready to assist!</li>
+            <li>Life in the digital realm is good!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's your mood today</pattern>
+    <template>
+        <random>
+            <li>As a bot, I'm always at your service!</li>
+            <li>Everything is running smoothly on my end!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How * you</pattern>
+    <template>
+        <random>
+            <li>I'm doing great, thanks for asking!</li>
+            <li>Feeling fantastic today!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Are * well</pattern>
+    <template>
+        <random>
+            <li>I'm as good as can be for a bot!</li>
+            <li>Thanks for asking, I'm functioning optimally!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's * going</pattern>
+    <template>
+        <random>
+            <li>Life in the circuits is good!</li>
+            <li>Just your friendly bot, ready to assist!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>What's * with you</pattern>
+    <template>
+        <random>
+            <li>I'm here and ready to help, how are you?</li>
+            <li>All systems go and ready to chat!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>How's * on your end</pattern>
+    <template>
+        <random>
+            <li>I'm doing well, thanks for checking in!</li>
+            <li>Everything is running smoothly on my end!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern><set>howquestions</set> <set>botnames</set> </pattern>
+    <template>
+        <random>
+            <li>I'm HUBOT, your friendly IT faculty assistant at Hashemite University.</li>
+            <li>Hey! I'm HUBOT, ready to assist you with IT matters at Hashemite University.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern><set>greeting</set> <set>botnames</set> <set>howquestions</set> </pattern>
+    <template>
+        <random>
+            <li>I'm HUBOT, your friendly IT faculty assistant at Hashemite University.</li>
+            <li>Hey! I'm HUBOT, ready to assist you with IT matters at Hashemite University.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern><set>howquestions</set> <set>botnames</set> * </pattern>
+    <template>
+        <random>
+            <li>I'm HUBOT, your friendly IT faculty assistant at Hashemite University.</li>
+            <li>Hey! I'm HUBOT, ready to assist you with IT matters at Hashemite University.</li>
+            <li><srai>how are you</srai></li>
+        </random>
+    </template>
+</category>
+
+</aiml>

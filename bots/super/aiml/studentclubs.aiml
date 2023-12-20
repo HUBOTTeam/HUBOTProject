@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>*</pattern>
+	    <that>How can I join student clubs</that>
+	    <template>
+	         <ol>
+	            <li>University website</li>
+	            <li>Deanship of Student Affairs Student Clubs</li>
+	            <li>submit an application for affiliation</li>
+            </ol>
+            <link>
+                <text>click here to directly visit the Hashmeite Universirt</text>
+                <url>https://hu.edu.jo</url>
+            </link>
+	    </template>
+    </category>
+    <category>
+    <pattern>What is the process for joining student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a specific procedure to join student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>What steps do I need to take to become a member of student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>How can I become affiliated with student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>What is the procedure for affiliation with student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Are there specific steps to follow in order to join student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there an application process to join student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>What is the university's policy for joining student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any requirements to meet when joining student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Can you guide me on how to get involved in student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Where can I find information on joining student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a link to apply for affiliation with student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Can you provide details on how to join student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>What are the steps for joining student clubs at the university</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a direct link to the university website for joining student clubs</pattern>
+    <template><srai>How can I join student clubs</srai></template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        Are there fees for participating in activities courses and events organized by the Department of Student Bodies
+    </pattern>
+    <template>
+        No fees
+    </template>
+</category>
+<category>
+    <pattern>Do I need to pay fees for participating in activities organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a cost associated with joining courses organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any charges for participating in events organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Do I have to pay for participating in activities organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Are fees required for joining events organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a fee for participating in courses organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Do activities organized by the Department of Student Bodies come with a cost</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Are there charges for participating in courses offered by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a fee associated with attending events organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Do I need to pay to participate in activities, courses, and events organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Are there any fees for engaging in courses offered by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a cost associated with joining courses and activities organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Do I have to pay for attending events arranged by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Are fees applicable for participating in activities, courses, and events organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+<category>
+    <pattern>Is there a charge for attending events courses, and activities organized by the Department of Student Bodies</pattern>
+    <template><srai>Are there fees for participating in activities courses and events organized by the Department of Student Bodies</srai></template>
+</category>
+
+
+
+<category>
+    <pattern>
+        Where is the Department of Student Bodies located
+    </pattern>
+    <template>
+        Deanship of Student Affairs Building
+    </template>
+</category>
+<category>
+    <pattern>Can you tell me the location of the Department of Student Bodies</pattern>
+    <template><srai>Where is the Department of Student Bodies located</srai></template>
+</category>
+
+<category>
+    <pattern>Where can I find the Department of Student Bodies</pattern>
+    <template><srai>Where is the Department of Student Bodies located</srai></template>
+</category>
+
+<category>
+    <pattern>What is the address of the Department of Student Bodies</pattern>
+    <template><srai>Where is the Department of Student Bodies located</srai></template>
+</category>
+
+<category>
+    <pattern>Could you let me know where the Department of Student Bodies is situated</pattern>
+    <template><srai>Where is the Department of Student Bodies located</srai></template>
+</category>
+
+<category>
+    <pattern>Do you have information on the location of the Department of Student Bodies</pattern>
+    <template><srai>Where is the Department of Student Bodies located</srai></template>
+</category>
+
+
+
+</aiml>

@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+    
+    
+    <!--  questions about it in general  -->
+	<category>
+	    <pattern>
+	       ^ what ^ is ^ it ^
+	    </pattern>
+	    <template>
+	        Prince Al Hussein Bin Abdullah II College of Information Technology was established in 2001.
+            The college aims to provide the local and regional labor markets with highly qualified graduates 
+            in many fields of information technology, 
+            including analysis, 
+            design and application of computer systems, 
+            software development, software quality control,
+            multimedia design, artificial intelligence, 
+            information processing and management, 
+            computer networks, information security, 
+            cybersecurity, data science and other fields.
+	    </template>
+    </category>
+    <category>
+        <pattern>
+            ^ what is the purpose of it faculty ^
+        </pattern>
+        <template>
+            The college aims to provide the local and regional labor markets with highly qualified graduates 
+            in many fields of information technology, 
+            including analysis, 
+            design and application of computer systems, 
+            software development, software quality control,
+            multimedia design, artificial intelligence, 
+            information processing and management, 
+            computer networks, information security, 
+            cybersecurity, data science and other fields.
+        </template>
+    </category>
+    <category>
+        <pattern>^ when the it faculty established ^</pattern>
+        <template>Prince Al Hussein Bin Abdullah II College of Information Technology was established in 2001.</template>
+    </category>
+    <category>
+    <pattern>^ focus ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Why ^ IT created ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ year ^ IT ^ established ^</pattern>
+    <template>
+        <srai>when the it faculty established</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ main ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How ^ IT ^ contribute ^ job ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ focus ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ missions ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ fields ^ IT ^ cover ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How ^ IT ^ established ^</pattern>
+    <template>
+        <srai>when the it faculty established</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Why ^ choose the IT ^ for ^ studies ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ opportunities ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ significance ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ goals ^ IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ In which areas does the IT faculty excel ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Can you provide details about the IT faculty foundation ^</pattern>
+    <template>
+        <srai>when the it faculty established</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What distinguishes the IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How has the IT faculty contributed to the tech industry ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Can you elaborate on the objectives of the IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Tell me about the role of the IT faculty in education ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How does the IT ^ support students in their career paths ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Explain the impact of the IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What opportunities does the IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ IT ^ prepare^ ^ students ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ ^ IT ^</pattern>
+    <template>
+        <srai>when the it faculty established</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ impact has the IT ^</pattern>
+    <template>
+        <srai>what is the purpose of it faculty</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ mission^ ^ of the IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ establishment^ ^ of the IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ goal^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ year ^ IT ^ established ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ focus ^ of the IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ program^ offered by the IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What qualification^ do IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ field^ cover^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ information technology ^ courses ^ offered</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ role^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ achievement^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ IT ^ contribut^ ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ significanc^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ opportunit^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ collaborat^ ^ IT ^</pattern>
+    <template>
+        <srai>^ what ^ is ^ it ^</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>
+       ^ IT located ^
+    </pattern>
+    <template>
+        Between Alhussien Al Bani building and Sport building.
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ find ^ it ^
+    </pattern>
+    <template>
+        Between Alhussien Al Bani building and Sport building.
+    </template>
+</category>
+<category>
+    <pattern>^ IT ^ located</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ IT </pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ building ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ direction^ ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ locate^ ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ address ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ map ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Where ^ IT ^ situated</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ building ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ guide^ ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ direction^ ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ nearest ^ to ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ map ^ locate ^ IT ^</pattern>
+    <template>
+        <srai>^ find ^ it ^</srai>
+    </template>
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+       ^ in which building does the it faculty exist ^
+    </pattern>
+    <template>
+        In Prince Al-Hussein Bin Abdallah II for IT.
+    </template>
+</category>
+<category>
+    <pattern>^ building ^ it ^</pattern>
+    <template><srai>^ in which building does the it faculty exist ^</srai></template>
+</category>
+<category>
+    <pattern>^ Which ^ build^ ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ build^ ^ for ^ the ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ name^ ^ build^ ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location of the IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ specific^ ^ building ^ IT </pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ building ^ house^ ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ about the IT ^ building</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ name ^ building ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ guide ^ IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Provide direction^ to the building of the IT department</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ find^ the IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Give me information about the building of the IT faculty</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What is the building location for the IT department</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Is there a specific building for the IT faculty</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Tell me about the IT ^</pattern>
+    <template>
+        <srai>in which building does the it faculty exist</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+        ^ how can i contact with the it ^
+    </pattern>
+    <template>
+        <button>
+            <text>IT faculty contact</text>
+            <url>https://hu.edu.jo/facnew/contact_us.aspx?unitid=67000000</url>
+        </button>
+    </template>
+</category>
+<category>
+    <pattern>^ contact ^ IT ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ contact^ ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ reach ^ IT ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ contact^ IT ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Tell me about the contact options for the IT faculty ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Provide information on contacting the IT department ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ communicat^ ^ IT ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Give me the ways to contact the IT department ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What are the contact methods for the IT faculty ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Is there a contact page for the IT department ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Provide me with the IT faculty contact information ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How do I get in touch with the IT department ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ Tell me about the IT faculty contact details ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What is the contact page for the IT department ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ How can I contact the IT faculty ^</pattern>
+    <template>
+        <srai>how can i contact with the it</srai>
+    </template>
+</category>
+
+
+
+<!--questions about the it building:-->
+
+<category>
+    <pattern>
+        ^ how many floor^ do the building contain^ ^
+    </pattern>
+    <template>
+        3 floors.
+        floor 0,
+        floor 1,
+        floor 2.
+    </template>
+</category>
+<category>
+    <pattern>^ floor^ ^ in ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floors in the ^ building</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ What is the floor count of the building ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ building floor^ ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ building floor^ ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ levels ^ the ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+<category>
+    <pattern>^How many floors are there in the building?</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^Tell me about the number of floors in the building.</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^What is the floor count of the building?</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^Give me information about the building's floors.</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many floor^ do the building contain^ ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+       ^ how many bathrooms are there in the it building ^
+    </pattern>
+    <template>
+        18 Bathrooms
+        6 for men
+        6 for women
+        6 for employess
+    </template>
+</category>
+<category>
+    <pattern>^ many ^ bathroom^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many bathrooms are there in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ number ^ bathroom^ ^ building ^</pattern>
+    <template>
+        <srai>^ how many bathrooms are there in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ bathroom^ ^ count ^ IT ^</pattern>
+    <template>
+        <srai>^ how many bathrooms are there in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ bathroom^ ^ there ^</pattern>
+    <template>
+        <srai>^ how many bathrooms are there in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ bathroom^ ^ available ^ IT ^</pattern>
+    <template>
+        <srai>^ how many bathrooms are there in the it building ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+        ^ how many worships places are there in the building ^
+    </pattern>
+    <template>
+        2
+        1 for men
+        1 for women
+    </template>
+</category>
+<category>
+    <pattern>^ Tell me about the number of worship^ places in the building ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ worship^ ^ in the building ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ count ^ worship^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ how * worship^ ^ it ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ many ^ prayer^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ much worship^ in it ^</pattern>
+    <template>
+        <srai>^ how many worships places are there in the building ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+        ^ how many department^ in the IT ^
+    </pattern>
+    <template>
+        6 departments
+    </template>
+</category>
+<category>
+    <pattern>^ number^ ^ department^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many department^ in the IT ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ department^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many department^ in the IT ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ count ^ department^ IT ^</pattern>
+    <template>
+        <srai>^ how many department^ in the IT ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^Give me information about the departments in the IT faculty.^</pattern>
+    <template>
+        <srai>^ how many department^ in the IT ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^How many academic departments are there in the IT faculty?^</pattern>
+    <template>
+        <srai>^ how many department^ in the IT ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+       ^ where can i find the women bathrooms ^
+    </pattern>
+    <template>
+        In floor0 and floor1 and floor2.
+    </template>
+</category>
+<category>
+    <pattern>^ location of wom^ bathroom^ ^</pattern>
+    <template>
+        <srai>^ where can i find the women bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor^ ^ wom^ bathroom^ locate^ ^</pattern>
+    <template>
+        <srai>^ where can i find the women bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ wom^ bathroom^ ^ it ^</pattern>
+    <template>
+        <srai>^ where can i find the women bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ wom^ bathroom^ ^ situat^ ^</pattern>
+    <template>
+        <srai>^ where can i find the women bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ wom^ ^ bathr^ ^ it ^</pattern>
+    <template>
+        <srai>^ where can i find the women bathrooms ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+       ^ where can i find the men bathrooms ^
+    </pattern>
+    <template>
+        In floor0 and floor1 and floor2.
+    </template>
+</category>
+<category>
+    <pattern>^ location of m^ bathroom^ ^</pattern>
+    <template>
+        <srai> ^ where can i find the men bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor^ ^ m^ bathroom^ locate^ ^</pattern>
+    <template>
+        <srai>^ where can i find the men bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ m^ bathroom^ ^ it ^</pattern>
+    <template>
+        <srai>^ where can i find the men bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ m^ bathroom^ ^ situat^ ^</pattern>
+    <template>
+        <srai>^ where can i find the men bathrooms ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ m^ ^ bathr^ ^ it ^</pattern>
+    <template>
+        <srai>^ where can i find the men bathrooms ^</srai>
+    </template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>
+       ^ where can i find the wom^ worship^ ^
+    </pattern>
+    <template>
+        In floor 2.
+    </template>
+</category>
+<category>
+    <pattern>^ wom^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor wom^ ^ worship^ ^ locat^ ^</pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ wom^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ info^ ^ wom^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ ^ wom^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ wom^ ^ pray^
+    </pattern>
+    <template>
+        <srai>^ where can i find the wom^ worship^ ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+       ^ where can i find the m^ worship^ ^
+    </pattern>
+    <template>
+        In floor 1.
+    </template>
+</category>
+<category>
+    <pattern>^ m^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor m^ ^ worship^ ^ locat^ ^</pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ m^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ info^ ^ m^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ ^ m^ ^ worship^ ^</pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ m^ ^ pray^
+    </pattern>
+    <template>
+        <srai>^ where can i find the m^ worship^ ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+        ^ where can i find the security office ^
+    </pattern>
+    <template>
+        In floor 2.
+    </template>
+</category>
+<category>
+    <pattern>^ guide ^ secur^ ^ office^ ^</pattern>
+    <template>
+        <srai>^ where can i find the security office ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor^ ^ secur^ ^</pattern>
+    <template>
+        <srai>^ where can i find the security office ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ secur^ ^office^ ^</pattern>
+    <template>
+        <srai>^ where can i find the security office ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ info^ ^ secur^ ^ office^ ^</pattern>
+    <template>
+        <srai>^ where can i find the security office ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ ^ secur^ ^</pattern>
+    <template>
+        <srai>^ where can i find the security office ^</srai>
+    </template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+        ^ where is or in which floor the deanship of the college exist ^
+    </pattern>
+    <template>
+        In floor 2.
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor ^ dean^ ^ college ^</pattern>
+    <template>
+        <srai>^ where is or in which floor the deanship of the college exist ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ deanship ^</pattern>
+    <template>
+        <srai>^ where is or in which floor the deanship of the college exist ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ location ^ deanship ^ college ^</pattern>
+    <template>
+        <srai>^ where is or in which floor the deanship of the college exist ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ info^ ^ deanship ^</pattern>
+    <template>
+        <srai>^ where is or in which floor the deanship of the college exist ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ detail^ ^ deanship ^ college ^</pattern>
+    <template>
+        <srai>^ where is or in which floor the deanship of the college exist ^</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+       ^ how many halls in the it building ^
+    </pattern>
+    <template>
+        There is only 1 hall.
+    </template>
+</category>
+<category>
+    <pattern>^ number^ ^ ^hall^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many halls in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ IT ^ ^ hall^ ^</pattern>
+    <template>
+        <srai>^ how many halls in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ number ^ hall^ ^</pattern>
+    <template>
+        <srai>^ how many halls in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ count ^ hall^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many halls in the it building ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ number of hall^ ^ IT ^</pattern>
+    <template>
+        <srai>^ how many halls in the it building ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+       ^ where is the hall located ^
+    </pattern>
+    <template>
+        In floor 1.
+    </template>
+</category>
+<category>
+    <pattern>^ find ^ hall ^</pattern>
+    <template>
+        <srai>^ where is the hall located ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ floor ^ hall ^</pattern>
+    <template>
+        <srai>^ where is the hall located ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ IT ^ hall ^</pattern>
+    <template>
+        <srai>^ where is the hall located ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ hall ^ IT ^</pattern>
+    <template>
+        <srai>^ where is the hall located ^</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+       ^ the hall exist for what ^
+    </pattern>
+    <template>
+        For Events, Workshops, Activities
+    </template>
+</category>
+
+<category>
+    <pattern>^ purpose ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ hall ^ use^ ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ use^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ event^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ goal ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ activi^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ function^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ host^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ reason^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ work^ ^ hall ^</pattern>
+    <template>
+        <srai>^ the hall exist for what ^</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>
+        ^ what is the capacity of the hall ^</pattern>
+    <template>
+        <srai>
+            Around 300 hundred person.
+        </srai>
+    </template>
+</category>
+
+
+
+</aiml>
