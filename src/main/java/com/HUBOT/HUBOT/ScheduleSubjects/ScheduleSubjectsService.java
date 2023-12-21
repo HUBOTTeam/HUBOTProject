@@ -45,5 +45,7 @@ public class ScheduleSubjectsService {
     }
 
 
-
+    public ScheduleSubjects getSpecificSubjectForStudent(String studentId,String courseId) {
+        return scheduleSubjectsRepository.findByStudentIdAndCourseCourseId(studentId,courseId);
+    }
 }

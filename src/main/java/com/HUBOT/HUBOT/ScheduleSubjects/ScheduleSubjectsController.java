@@ -40,6 +40,16 @@ public class ScheduleSubjectsController {
         }
     }
 
+    @GetMapping("getSpecificSubjectForStudent")
+    public ResponseEntity<ScheduleSubjects> getSpecificSubjectForStudent(@RequestParam String studentId, @RequestParam String courseId){
+        ScheduleSubjects scheduleSubjects = scheduleSubjectsService.getSpecificSubjectForStudent(studentId,courseId);
+        if (scheduleSubjects != null) {
+            return new ResponseEntity<>(scheduleSubjects, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
     @DeleteMapping("/removeSubject")
     public ResponseEntity<DeletionResponse> removeSubject(@RequestParam String courseId, @RequestParam String studentId) {
         DeletionResponse deletionResponse = scheduleSubjectsService.removeSubject(courseId, studentId);

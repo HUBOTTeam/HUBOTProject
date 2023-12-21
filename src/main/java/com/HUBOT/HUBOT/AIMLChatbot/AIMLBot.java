@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class AIMLBot {
 
     private final String botName = "super";
-    private final String pathToBot = " C:\\Users\\User\\Desktop\\Project\\project1\\AIML\\program-ab-0.0.4.3";
+    private final String pathToBot = "C:\\Users\\User\\Desktop\\Project\\project1\\AIML\\program-ab-0.0.4.3";
 
     private Bot bot;
     private Chat chatSession;
