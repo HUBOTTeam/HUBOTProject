@@ -1,1 +1,0 @@
-[["CROW"], ["PIGEON"], ["SEAGULL"], ["EAGLE"], ["HAWK"], ["RAVEN"], ["DOVE"], ["PARROT"], ["HUMMINGBIRD"], ["ROOSTER"], ["CHICKEN"], ["PENGUIN"], ["TURKEY"]]

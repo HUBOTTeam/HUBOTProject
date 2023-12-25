@@ -41,6 +41,7 @@ public class ScheduleSubjectsController {
     }
 
     @GetMapping("getSpecificSubjectForStudent")
+
     public ResponseEntity<ScheduleSubjects> getSpecificSubjectForStudent(@RequestParam String studentId, @RequestParam String courseId){
         ScheduleSubjects scheduleSubjects = scheduleSubjectsService.getSpecificSubjectForStudent(studentId,courseId);
         if (scheduleSubjects != null) {
