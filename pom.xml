@@ -144,6 +144,63 @@
 			<systemPath>C:/Users/User/Desktop/Project/project1/AIML/program-ab-0.0.4.3/Ab.jar</systemPath>
 		</dependency>
 
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-native-platform</artifactId>
+			<version>1.0.0-M2.1</version>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.deeplearning4j</groupId>-->
+<!--			<artifactId>deeplearning4j-nlp</artifactId>-->
+<!--			<version>1.0.0-M2.1</version>-->
+<!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>org.deeplearning4j</groupId>-->
+<!--			<artifactId>deeplearning4j-core</artifactId>-->
+<!--			<version>1.0.0-M2.1</version>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>language-en</artifactId>
+			<version>6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>languagetool-core</artifactId>
+			<version>6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>language-en</artifactId>
+			<version>6.1</version> <!-- or the latest version available -->
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>edu.stanford.nlp</groupId>-->
+<!--			<artifactId>stanford-corenlp</artifactId>-->
+<!--			<version>4.4.0</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>edu.stanford.nlp</groupId>-->
+<!--			<artifactId>stanford-corenlp</artifactId>-->
+<!--			<version>4.4.0</version>-->
+<!--			<classifier>models</classifier>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>1.10.0</version>
+		</dependency>
 
 	</dependencies>
 

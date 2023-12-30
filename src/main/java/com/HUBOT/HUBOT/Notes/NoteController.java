@@ -1,6 +1,5 @@
 package com.HUBOT.HUBOT.Notes;
 
-import org.checkerframework.checker.units.qual.N;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.http.HttpStatus;
